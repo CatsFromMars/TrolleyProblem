@@ -2,14 +2,23 @@
 using System.Collections;
 
 public class ControlPanel : MonoBehaviour {
+	private bool isTouching = false;
+	public bool switchFlipped = false;
 
-	// Use this for initialization
-	void Start () {
-	
+	void Update() {
+		Debug.Log (isTouching);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void OnTriggerEnter(Collider other) {
+		if (other.gameObject.tag == "Player" && !isTouching) {
+			switchFlipped = !switchFlipped;
+			Debug.Log("SWITCHED");
+		}
+	}
+
+	void OnTriggerExit(Collider other) {
+		if (other.gameObject.tag == "Player" && isTouching) {
+			isTouching = false;
+		}
 	}
 }

@@ -17,7 +17,8 @@ public class ControlPanel : MonoBehaviour {
 	private bool isActivated = false;
 
 	void Update() {
-		if (Activated && Input.GetButtonDown("Jump")) {
+		// Space toggles in debug mode
+		if (Activated && Config.Debug && Input.GetButtonDown("Jump")) {
 			switchFlipped = !switchFlipped;
 		}
 	}

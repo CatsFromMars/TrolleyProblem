@@ -38,7 +38,7 @@ public class ScenarioController : MonoBehaviour {
 
 					controller.Activated = true; // control panel and lever light up
 					Debug.Log("Please indicate your response by sliding the lever in front of you. When you are ready to begin, slide the lever to the right.");
-					yield return StartCoroutine(PlaySoundAndWait("RS2", 10f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS2", 5f)); // TODO: time how long it takes to say this
 
 					yield return StartCoroutine(WaitForLever(true)); // wait for lever to be toggled
 					break;
@@ -95,12 +95,12 @@ public class ScenarioController : MonoBehaviour {
 					// TODO: lights on subject's platform appear, with SE
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Lights in section C are now online.");
-					yield return PlaySoundAndWait("AI2", 6f); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("AI2", 6f)); // TODO: time how long it takes to say this
 
 					// TODO: lights on 5-person platform light up, with SE
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Section B, normal. Analysis: 32% complete.");
-					yield return PlaySoundAndWait("AI3", 6f); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("AI3", 6f)); // TODO: time how long it takes to say this
 					break;
 
 				// Introduce fat man or 1-person platform

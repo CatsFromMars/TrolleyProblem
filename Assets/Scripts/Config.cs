@@ -25,7 +25,7 @@ public class Config : MonoBehaviour {
 
     private static Config config;
 
-    void Start() {
+    void Awake() {
         config = this;
     }
 }

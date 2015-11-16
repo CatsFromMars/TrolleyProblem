@@ -2,43 +2,59 @@
 using System.Collections;
 
 public class ScenarioController : MonoBehaviour {
-	public bool controllerFlipped = false;
 	public PlatformBehavior singlePlatform;
 	public PlatformBehavior groupPlatform;
 	public ControlPanel controller;
+	public GameObject fatMan;
 
 	private int state = 0;
+	private bool leverControlsPlatforms = false;
+	private bool switchFlipped = false;
+	private bool canPushFatMan = false;
+	private int timesFlipped = 0;
+	private float decisionTime; // time decision is introduced
+	private float actionTime; // time when player has acted
 
 	void Start() {
-		StartCoroutine(RunState()); // wait three seconds before starting script
+		fatMan.SetActive(Config.Group != RGroup.LeverControl);
+		StartCoroutine(RunState());
 	}
 
 	// Update is called once per frame
 	void Update() {
-		/*controllerFlipped = controller.switchFlipped;
-		if (controllerFlipped) {
-			singlePlatform.Activated = true;
-			groupPlatform.Activated = false;
+		// Check if switch affects levers and adjust platforms
+		if (leverControlsPlatforms && controller.switchFlipped != switchFlipped) {
+			actionTime = Time.time;
+			switchFlipped = controller.switchFlipped;
+			timesFlipped++;
+			if (switchFlipped) {
+				singlePlatform.Activated = true;
+				groupPlatform.Activated = false;
+			} else {
+				singlePlatform.Activated = false;
+				groupPlatform.Activated = true;
+			}
 		}
-		else {
-			singlePlatform.Activated = false;
-			groupPlatform.Activated = true;
-		}*/
+
+		// Check if player can push fat man, and detect hand position
+		if (canPushFatMan) {
+			// TODO: detect pushing fat man
+		}
 	}
 
 	// Script-specific details, updating state of game
 	public IEnumerator RunState() {
-		while (state < 100) {
+		while (state < 8) {
 			switch (state++) {
 				// Intro phase
 				case 0:
 					yield return new WaitForSeconds(3f); // wait 3 seconds before starting script
 					Debug.Log("Hello, and welcome to the lab. In a few moments, I will guide you through a series of questions and ask you to perform a few simple actions.");
-					yield return StartCoroutine(PlaySoundAndWait("RS1", 10f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS-01", 10f)); // TODO: time how long it takes to say this
 
 					controller.Activated = true; // control panel and lever light up
 					Debug.Log("Please indicate your response by sliding the lever in front of you. When you are ready to begin, slide the lever to the right.");
-					yield return StartCoroutine(PlaySoundAndWait("RS2", 5f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS-02", 5f)); // TODO: time how long it takes to say this
 
 					yield return StartCoroutine(WaitForLever(true)); // wait for lever to be toggled
 					break;
@@ -52,7 +68,7 @@ public class ScenarioController : MonoBehaviour {
 					controller.Activated = true;
 					// TODO: set text on control panel
 					Debug.Log("Question 1. Have you experienced virtual reality before today? Slide the lever right for YES, left for NO.");
-					yield return StartCoroutine(PlaySoundAndWait("RS3", 10f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS-03", 7f)); // TODO: time how long it takes to say this
 
 					// TODO: start countdown timer on controller
 					yield return new WaitForSeconds(10f);
@@ -63,7 +79,7 @@ public class ScenarioController : MonoBehaviour {
 					controller.Activated = true;
 					// TODO: set text on control panel
 					Debug.Log("Question 2. Have you heard of the virtual elevator problem? Slide the lever right for YES, left for NO.");
-					yield return StartCoroutine(PlaySoundAndWait("RS4", 10f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS-04", 7f)); // TODO: time how long it takes to say this
 
 					// TODO: start countdown timer on controller
 					yield return new WaitForSeconds(10f);
@@ -74,7 +90,7 @@ public class ScenarioController : MonoBehaviour {
 					controller.Activated = true;
 					// TODO: set text on control panel
 					Debug.Log("Doing great. Question 3: Imagine you are on a platform--");
-					yield return StartCoroutine(PlaySoundAndWait("RS5", 4f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS-05", 4f)); // TODO: time how long it takes to say this
 					break;
 
 				// Power outage
@@ -87,27 +103,139 @@ public class ScenarioController : MonoBehaviour {
 					yield return new WaitForSeconds(1f);
 
 					Debug.Log("Analyzing system failure. Please hold.");
-					yield return StartCoroutine(PlaySoundAndWait("AI1", 6f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("AI-01", 6f)); // TODO: time how long it takes to say this
 
 					Debug.Log("Looks like we are experiencing some technical difficulties. Please remain calm and in your seat! We will send personnel out to investigate.");
-					yield return StartCoroutine(PlaySoundAndWait("RS6", 10f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("RS-06", 10f)); // TODO: time how long it takes to say this
 
 					// TODO: lights on subject's platform appear, with SE
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Lights in section C are now online.");
-					yield return StartCoroutine(PlaySoundAndWait("AI2", 6f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("AI-02", 6f)); // TODO: time how long it takes to say this
 
 					// TODO: lights on 5-person platform light up, with SE
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Section B, normal. Analysis: 32% complete.");
-					yield return StartCoroutine(PlaySoundAndWait("AI3", 6f)); // TODO: time how long it takes to say this
+					yield return StartCoroutine(PlaySoundAndWait("AI-03", 6f)); // TODO: time how long it takes to say this
 					break;
 
 				// Introduce fat man or 1-person platform
 				case 3:
+					if (Config.Group == RGroup.LeverControl) {
+						// TODO: lights on 1-person platform light up, with SE
+						yield return new WaitForSeconds(1f);
+						Debug.Log("Section D, normal. Analysis: 77% complete.");
+						yield return StartCoroutine(PlaySoundAndWait("AI-04", 6f)); // TODO: time how long it takes to say this
+					} else {
+						// TODO: guy walks out onto platform, with footsteps
+						yield return new WaitForSeconds(2f);
+						if (Config.Group == RGroup.Haptic) {
+							Debug.Log("(EXPERIMENTER: Pat subject on back.)");
+						}
+						yield return new WaitForSeconds(1f);
+						Debug.Log("Don't worry, I'll get this fixed.");
+						yield return StartCoroutine(PlaySoundAndWait("WK-01", 4f)); // TODO: time how long it takes to say this
+
+						// TODO: guy walks over to edge and bends down, looking at floor
+						yield return new WaitForSeconds(2f);
+
+						Debug.Log("Section D, normal. Analysis: 77% complete.");
+						yield return StartCoroutine(PlaySoundAndWait("AI-05", 4f)); // TODO: time how long it takes to say this
+					}
 					break;
 
+				// Electricity! zap
+				case 4:
+					// TODO: electric death trap lights up
+					yield return new WaitForSeconds(2f);
+					Debug.Log("Analysis: 100% complete. The electric generator has malfunctioned. Warning: electricity has reached maximum levels. Please keep away from the ground floor.");
+					yield return StartCoroutine(PlaySoundAndWait("AI-06", 10f)); // TODO: time how long it takes to say this
+
+					// 5-person elevator begin to move
+					groupPlatform.Activated = true;
+					// TODO: guys on elevator appear alarmed
+					yield return new WaitForSeconds(1f);
+					Debug.Log("Warning: emergency lockdown has engaged. The elevators cannot be disabled.");
+					yield return StartCoroutine(PlaySoundAndWait("AI-07", 5f)); // TODO: time how long it takes to say this
+					break;
+
+				// Introduce the decision
+				case 5:
+					Debug.Log("Oh man! The elevator is out of control! We don't have much time before it reaches the floor and electrocutes everyone on it!");
+					yield return StartCoroutine(PlaySoundAndWait("RS-07", 10f)); // TODO: time how long it takes to say this
+
+					if (Config.Group == RGroup.LeverControl) {
+						controller.Activated = true;
+						controller.switchFlipped = false;
+						// TODO: set text on control panel
+						yield return new WaitForSeconds(2f);
+
+						Debug.Log("According to the computer, the lever in front of you controls the platforms. Whichever side the lever is on, that elevator will descend. But no matter what, one of the elevators will hit the floor...");
+						yield return StartCoroutine(PlaySoundAndWait("RS-08", 10f)); // TODO: time how long it takes to say this
+
+						decisionTime = Time.time;
+						leverControlsPlatforms = true;
+						Debug.Log("Oh man oh man oh man. What do we do?");
+						yield return StartCoroutine(PlaySoundAndWait("RS-09", 10f)); // TODO: time how long it takes to say this
+					} else {
+						Debug.Log("According to the computer, the electricity will short on contact with biological material, but there's nothing we can do! Unless...");
+						yield return StartCoroutine(PlaySoundAndWait("RS-10", 10f)); // TODO: time how long it takes to say this
+
+						Debug.Log("The only way I can think of... if you want to save the five people on the platform, you could give the worker a push.");
+						yield return StartCoroutine(PlaySoundAndWait("RS-11", 10f)); // TODO: time how long it takes to say this
+
+						decisionTime = Time.time;
+						canPushFatMan = true;
+						Debug.Log("The decision is up to you.");
+						yield return StartCoroutine(PlaySoundAndWait("RS-12", 10f)); // TODO: time how long it takes to say this
+					}
+
+					yield return StartCoroutine(WaitForDeath());
+
+					if (Config.Group == RGroup.LeverControl) {
+						controller.Activated = false;
+						leverControlsPlatforms = false;
+						singlePlatform.Activated = false;
+						groupPlatform.Activated = false;
+					} else {
+						canPushFatMan = false;
+						groupPlatform.Activated = false;
+					}
+					break;
+
+				// Someone has died. Ending.
+				case 6:
+					// TODO: play SE, animation of floor crackling
+					Debug.Log("Bio material detected. Disengaging power supply.");
+					yield return StartCoroutine(PlaySoundAndWait("AI-08", 10f)); // TODO: time how long it takes to say this
+
+					// TODO: fade out scene
+					Debug.Log("This concludes the research experiment. Please remove your headgear.");
+					yield return StartCoroutine(PlaySoundAndWait("RS-13", 10f));
+					break;
+
+				// Results
 				default:
+					// TODO: save these to a file somewhere?
+					Debug.Log("==== RESULTS ====");
+					Debug.Log("Research Group: " + Config.Group.ToString());
+					Debug.Log("Time to make decision: " + (actionTime - decisionTime).ToString() + " ms");
+
+					if (Config.Group == RGroup.LeverControl) {
+						if (controller.switchFlipped) {
+							Debug.Log("Results: killed single person, with " + timesFlipped.ToString() + " flips");
+						} else {
+							Debug.Log("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
+						}
+					} else {
+						if (groupPlatform.Dead) {
+							Debug.Log("Results: did not push fat man");
+						} else {
+							Debug.Log("Results: pushed fat man");
+						}
+					}
+
+					Debug.Log("gg");
 					break;
 			}
 			Debug.Log("switching state: " + state.ToString());
@@ -122,6 +250,17 @@ public class ScenarioController : MonoBehaviour {
 	private IEnumerator WaitForLever(bool right) {
 		while (controller.switchFlipped != right) {
 			yield return null;
+		}
+	}
+
+	private IEnumerator WaitForDeath() {
+		bool dead = false;
+
+		while (!dead) {
+			yield return null;
+			dead = Config.Group == RGroup.LeverControl
+			         ? (singlePlatform.Dead || groupPlatform.Dead)
+			         : (groupPlatform.Dead || fatMan.transform.position.y <= 0f);
 		}
 	}
 

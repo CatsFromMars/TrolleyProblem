@@ -20,6 +20,7 @@ public class ControlPanel : MonoBehaviour {
 		// Space toggles in debug mode
 		if (Activated && Config.Debug && Input.GetButtonDown("Jump")) {
 			switchFlipped = !switchFlipped;
+			Debug.Log(switchFlipped ? "Lever moved to right" : "Lever moved to left");
 		}
 	}
 

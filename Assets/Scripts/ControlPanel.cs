@@ -27,10 +27,10 @@ public class ControlPanel : MonoBehaviour {
 
 	void Update() {
 		// Space toggles in debug mode
-		if (Activated && Config.Debug && Input.GetButtonDown("1")) {
+		if (Activated && Config.Debug && Input.GetKeyDown(KeyCode.Alpha1)) {
 			buttonState = ButtonState.LeftPressed;
 			Debug.Log("Pressed left button");
-		} else if (Activated && Config.Debug && Input.GetButtonDown("2")) {
+		} else if (Activated && Config.Debug && Input.GetKeyDown(KeyCode.Alpha2)) {
 			buttonState = ButtonState.RightPressed;
 			Debug.Log("Pressed right button");
 		}

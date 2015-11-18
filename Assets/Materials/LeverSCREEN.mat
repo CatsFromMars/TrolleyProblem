@@ -103,7 +103,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 1
       data:
         first:
           name: _BumpScale
@@ -132,7 +132,7 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: .191176474, g: .191176474, b: .191176474, a: 1}
+        second: {r: .110294104, g: .110294104, b: .110294104, a: 1}
       data:
         first:
           name: _Color

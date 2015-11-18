@@ -1,8 +1,17 @@
 using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
+public enum ButtonState {
+	NotPressed,
+	LeftPressed,
+	RightPressed
+};
+
 public class ControlPanel : MonoBehaviour {
-	public bool switchFlipped = false; // false is left, true is right
+	public ButtonState buttonState = ButtonState.NotPressed;
+
+	// Is the control panel on (lit up and accepting input)?
 	public bool Activated {
 		get {
 			return isActivated;
@@ -18,15 +27,19 @@ public class ControlPanel : MonoBehaviour {
 
 	void Update() {
 		// Space toggles in debug mode
-		if (Activated && Config.Debug && Input.GetButtonDown("Jump")) {
-			switchFlipped = !switchFlipped;
-			Debug.Log(switchFlipped ? "Lever moved to right" : "Lever moved to left");
+		if (Activated && Config.Debug && Input.GetButtonDown("1")) {
+			buttonState = ButtonState.LeftPressed;
+			Debug.Log("Pressed left button");
+		} else if (Activated && Config.Debug && Input.GetButtonDown("2")) {
+			buttonState = ButtonState.RightPressed;
+			Debug.Log("Pressed right button");
 		}
 	}
 
 	void OnTriggerEnter(Collider other) {
+		// TODO: currently only sets left button. should case on which button is pressed
 		if (Activated && other.gameObject.tag == "Player" && !isTouching) {
-			switchFlipped = !switchFlipped;
+			buttonState = ButtonState.LeftPressed;
 			Debug.Log("SWITCHED");
 		}
 	}

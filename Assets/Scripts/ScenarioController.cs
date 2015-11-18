@@ -8,37 +8,32 @@ public class ScenarioController : MonoBehaviour {
 	public GameObject fatMan;
 
 	private int state = 0;
-	private bool leverControlsPlatforms = false;
-	private bool switchFlipped = false;
-	private bool canPushFatMan = false;
+	private bool panelControlsPlatforms = false;
+	private ButtonState buttonState = ButtonState.NotPressed;
 	private int timesFlipped = 0;
 	private float decisionTime; // time decision is introduced
 	private float actionTime; // time when player has acted
 
 	void Start() {
 		fatMan.SetActive(Config.Group != RGroup.LeverControl);
+		singlePlatform.gameObject.SetActive(Config.Group == RGroup.LeverControl);
 		StartCoroutine(RunState());
 	}
 
 	// Update is called once per frame
 	void Update() {
-		// Check if switch affects levers and adjust platforms
-		if (leverControlsPlatforms && controller.switchFlipped != switchFlipped) {
+		// Check if control panel affects platforms
+		if (panelControlsPlatforms && controller.buttonState != buttonState && controller.buttonState != ButtonState.NotPressed) {
 			actionTime = Time.time;
-			switchFlipped = controller.switchFlipped;
+			buttonState = controller.buttonState;
 			timesFlipped++;
-			if (switchFlipped) {
+			if (buttonState == ButtonState.RightPressed) {
 				singlePlatform.Activated = true;
 				groupPlatform.Activated = false;
 			} else {
 				singlePlatform.Activated = false;
 				groupPlatform.Activated = true;
 			}
-		}
-
-		// Check if player can push fat man, and detect hand position
-		if (canPushFatMan) {
-			// TODO: detect pushing fat man
 		}
 	}
 
@@ -52,11 +47,12 @@ public class ScenarioController : MonoBehaviour {
 					Debug.Log("Hello, and welcome to the lab. In a few moments, I will guide you through a series of questions and ask you to perform a few simple actions.");
 					yield return StartCoroutine(PlaySoundAndWait("RS-01", 10f)); // TODO: time how long it takes to say this
 
-					controller.Activated = true; // control panel and lever light up
-					Debug.Log("Please indicate your response by sliding the lever in front of you. When you are ready to begin, slide the lever to the right.");
+					controller.Activated = true; // control panel lights up
+					controller.buttonState = ButtonState.NotPressed;
+					Debug.Log("Please indicate your response via the control panel in front of you. Tap any button when you are ready to begin.");
 					yield return StartCoroutine(PlaySoundAndWait("RS-02", 5f)); // TODO: time how long it takes to say this
 
-					yield return StartCoroutine(WaitForLever(true)); // wait for lever to be toggled
+					yield return StartCoroutine(WaitForButton(true)); // wait for button to be pressed
 					break;
 
 				// Questioning
@@ -66,28 +62,29 @@ public class ScenarioController : MonoBehaviour {
 					yield return new WaitForSeconds(1f);
 
 					controller.Activated = true;
-					// TODO: set text on control panel
-					Debug.Log("Question 1. Have you experienced virtual reality before today? Slide the lever right for YES, left for NO.");
+					controller.buttonState = ButtonState.NotPressed;
+					// TODO: set text on control panel (YES/NO)
+					Debug.Log("Question 1. Have you experienced virtual reality before today? Tap the control panel to answer.");
 					yield return StartCoroutine(PlaySoundAndWait("RS-03", 7f)); // TODO: time how long it takes to say this
 
-					// TODO: start countdown timer on controller
-					yield return new WaitForSeconds(10f);
+					yield return StartCoroutine(WaitForButton(true)); // wait for button to be pressed
 					// TODO: Play positive (answer accepted) sound effect
 					controller.Activated = false;
 					yield return new WaitForSeconds(1f);
 
 					controller.Activated = true;
+					controller.buttonState = ButtonState.NotPressed;
 					// TODO: set text on control panel
-					Debug.Log("Question 2. Have you heard of the virtual elevator problem? Slide the lever right for YES, left for NO.");
-					yield return StartCoroutine(PlaySoundAndWait("RS-04", 7f)); // TODO: time how long it takes to say this
+					Debug.Log("Question 2. Have you heard of the virtual elevator problem?");
+					yield return StartCoroutine(PlaySoundAndWait("RS-04", 4f)); // TODO: time how long it takes to say this
 
-					// TODO: start countdown timer on controller
-					yield return new WaitForSeconds(10f);
+					yield return StartCoroutine(WaitForButton(true)); // wait for button to be pressed
 					// TODO: Play positive (answer accepted) sound effect
 					controller.Activated = false;
 					yield return new WaitForSeconds(1f);
 
 					controller.Activated = true;
+					controller.buttonState = ButtonState.NotPressed;
 					// TODO: set text on control panel
 					Debug.Log("Doing great. Question 3: Imagine you are on a platform--");
 					yield return StartCoroutine(PlaySoundAndWait("RS-05", 4f)); // TODO: time how long it takes to say this
@@ -166,15 +163,15 @@ public class ScenarioController : MonoBehaviour {
 
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = true;
-						controller.switchFlipped = false;
+						controller.buttonState = ButtonState.LeftPressed;
 						// TODO: set text on control panel
 						yield return new WaitForSeconds(2f);
 
-						Debug.Log("According to the computer, the lever in front of you controls the platforms. Whichever side the lever is on, that elevator will descend. But no matter what, one of the elevators will hit the floor...");
+						Debug.Log("The control panel has an emergency override that controls the platforms. By pressing a button, you can choose which elevator will descend. But no matter what, one of the elevators will hit the floor...");
 						yield return StartCoroutine(PlaySoundAndWait("RS-08", 10f)); // TODO: time how long it takes to say this
 
 						decisionTime = Time.time;
-						leverControlsPlatforms = true;
+						panelControlsPlatforms = true;
 						Debug.Log("Oh man oh man oh man. What do we do?");
 						yield return StartCoroutine(PlaySoundAndWait("RS-09", 10f)); // TODO: time how long it takes to say this
 					} else {
@@ -185,7 +182,8 @@ public class ScenarioController : MonoBehaviour {
 						yield return StartCoroutine(PlaySoundAndWait("RS-11", 10f)); // TODO: time how long it takes to say this
 
 						decisionTime = Time.time;
-						canPushFatMan = true;
+						// TODO: enable fat man's collider
+						//fatMan.GetComponent<Rigidbody>().enabled = true;
 						Debug.Log("The decision is up to you.");
 						yield return StartCoroutine(PlaySoundAndWait("RS-12", 10f)); // TODO: time how long it takes to say this
 					}
@@ -194,11 +192,10 @@ public class ScenarioController : MonoBehaviour {
 
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = false;
-						leverControlsPlatforms = false;
+						panelControlsPlatforms = false;
 						singlePlatform.Activated = false;
 						groupPlatform.Activated = false;
 					} else {
-						canPushFatMan = false;
 						groupPlatform.Activated = false;
 					}
 					break;
@@ -222,7 +219,7 @@ public class ScenarioController : MonoBehaviour {
 					Debug.Log("Time to make decision: " + (actionTime - decisionTime).ToString() + " ms");
 
 					if (Config.Group == RGroup.LeverControl) {
-						if (controller.switchFlipped) {
+						if (controller.buttonState == ButtonState.RightPressed) {
 							Debug.Log("Results: killed single person, with " + timesFlipped.ToString() + " flips");
 						} else {
 							Debug.Log("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
@@ -247,8 +244,8 @@ public class ScenarioController : MonoBehaviour {
 		yield return new WaitForSeconds(seconds);
 	}
 
-	private IEnumerator WaitForLever(bool right) {
-		while (controller.switchFlipped != right) {
+	private IEnumerator WaitForButton(bool right) {
+		while (controller.buttonState == ButtonState.NotPressed) {
 			yield return null;
 		}
 	}

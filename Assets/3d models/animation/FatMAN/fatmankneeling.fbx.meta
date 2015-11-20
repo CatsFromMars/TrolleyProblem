@@ -638,9 +638,10 @@ ModelImporter:
     400628: HighPolyWorkerSkeleton:group
     400630: HighPolyWorkerSkeleton:humanBody2:humanBody_1
     4300000: HighPolyWorkerSkeleton:humanBody2:humanBody_1
-    7400000: Kneel
+    7400000: KneelLoop
     7400002: PlatformFallingFatManConcernedLoop
     7400004: FatManFall
+    7400006: KneelStart
     9500000: //RootNode
     13700000: HighPolyWorkerSkeleton:humanBody2:humanBody_1
   materials:
@@ -664,17 +665,17 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Kneel
+      name: KneelLoop
       takeName: Take 001
-      firstFrame: 180
+      firstFrame: 200
       lastFrame: 220
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -2709,10 +2710,692 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: KneelStart
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_armFK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_armFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt5
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_armIK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_armIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt6
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_handCtrl_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_handCtrl_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_handCtrl_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_handCtrl_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWtCtrlJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_foot_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_pv_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_pv_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legPvCtrlGrp_space_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_pv_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legPvCtrlGrp_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_pv_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legFK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__fk_jnt2
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_jnt2
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIkCtrl_space_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIkCtrl_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legIkCtrl_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__ik_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legPvIkCtrl_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legPvIkCtrl_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legPvIkCtrl_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legStrDist_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legStrDist_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_legStrDist_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwist_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwist_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwist_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwist_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwist_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwist_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwistTarget_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwistTarget_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_lowLegTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_reverseFoot_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt2
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt2/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf__rev_rig_jnt3
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegPvCtrl_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegPvCtrl_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegPvCtrl_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegTwistTarget_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegTwistTarget_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_kneeCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_kneeCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_kneeCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_root_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_root_ctrl/HighPolyWorkerSkeleton:BONNIE:BONNIE_rigSettings_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armFK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt5
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt5/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt6
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt5/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt6/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt7
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt6
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt6/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt7
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt6/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt7/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt8
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIkCtrl_space_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIkCtrl_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_ik_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armIkCtrl_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_ik_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_ik_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armPvIkCtrl_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armPvIkCtrl_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armPvIkCtrl_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armStrDist_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armStrDist_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armStrDist_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_pv_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_pv_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armPvCtrlGrp_space_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_pv_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_armPvCtrlGrp_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_pv_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwist_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwist_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwist_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwist_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwist_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwist_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwistTarget_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwistTarget_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_forearmTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_handCtrl_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_handCtrl_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_handCtrl_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_handCtrl_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmPvCtrl_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmPvCtrl_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmPvCtrl_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wristCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_arm_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_foot_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_pv_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_pv_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legPvCtrlGrp_space_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_pv_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legPvCtrlGrp_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_pv_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legFK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legFK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__fk_jnt2
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIK_Grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIK_Grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_jnt2
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIkCtrl_space_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIkCtrl_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legIkCtrl_space_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__ik_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legPvIkCtrl_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legPvIkCtrl_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legPvIkCtrl_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legStrDist_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legStrDist_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_legStrDist_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwist_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwist_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwist_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwist_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwist_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwist_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwistTarget_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwistTarget_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_lowLegTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_reverseFoot_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt2
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_reverseFoot_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt2/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt__rev_rig_jnt3
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_fk_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_fk_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_fk_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_fk_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_fk_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegPvCtrl_dist
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegPvCtrl_dist_ep
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegPvCtrl_dist_sp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegTwistTarget_loc_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegTwistTarget_loc_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegTwistTarget_loc
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_kneeCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_kneeCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_kneeCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegCtrl_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_leg_rig_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWtCtrlJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegCtrl_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineLow_ctrl_frzGrp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineLow_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineLow_ctrl_frzGrp
+          1
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineLow_ctrl_frzGrp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineLow_ctrl_frzGrp
+          1/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineLow_ctrl
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_ikSpline_crv
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine0_clstrHandle
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine1_clstrHandle
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine2_clstrHandle
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine3_clstrHandle
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine4_clstrHandle
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineNoScale_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine5_clstrHandle
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_d_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_e_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_d_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_e_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_f_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_d_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_e_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_f_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_g_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_d_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_e_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_f_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_g_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spineRig_h_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b/HighPolyWorkerSkeleton:BONNIE:refSpine_c
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b/HighPolyWorkerSkeleton:BONNIE:refSpine_c/HighPolyWorkerSkeleton:BONNIE:refSpine_d
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b/HighPolyWorkerSkeleton:BONNIE:refSpine_c/HighPolyWorkerSkeleton:BONNIE:refSpine_d/HighPolyWorkerSkeleton:BONNIE:refSpine_e
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b/HighPolyWorkerSkeleton:BONNIE:refSpine_c/HighPolyWorkerSkeleton:BONNIE:refSpine_d/HighPolyWorkerSkeleton:BONNIE:refSpine_e/HighPolyWorkerSkeleton:BONNIE:refSpine_f
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b/HighPolyWorkerSkeleton:BONNIE:refSpine_c/HighPolyWorkerSkeleton:BONNIE:refSpine_d/HighPolyWorkerSkeleton:BONNIE:refSpine_e/HighPolyWorkerSkeleton:BONNIE:refSpine_f/HighPolyWorkerSkeleton:BONNIE:refSpine_g
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_rig_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_rig_grp/HighPolyWorkerSkeleton:BONNIE:refSpine_a/HighPolyWorkerSkeleton:BONNIE:refSpine_b/HighPolyWorkerSkeleton:BONNIE:refSpine_c/HighPolyWorkerSkeleton:BONNIE:refSpine_d/HighPolyWorkerSkeleton:BONNIE:refSpine_e/HighPolyWorkerSkeleton:BONNIE:refSpine_f/HighPolyWorkerSkeleton:BONNIE:refSpine_g/HighPolyWorkerSkeleton:BONNIE:refSpine_h
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ball_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ball_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_toe_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ball_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_hip_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLeg_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_knee_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ball_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_toe_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_index_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_middle_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinkyCup_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_pinky_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ringCup_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ring_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_thumb_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_neck_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_neck_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_head_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_index_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_middle_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinkyCup_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinkyCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_pinky_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ringCup_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ringCup_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ring_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_a_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_low_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_mid_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_hi_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_spine_end_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_clavicle_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArm_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbow_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wrist_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_hand_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_a_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_b_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_c_jnt/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_thumb_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWeightJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_armWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWeightJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_ankleWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_kneeWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:lf_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_lf_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWeightJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_armWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_wristWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWeightJnt_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_ankleWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_kneeWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegWeight_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:rt_legWeightJnt_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_rt_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_weightSpine_b_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_weightSpine_c_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_weightSpine_d_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_weightSpine_e_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_weightSpine_f_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:BONNIE:BONNIE/HighPolyWorkerSkeleton:BONNIE:BONNIE_Skeleton_grp/HighPolyWorkerSkeleton:BONNIE:weightSpine_grp/HighPolyWorkerSkeleton:BONNIE:BONNIE_weightSpine_g_jnt
+        weight: 1
+      - path: HighPolyWorkerSkeleton:group
+        weight: 1
+      - path: HighPolyWorkerSkeleton:group/HighPolyWorkerSkeleton:humanBody2:humanBody_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 5
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

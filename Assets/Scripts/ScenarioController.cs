@@ -6,6 +6,10 @@ public class ScenarioController : MonoBehaviour {
 	public PlatformBehavior groupPlatform;
 	public ControlPanel controller;
 	public GameObject fatMan;
+	public GameObject playerLighting;
+	public GameObject pLight1;
+	public GameObject pLight2;
+	public GameObject areaLight;
 
 	private int state = 0;
 	private bool panelControlsPlatforms = false;
@@ -94,6 +98,10 @@ public class ScenarioController : MonoBehaviour {
 				case 2:
 					// TODO: lights flicker out, with SE.
 					controller.Activated = false;
+					areaLight.SetActive(false);
+					pLight1.SetActive(false);
+					pLight2.SetActive(false);
+					playerLighting.SetActive(false);
 					// TODO: animate controller powering off
 					yield return new WaitForSeconds(3f);
 					// TODO: emergency lighting appears, with SE.
@@ -106,12 +114,14 @@ public class ScenarioController : MonoBehaviour {
 					yield return StartCoroutine(PlaySoundAndWait("RS-06", 10f)); // TODO: time how long it takes to say this
 
 					// TODO: lights on subject's platform appear, with SE
+					playerLighting.SetActive(true);
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Lights in section C are now online.");
 					yield return StartCoroutine(PlaySoundAndWait("AI-02", 6f)); // TODO: time how long it takes to say this
 
 					// TODO: lights on 5-person platform light up, with SE
 					yield return new WaitForSeconds(1f);
+					pLight2.SetActive(true);
 					Debug.Log("Section B, normal. Analysis: 32% complete.");
 					yield return StartCoroutine(PlaySoundAndWait("AI-03", 6f)); // TODO: time how long it takes to say this
 					break;
@@ -120,6 +130,7 @@ public class ScenarioController : MonoBehaviour {
 				case 3:
 					if (Config.Group == RGroup.LeverControl) {
 						// TODO: lights on 1-person platform light up, with SE
+						pLight1.SetActive(true);
 						yield return new WaitForSeconds(1f);
 						Debug.Log("Section D, normal. Analysis: 77% complete.");
 						yield return StartCoroutine(PlaySoundAndWait("AI-04", 6f)); // TODO: time how long it takes to say this

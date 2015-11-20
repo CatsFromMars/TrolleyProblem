@@ -295,7 +295,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 44e831113d2d942769d0374abfda8215, type: 2}
     - target: {fileID: 100002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
@@ -560,6 +560,10 @@ MonoBehaviour:
   groupPlatform: {fileID: 1441281656}
   controller: {fileID: 294938358}
   fatMan: {fileID: 0}
+  playerLighting: {fileID: 0}
+  pLight1: {fileID: 0}
+  pLight2: {fileID: 0}
+  areaLight: {fileID: 0}
 --- !u!4 &645733113
 Transform:
   m_ObjectHideFlags: 0

@@ -130,7 +130,7 @@ GameObject:
   - 33: {fileID: 43025483}
   - 23: {fileID: 43025482}
   m_Layer: 0
-  m_Name: Barrel:Barrel_Barrel:BarrelFBXASC046001_Barrel:BarrelFBXASC046002_Barrel:BarrelFBXASC046003_Barrel:BarrelFBXASC046004_Barrel:BarrelFBXASC046005_Barrel:BarrelFBXASC046006_Barrel:BarrelFBXASC046007_Barrel:BarrelFBXASC046008_Barrel:BarrelFBXASC046009_Barrel:BarrelFBXASC046010_Barrel:BarrelFBXASC046011_Barrel:BarrelFBXASC046012_Barrel:polySurface1
+  m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,6 +339,10 @@ Prefab:
     - target: {fileID: 100002, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
       propertyPath: m_Name
       value: roomBox (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
+      propertyPath: m_Name
+      value: crate2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
@@ -690,6 +694,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d8062fffc50ea4589991fa0f256ab154, type: 2}
+    - target: {fileID: 100002, guid: 37392bf6ed2ed41bf834fcdf4b9d6029, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 37392bf6ed2ed41bf834fcdf4b9d6029, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 37392bf6ed2ed41bf834fcdf4b9d6029, type: 3}
   m_IsPrefabParent: 0
@@ -876,6 +888,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b70829be7e2b1428c801dc6ee3b5a05f, type: 2}
+    - target: {fileID: 100002, guid: ad7aa9d1ece3e4556a5fe38f99bf2838, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: ad7aa9d1ece3e4556a5fe38f99bf2838, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad7aa9d1ece3e4556a5fe38f99bf2838, type: 3}
   m_IsPrefabParent: 0
@@ -1317,6 +1337,10 @@ Prefab:
       propertyPath: m_Name
       value: roomBox (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
+      propertyPath: m_Name
+      value: crate4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
   m_IsPrefabParent: 0
@@ -1370,6 +1394,14 @@ Prefab:
     - target: {fileID: 400000, guid: 087261c3771d14c5c872313dcee26189, type: 3}
       propertyPath: m_LocalScale.z
       value: 62.8867798
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 087261c3771d14c5c872313dcee26189, type: 3}
@@ -2182,6 +2214,26 @@ Prefab:
       propertyPath: m_Name
       value: electric tower (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+      propertyPath: m_Name
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 087261c3771d14c5c872313dcee26189, type: 3}
   m_IsPrefabParent: 0
@@ -2604,6 +2656,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
+      propertyPath: m_Name
+      value: Crate
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
   m_IsPrefabParent: 0
@@ -2685,6 +2741,10 @@ Prefab:
     - target: {fileID: 100002, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
       propertyPath: m_Name
       value: roomBox (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
+      propertyPath: m_Name
+      value: crate1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66ca46a6482ea43ad9bf11b38cb4e4cf, type: 3}
@@ -2880,8 +2940,7 @@ GameObject:
   - 33: {fileID: 2052275924}
   - 23: {fileID: 2052275923}
   m_Layer: 0
-  m_Name: Barrel:Barrel_Barrel:BarrelFBXASC046001_Barrel:BarrelFBXASC046002_Barrel:BarrelFBXASC046003_Barrel:BarrelFBXASC046004_Barrel:BarrelFBXASC046005_Barrel:BarrelFBXASC046006_Barrel:BarrelFBXASC046007_Barrel:BarrelFBXASC046008_Barrel:BarrelFBXASC046009_Barrel:BarrelFBXASC046010_Barrel:BarrelFBXASC046011_Barrel:BarrelFBXASC046012_Barrel:polySurface1
-    (1)
+  m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2943,8 +3002,7 @@ GameObject:
   - 33: {fileID: 2081493705}
   - 23: {fileID: 2081493704}
   m_Layer: 0
-  m_Name: Barrel:Barrel_Barrel:BarrelFBXASC046001_Barrel:BarrelFBXASC046002_Barrel:BarrelFBXASC046003_Barrel:BarrelFBXASC046004_Barrel:BarrelFBXASC046005_Barrel:BarrelFBXASC046006_Barrel:BarrelFBXASC046007_Barrel:BarrelFBXASC046008_Barrel:BarrelFBXASC046009_Barrel:BarrelFBXASC046010_Barrel:BarrelFBXASC046011_Barrel:BarrelFBXASC046012_Barrel:polySurface1
-    (2)
+  m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

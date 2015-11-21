@@ -268,7 +268,7 @@ public class ScenarioController : MonoBehaviour {
 			yield return null;
 			dead = Config.Group == RGroup.LeverControl
 			         ? (singlePlatform.Dead || groupPlatform.Dead)
-			         : (groupPlatform.Dead || fatMan.transform.position.y <= 0f);
+			         : (groupPlatform.Dead || fatMan.transform.position.y <= -2f);
 		}
 	}
 

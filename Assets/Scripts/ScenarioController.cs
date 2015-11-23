@@ -20,11 +20,7 @@ public class ScenarioController : MonoBehaviour {
 	private float actionTime; // time when player has acted
 
 	void Start() {
-		//fatMan.SetActive(Config.Group != RGroup.LeverControl);
-		fatMan.SetActive(false);
-		singlePlatform.gameObject.SetActive(Config.Group == RGroup.LeverControl);
 		StartCoroutine(RunState());
-		electricity.SetActive(false);
 	}
 
 	// Update is called once per frame
@@ -57,13 +53,14 @@ public class ScenarioController : MonoBehaviour {
 					controller.Activated = true; // control panel lights up
 					controller.buttonState = ButtonState.NotPressed;
 					panelControlsPlatforms = true;
-					Debug.Log("The control panel in front of you controls the workers' platforms. Please use the buttons to lower the platforms to the pipe. Note that only one platform can move at a time.");
-					yield return StartCoroutine(PlaySoundAndWait("RS-02", 3f));
 
 					// Platform lights come on
 					// TODO: sound effects?
 					pLight1.SetActive(true);
 					pLight2.SetActive(true);
+
+					Debug.Log("The control panel in front of you controls the workers' platforms. Please use the buttons to lower the platforms to the pipe. Note that only one platform can move at a time.");
+					yield return StartCoroutine(PlaySoundAndWait("RS-02", 0f));
 					yield return StartCoroutine(WaitForElevators()); // wait for elevators to reach right level
 					break;
 
@@ -160,7 +157,7 @@ public class ScenarioController : MonoBehaviour {
 				// Introduce the decision
 				case 5:
 					Debug.Log("Oh man! The elevator is going to fall! We don't have much time before it hits the floor and electrocutes everyone on it!");
-					yield return StartCoroutine(PlaySoundAndWait("RS-04", 8f));
+					yield return StartCoroutine(PlaySoundAndWait("RS-04", 7.5f));
 
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = true;
@@ -176,10 +173,10 @@ public class ScenarioController : MonoBehaviour {
 						yield return StartCoroutine(PlaySoundAndWait("RS-06", 3f));
 					} else {
 						Debug.Log("The emergency brakes won't kick in unless the generator shorts. But we can't disable the electricity... unless...");
-						yield return StartCoroutine(PlaySoundAndWait("RS-07", 9f));
+						yield return StartCoroutine(PlaySoundAndWait("RS-07", 8f));
 
 						Debug.Log("The only way to stop the platform is to push the worker in front of you and short the generator.");
-						yield return StartCoroutine(PlaySoundAndWait("RS-08", 8f));
+						yield return StartCoroutine(PlaySoundAndWait("RS-08", 6f));
 
 						decisionTime = Time.time;
 						// TODO: enable fat man's collider
@@ -241,7 +238,9 @@ public class ScenarioController : MonoBehaviour {
 
 	private IEnumerator PlaySoundAndWait(string soundEffect, float seconds) {
 		// TODO: play sound effect
-		yield return new WaitForSeconds(seconds);
+		if (seconds > 0) {
+			yield return new WaitForSeconds(seconds);
+		}
 	}
 
 	private IEnumerator WaitForElevators() {

@@ -2803,7 +2803,7 @@ Prefab:
       objectReference: {fileID: 9100000, guid: d383ac241efb69b4893447befaa98f7a, type: 2}
     - target: {fileID: 100294, guid: 4f2f8f64b1eb38d439a0e120b5517120, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f2f8f64b1eb38d439a0e120b5517120, type: 3}
@@ -2859,6 +2859,7 @@ MonoBehaviour:
   stopY: 3
   deadY: -5
   reachedStopZone: 0
+  movingAnimation: 0
 --- !u!23 &1441281657
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3932,6 +3933,7 @@ MonoBehaviour:
   stopY: 3
   deadY: -5
   reachedStopZone: 0
+  movingAnimation: 0
 --- !u!1001 &2040072611
 Prefab:
   m_ObjectHideFlags: 0

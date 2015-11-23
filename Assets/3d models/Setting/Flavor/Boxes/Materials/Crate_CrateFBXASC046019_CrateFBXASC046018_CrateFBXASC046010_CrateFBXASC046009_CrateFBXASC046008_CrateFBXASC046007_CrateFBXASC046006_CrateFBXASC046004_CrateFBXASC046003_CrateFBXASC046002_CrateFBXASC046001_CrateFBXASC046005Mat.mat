@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Crate_CrateFBXASC046019_CrateFBXASC046018_CrateFBXASC046010_CrateFBXASC046009_CrateFBXASC046008_CrateFBXASC046007_CrateFBXASC046006_CrateFBXASC046004_CrateFBXASC046003_CrateFBXASC046002_CrateFBXASC046001_CrateFBXASC046005Mat
+  m_Name: CrateMat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5

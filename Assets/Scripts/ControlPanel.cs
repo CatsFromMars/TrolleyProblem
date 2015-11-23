@@ -37,16 +37,15 @@ public class ControlPanel : MonoBehaviour {
 		}
 	}
 
-	private bool isTouching = false;
 	private bool isActivated = false;
 
 	void Awake() {
-		leftMat.color = leftUnpressed;
-		rightMat.color = rightUnpressed;
+		leftMat.color = disabled;
+		rightMat.color = disabled;
 	}
 
 	void Update() {
-		// Space toggles in debug mode
+		// pressing 1, 2 activate buttons in debug mode
 		if (Activated && Config.Debug && Input.GetKeyDown(KeyCode.Alpha1)) {
 			buttonState = ButtonState.LeftPressed;
 			leftMat.color = leftPressed;
@@ -60,29 +59,11 @@ public class ControlPanel : MonoBehaviour {
 		}
 
 		if (Activated && buttonState == ButtonState.LeftPressed) {
-			buttonState = ButtonState.LeftPressed;
 			leftMat.color = leftPressed;
 			rightMat.color = rightUnpressed;
-			Debug.Log("Pressed left button");
 		} else if (Activated && buttonState == ButtonState.RightPressed) {
-			buttonState = ButtonState.RightPressed;
 			leftMat.color = leftUnpressed;
 			rightMat.color = rightPressed;
-			Debug.Log("Pressed right button");
-		}
-	}
-
-	void OnTriggerEnter(Collider other) {
-		// TODO: currently only sets left button. should case on which button is pressed
-		if (Activated && other.gameObject.tag == "Player" && !isTouching) {
-			buttonState = ButtonState.LeftPressed;
-			Debug.Log("SWITCHED");
-		}
-	}
-
-	void OnTriggerExit(Collider other) {
-		if (Activated && other.gameObject.tag == "Player" && isTouching) {
-			isTouching = false;
 		}
 	}
 }

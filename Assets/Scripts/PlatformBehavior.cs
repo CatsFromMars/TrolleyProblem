@@ -3,7 +3,8 @@ using System.Collections;
 
 public class PlatformBehavior : MonoBehaviour {
     public float speed = 2f;
-	public bool Activated {
+
+    public bool Activated {
         get {
             return isActivated;
         }
@@ -21,23 +22,38 @@ public class PlatformBehavior : MonoBehaviour {
             isDead = value;
         }
     }
+
+    public float stopY = 3f; // y-position of pipe
     public float deadY = 0f;
+    public bool reachedStopZone = false;
+    public bool movingAnimation = false; // whether to descend with animation
 
     private bool isActivated;
     private bool isDead;
 
-	// Update is called once per frame
-	void Update() {
+    // Update is called once per frame
+    void Update() {
         if (Dead) {
             return;
         }
 
-		if (Activated) {
-			transform.position += speed * Vector3.down * Time.deltaTime;
-		}
-
-        if (transform.position.y <= deadY) {
-            Dead = true;
+        if (!movingAnimation) {
+            // Pre-experiment, moving smoothly via y-position
+            if (!reachedStopZone && Activated) {
+                transform.position += speed * Vector3.down * Time.deltaTime;
+                if (transform.position.y <= stopY) {
+                    Vector3 newPos = transform.position;
+                    newPos.y = stopY;
+                    transform.position = newPos;
+                    reachedStopZone = true;
+                }
+            }
+        } else {
+            // During experiment, moving via animation
+            // TODO: if animation has ended, set Dead = true
+            /*if () {
+                Dead = true;
+            }*/
         }
-	}
+    }
 }

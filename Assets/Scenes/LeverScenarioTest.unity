@@ -1082,7 +1082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &348942385
 Transform:
   m_ObjectHideFlags: 0
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   pLight1: {fileID: 1125452212}
   pLight2: {fileID: 348942384}
   areaLight: {fileID: 1411141177}
-  electricity: {fileID: 0}
+  electricity: {fileID: 1100742667}
 --- !u!4 &645733113
 Transform:
   m_ObjectHideFlags: 0
@@ -2145,6 +2145,10 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1031714030}
   m_Mesh: {fileID: 4300002, guid: 087261c3771d14c5c872313dcee26189, type: 3}
+--- !u!1 &1100742667 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 104888, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
+  m_PrefabInternal: {fileID: 1726270033}
 --- !u!1 &1125452212
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,7 +2164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1125452213
 Transform:
   m_ObjectHideFlags: 0
@@ -2830,7 +2834,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1441281654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.36999989, y: 3, z: 6.36000013}
+  m_LocalPosition: {x: -2.36999989, y: 5, z: 6.36000013}
   m_LocalScale: {x: 3.23556519, y: .25, z: 1}
   m_Children:
   - {fileID: 284941349}
@@ -2851,8 +2855,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec1eb22e98b7336418d6fb2596e8bbd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: .100000001
+  speed: .400000006
+  stopY: 3
   deadY: -5
+  reachedStopZone: 0
 --- !u!23 &1441281657
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3834,7 +3840,7 @@ Transform:
   - {fileID: 78683279}
   - {fileID: 1793232887}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
 --- !u!1 &2018655482
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,7 +3910,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2018655482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.96560001, y: 3, z: 6.36000013}
+  m_LocalPosition: {x: 2.96560001, y: 5, z: 6.36000013}
   m_LocalScale: {x: 3.23556519, y: .25, z: 1}
   m_Children:
   - {fileID: 2040072612}
@@ -3922,8 +3928,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec1eb22e98b7336418d6fb2596e8bbd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: .100000001
+  speed: .400000006
+  stopY: 3
   deadY: -5
+  reachedStopZone: 0
 --- !u!1001 &2040072611
 Prefab:
   m_ObjectHideFlags: 0

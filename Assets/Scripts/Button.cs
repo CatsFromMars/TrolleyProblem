@@ -8,14 +8,12 @@ public class Button : MonoBehaviour {
 	public Material mat;
 
 	void OnTriggerEnter(Collider other) {
-		Debug.Log ("BAP");
-		if(other.tag == "Hand") {
-			Debug.Log ("TWAS A HAND");
+		if (other.tag == "Hand") {
+			Debug.Log("TWAS A HAND");
 			if (b == button.LEFT) {
 				c.buttonState = ButtonState.LeftPressed;
 				mat.color = c.leftPressed;
-			}
-			else {
+			} else {
 				c.buttonState = ButtonState.RightPressed;
 				mat.color = c.rightPressed;
 			}

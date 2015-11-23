@@ -149,8 +149,8 @@ public class ScenarioController : MonoBehaviour {
 					yield return StartCoroutine(PlaySoundAndWait("AI-06", 7f));
 
 					// 5-person elevator begin to move
-					// TODO: play animation for jerky falling
-					//groupPlatform.Activated = true;
+					groupPlatform.Activated = true;
+					groupPlatform.movingAnimation = true;
 					// TODO: guys on elevator appear alarmed
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Warning: platform A unstable. Brake failure in 20 seconds.");
@@ -165,6 +165,7 @@ public class ScenarioController : MonoBehaviour {
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = true;
 						controller.buttonState = ButtonState.LeftPressed;
+						singlePlatform.movingAnimation = true;
 						panelControlsPlatforms = true;
 						yield return new WaitForSeconds(2f);
 

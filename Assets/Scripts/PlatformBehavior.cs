@@ -2,15 +2,20 @@
 using System.Collections;
 
 public class PlatformBehavior : MonoBehaviour {
-    public float speed = 2f;
+    public float speed = 0.5f;
 
     public bool Activated {
         get {
             return isActivated;
         }
         set {
-            // TODO: play sound effect when starting
+            // TODO: play sound effect when starting or stopping
             isActivated = value;
+
+            if (movingAnimation) {
+                // TODO: if (isActivated && not playing animation) start playing animation;
+                // else if (!isActivated && playing animation) stop playing animation;
+            }
         }
     }
     public bool Dead {

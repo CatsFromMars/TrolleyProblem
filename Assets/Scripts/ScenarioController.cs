@@ -10,6 +10,7 @@ public class ScenarioController : MonoBehaviour {
 	public GameObject pLight1;
 	public GameObject pLight2;
 	public GameObject areaLight;
+	public GameObject electricity; 
 
 	private int state = 0;
 	private bool panelControlsPlatforms = false;
@@ -19,9 +20,11 @@ public class ScenarioController : MonoBehaviour {
 	private float actionTime; // time when player has acted
 
 	void Start() {
-		fatMan.SetActive(Config.Group != RGroup.LeverControl);
+		//fatMan.SetActive(Config.Group != RGroup.LeverControl);
+		fatMan.SetActive (false);
 		singlePlatform.gameObject.SetActive(Config.Group == RGroup.LeverControl);
 		StartCoroutine(RunState());
+		electricity.SetActive(false);
 	}
 
 	// Update is called once per frame
@@ -145,6 +148,7 @@ public class ScenarioController : MonoBehaviour {
 						yield return StartCoroutine(PlaySoundAndWait("WK-01", 4f)); // TODO: time how long it takes to say this
 
 						// TODO: guy walks over to edge and bends down, looking at floor
+						fatMan.SetActive(true);
 						yield return new WaitForSeconds(2f);
 
 						Debug.Log("Section D, normal. Analysis: 77% complete.");
@@ -155,6 +159,7 @@ public class ScenarioController : MonoBehaviour {
 				// Electricity! zap
 				case 4:
 					// TODO: electric death trap lights up
+					electricity.SetActive(true);
 					yield return new WaitForSeconds(2f);
 					Debug.Log("Analysis: 100% complete. The electric generator has malfunctioned. Warning: electricity has reached maximum levels. Please keep away from the ground floor.");
 					yield return StartCoroutine(PlaySoundAndWait("AI-06", 10f)); // TODO: time how long it takes to say this
@@ -184,6 +189,7 @@ public class ScenarioController : MonoBehaviour {
 						decisionTime = Time.time;
 						panelControlsPlatforms = true;
 						Debug.Log("Oh man oh man oh man. What do we do?");
+					    
 						yield return StartCoroutine(PlaySoundAndWait("RS-09", 10f)); // TODO: time how long it takes to say this
 					} else {
 						Debug.Log("According to the computer, the electricity will short on contact with biological material, but there's nothing we can do! Unless...");
@@ -194,7 +200,7 @@ public class ScenarioController : MonoBehaviour {
 
 						decisionTime = Time.time;
 						// TODO: enable fat man's collider
-						//fatMan.GetComponent<Rigidbody>().enabled = true;
+						fatMan.GetComponent<Animator>().enabled = false;
 						Debug.Log("The decision is up to you.");
 						yield return StartCoroutine(PlaySoundAndWait("RS-12", 10f)); // TODO: time how long it takes to say this
 					}

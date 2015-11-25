@@ -809,10 +809,10 @@ MonoBehaviour:
   buttonState: 0
   leftMat: {fileID: 2100000, guid: 44e831113d2d942769d0374abfda8215, type: 2}
   rightMat: {fileID: 2100000, guid: bd0af19e429904ae9be94ee12134f3f0, type: 2}
-  leftPressed: {r: 1, g: .967647076, b: .786764741, a: 1}
-  leftUnpressed: {r: .926470578, g: .831380546, b: .299740493, a: 1}
-  rightPressed: {r: .632352948, g: 1, b: .634888411, a: 1}
-  rightUnpressed: {r: .303741366, g: .779411793, b: .307021827, a: 1}
+  leftPressed: {r: .786764741, g: .982352912, b: 1, a: 1}
+  leftUnpressed: {r: .276059717, g: .771477103, b: .816176474, a: 1}
+  rightPressed: {r: .788235366, g: .984313786, b: 1, a: 1}
+  rightUnpressed: {r: .274509817, g: .772549093, b: .815686345, a: 1}
   disabled: {r: .625, g: .625, b: .625, a: 0}
 --- !u!135 &294938359
 SphereCollider:
@@ -1474,7 +1474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25886884ea817ae45a2149276c1485af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  group: 0
+  group: 2
   debug: 1
 --- !u!82 &645733115
 AudioSource:

@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlatformBehavior : MonoBehaviour {
     public float speed = 0.5f;
+	public float deadY = -2f;
+	public Animator elevatorAnimator; 
 
     public bool Activated {
         get {
@@ -29,7 +31,6 @@ public class PlatformBehavior : MonoBehaviour {
     }
 
     public float stopY = 3f; // y-position of pipe
-    public float deadY = 0f;
     public bool reachedStopZone = false;
     public bool movingAnimation = false; // whether to descend with animation
 
@@ -55,10 +56,9 @@ public class PlatformBehavior : MonoBehaviour {
             }
         } else {
             // During experiment, moving via animation
-            // TODO: if animation has ended, set Dead = true
-            /*if () {
-                Dead = true;
-            }*/
+			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), true);
+			transform.position += speed * 4 * Vector3.down * Time.deltaTime;
+			if(transform.position.y <= deadY) isDead = true;
         }
     }
 }

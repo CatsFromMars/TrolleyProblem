@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: a742f627619e90a4ba1824aededc582d
+timeCreated: 1448339148
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pasted__group11
+    100004: pasted__group12
+    100006: pasted__group13
+    100008: pasted__group14
+    100010: pasted__group15
+    100012: pasted__group16
+    100014: pasted__pasted__group11
+    100016: pasted__pasted__group11 1
+    100018: pasted__pasted__group13
+    100020: pasted__pasted__group13 1
+    100022: pasted__pasted__group13 2
+    100024: pasted__pasted__pasted__group11
+    100026: pasted__pasted__pasted__group11 1
+    100028: pasted__pasted__pasted__group11 2
+    100030: platformForHumanSacrfices8:pCube4
+    400000: //RootNode
+    400002: pasted__group11
+    400004: pasted__group12
+    400006: pasted__group13
+    400008: pasted__group14
+    400010: pasted__group15
+    400012: pasted__group16
+    400014: pasted__pasted__group11
+    400016: pasted__pasted__group11 1
+    400018: pasted__pasted__group13
+    400020: pasted__pasted__group13 1
+    400022: pasted__pasted__group13 2
+    400024: pasted__pasted__pasted__group11
+    400026: pasted__pasted__pasted__group11 1
+    400028: pasted__pasted__pasted__group11 2
+    400030: platformForHumanSacrfices8:pCube4
+    4300000: platformForHumanSacrfices8:pCube4
+    7400000: JankyFall
+    9500000: //RootNode
+    13700000: platformForHumanSacrfices8:pCube4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: JankyFall
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 295
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__group11
+        weight: 1
+      - path: pasted__group11/platformForHumanSacrfices8:pCube4
+        weight: 1
+      - path: pasted__group12
+        weight: 1
+      - path: pasted__group12/pasted__pasted__group11
+        weight: 1
+      - path: pasted__group13
+        weight: 1
+      - path: pasted__group13/pasted__pasted__group11 1
+        weight: 1
+      - path: pasted__group14
+        weight: 1
+      - path: pasted__group14/pasted__pasted__group13
+        weight: 1
+      - path: pasted__group14/pasted__pasted__group13/pasted__pasted__pasted__group11
+        weight: 1
+      - path: pasted__group15
+        weight: 1
+      - path: pasted__group15/pasted__pasted__group13 1
+        weight: 1
+      - path: pasted__group15/pasted__pasted__group13 1/pasted__pasted__pasted__group11
+          1
+        weight: 1
+      - path: pasted__group16
+        weight: 1
+      - path: pasted__group16/pasted__pasted__group13 2
+        weight: 1
+      - path: pasted__group16/pasted__pasted__group13 2/pasted__pasted__pasted__group11
+          2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

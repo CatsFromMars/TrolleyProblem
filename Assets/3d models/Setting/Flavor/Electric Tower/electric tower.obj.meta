@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: 087261c3771d14c5c872313dcee26189
+timeCreated: 1448123408
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pasted__pasted__pCube1_pasted__group_group1
+    100004: pasted__pasted__pCube1_pasted__group_group3
+    100006: pasted__pCube1_group
+    100008: pasted__pCube1_group2
+    100010: pCube1
+    100012: tower:bearing01
+    100014: tower:bearing02
+    100016: tower:bearing03
+    100018: tower:bearing04
+    100020: tower:bearing06
+    100022: tower:bearing09
+    100024: tower:bearing10
+    100026: tower:bearing11
+    100028: tower:bearing12
+    100030: tower:Concrete_base
+    100032: tower:Grid_construction
+    400000: //RootNode
+    400002: pasted__pasted__pCube1_pasted__group_group1
+    400004: pasted__pasted__pCube1_pasted__group_group3
+    400006: pasted__pCube1_group
+    400008: pasted__pCube1_group2
+    400010: pCube1
+    400012: tower:bearing01
+    400014: tower:bearing02
+    400016: tower:bearing03
+    400018: tower:bearing04
+    400020: tower:bearing06
+    400022: tower:bearing09
+    400024: tower:bearing10
+    400026: tower:bearing11
+    400028: tower:bearing12
+    400030: tower:Concrete_base
+    400032: tower:Grid_construction
+    2300000: pasted__pasted__pCube1_pasted__group_group1
+    2300002: pasted__pasted__pCube1_pasted__group_group3
+    2300004: pasted__pCube1_group
+    2300006: pasted__pCube1_group2
+    2300008: pCube1
+    2300010: tower:bearing01
+    2300012: tower:bearing02
+    2300014: tower:bearing03
+    2300016: tower:bearing04
+    2300018: tower:bearing06
+    2300020: tower:bearing09
+    2300022: tower:bearing10
+    2300024: tower:bearing11
+    2300026: tower:bearing12
+    2300028: tower:Concrete_base
+    2300030: tower:Grid_construction
+    3300000: pasted__pasted__pCube1_pasted__group_group1
+    3300002: pasted__pasted__pCube1_pasted__group_group3
+    3300004: pasted__pCube1_group
+    3300006: pasted__pCube1_group2
+    3300008: pCube1
+    3300010: tower:bearing01
+    3300012: tower:bearing02
+    3300014: tower:bearing03
+    3300016: tower:bearing04
+    3300018: tower:bearing06
+    3300020: tower:bearing09
+    3300022: tower:bearing10
+    3300024: tower:bearing11
+    3300026: tower:bearing12
+    3300028: tower:Concrete_base
+    3300030: tower:Grid_construction
+    4300000: pasted__pasted__pCube1_pasted__group_group1
+    4300002: pasted__pasted__pCube1_pasted__group_group3
+    4300004: pasted__pCube1_group
+    4300006: pasted__pCube1_group2
+    4300008: pCube1
+    4300010: tower:bearing01
+    4300012: tower:bearing02
+    4300014: tower:bearing03
+    4300016: tower:bearing04
+    4300018: tower:bearing06
+    4300020: tower:bearing09
+    4300022: tower:bearing10
+    4300024: tower:bearing11
+    4300026: tower:bearing12
+    4300028: tower:Concrete_base
+    4300030: tower:Grid_construction
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

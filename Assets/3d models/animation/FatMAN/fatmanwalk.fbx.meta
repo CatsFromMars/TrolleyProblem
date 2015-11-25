@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: c3ed2ba9f9a7845ef91deabd546f5838
+timeCreated: 1447780620
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: humanBody_1
+    100004: nurbsCircle1
+    100006: WalkStraight_t1:BVH:Chest
+    100008: WalkStraight_t1:BVH:Chest2
+    100010: WalkStraight_t1:BVH:Chest3
+    100012: WalkStraight_t1:BVH:Chest4
+    100014: WalkStraight_t1:BVH:Head
+    100016: WalkStraight_t1:BVH:Head_End
+    100018: WalkStraight_t1:BVH:Hips
+    100020: WalkStraight_t1:BVH:LeftAnkle
+    100022: WalkStraight_t1:BVH:LeftCollar
+    100024: WalkStraight_t1:BVH:LeftElbow
+    100026: WalkStraight_t1:BVH:LeftHip
+    100028: WalkStraight_t1:BVH:LeftKnee
+    100030: WalkStraight_t1:BVH:LeftShoulder
+    100032: WalkStraight_t1:BVH:LeftToe
+    100034: WalkStraight_t1:BVH:LeftToe_End
+    100036: WalkStraight_t1:BVH:LeftWrist
+    100038: WalkStraight_t1:BVH:LeftWrist_End
+    100040: WalkStraight_t1:BVH:Neck
+    100042: WalkStraight_t1:BVH:RightAnkle
+    100044: WalkStraight_t1:BVH:RightCollar
+    100046: WalkStraight_t1:BVH:RightElbow
+    100048: WalkStraight_t1:BVH:RightHip
+    100050: WalkStraight_t1:BVH:RightKnee
+    100052: WalkStraight_t1:BVH:RightShoulder
+    100054: WalkStraight_t1:BVH:RightToe
+    100056: WalkStraight_t1:BVH:RightToe_End
+    100058: WalkStraight_t1:BVH:RightWrist
+    100060: WalkStraight_t1:BVH:RightWrist_End
+    400000: //RootNode
+    400002: humanBody_1
+    400004: nurbsCircle1
+    400006: WalkStraight_t1:BVH:Chest
+    400008: WalkStraight_t1:BVH:Chest2
+    400010: WalkStraight_t1:BVH:Chest3
+    400012: WalkStraight_t1:BVH:Chest4
+    400014: WalkStraight_t1:BVH:Head
+    400016: WalkStraight_t1:BVH:Head_End
+    400018: WalkStraight_t1:BVH:Hips
+    400020: WalkStraight_t1:BVH:LeftAnkle
+    400022: WalkStraight_t1:BVH:LeftCollar
+    400024: WalkStraight_t1:BVH:LeftElbow
+    400026: WalkStraight_t1:BVH:LeftHip
+    400028: WalkStraight_t1:BVH:LeftKnee
+    400030: WalkStraight_t1:BVH:LeftShoulder
+    400032: WalkStraight_t1:BVH:LeftToe
+    400034: WalkStraight_t1:BVH:LeftToe_End
+    400036: WalkStraight_t1:BVH:LeftWrist
+    400038: WalkStraight_t1:BVH:LeftWrist_End
+    400040: WalkStraight_t1:BVH:Neck
+    400042: WalkStraight_t1:BVH:RightAnkle
+    400044: WalkStraight_t1:BVH:RightCollar
+    400046: WalkStraight_t1:BVH:RightElbow
+    400048: WalkStraight_t1:BVH:RightHip
+    400050: WalkStraight_t1:BVH:RightKnee
+    400052: WalkStraight_t1:BVH:RightShoulder
+    400054: WalkStraight_t1:BVH:RightToe
+    400056: WalkStraight_t1:BVH:RightToe_End
+    400058: WalkStraight_t1:BVH:RightWrist
+    400060: WalkStraight_t1:BVH:RightWrist_End
+    4300000: humanBody_1
+    7400000: FatManWalkandShoulderPAt
+    9500000: //RootNode
+    13700000: humanBody_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FatManWalkandShoulderPAt
+      takeName: Take 001
+      firstFrame: 63
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: nurbsCircle1/humanBody_1
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:LeftCollar
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:LeftCollar/WalkStraight_t1:BVH:LeftShoulder
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:LeftCollar/WalkStraight_t1:BVH:LeftShoulder/WalkStraight_t1:BVH:LeftElbow
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:LeftCollar/WalkStraight_t1:BVH:LeftShoulder/WalkStraight_t1:BVH:LeftElbow/WalkStraight_t1:BVH:LeftWrist
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:LeftCollar/WalkStraight_t1:BVH:LeftShoulder/WalkStraight_t1:BVH:LeftElbow/WalkStraight_t1:BVH:LeftWrist/WalkStraight_t1:BVH:LeftWrist_End
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:Neck
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:Neck/WalkStraight_t1:BVH:Head
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:Neck/WalkStraight_t1:BVH:Head/WalkStraight_t1:BVH:Head_End
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:RightCollar
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:RightCollar/WalkStraight_t1:BVH:RightShoulder
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:RightCollar/WalkStraight_t1:BVH:RightShoulder/WalkStraight_t1:BVH:RightElbow
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:RightCollar/WalkStraight_t1:BVH:RightShoulder/WalkStraight_t1:BVH:RightElbow/WalkStraight_t1:BVH:RightWrist
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:Chest/WalkStraight_t1:BVH:Chest2/WalkStraight_t1:BVH:Chest3/WalkStraight_t1:BVH:Chest4/WalkStraight_t1:BVH:RightCollar/WalkStraight_t1:BVH:RightShoulder/WalkStraight_t1:BVH:RightElbow/WalkStraight_t1:BVH:RightWrist/WalkStraight_t1:BVH:RightWrist_End
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:LeftHip
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:LeftHip/WalkStraight_t1:BVH:LeftKnee
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:LeftHip/WalkStraight_t1:BVH:LeftKnee/WalkStraight_t1:BVH:LeftAnkle
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:LeftHip/WalkStraight_t1:BVH:LeftKnee/WalkStraight_t1:BVH:LeftAnkle/WalkStraight_t1:BVH:LeftToe
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:LeftHip/WalkStraight_t1:BVH:LeftKnee/WalkStraight_t1:BVH:LeftAnkle/WalkStraight_t1:BVH:LeftToe/WalkStraight_t1:BVH:LeftToe_End
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:RightHip
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:RightHip/WalkStraight_t1:BVH:RightKnee
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:RightHip/WalkStraight_t1:BVH:RightKnee/WalkStraight_t1:BVH:RightAnkle
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:RightHip/WalkStraight_t1:BVH:RightKnee/WalkStraight_t1:BVH:RightAnkle/WalkStraight_t1:BVH:RightToe
+        weight: 1
+      - path: WalkStraight_t1:BVH:Hips/WalkStraight_t1:BVH:RightHip/WalkStraight_t1:BVH:RightKnee/WalkStraight_t1:BVH:RightAnkle/WalkStraight_t1:BVH:RightToe/WalkStraight_t1:BVH:RightToe_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

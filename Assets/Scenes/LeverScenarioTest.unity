@@ -1451,6 +1451,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bd55aac2bf4098b46a3d20010605fe9e, type: 3}
   - {fileID: 8300000, guid: f17e01a2c975ed24997f309b75955ca7, type: 3}
   - {fileID: 8300000, guid: 07e242f978765814ea99a0faa86aade5, type: 3}
+  soundEffects:
+  - {fileID: 8300000, guid: 5a8a3e5d4c759874f9acc687985e7512, type: 3}
 --- !u!4 &645733113
 Transform:
   m_ObjectHideFlags: 0
@@ -3627,34 +3629,6 @@ Prefab:
     - target: {fileID: 457482, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
       propertyPath: m_RootOrder
       value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 19839142, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 19928344, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: m_RenderMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 19839142, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: InitialModule.startRotation.scalar
-      value: 6.28318501
-      objectReference: {fileID: 0}
-    - target: {fileID: 19839142, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: InitialModule.startRotation.maxCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 19839142, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: InitialModule.startRotation.minCurve.m_Curve.Array.data[0].value
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19839142, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: EmissionModule.rate.scalar
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 104888, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 61b27eb6b1568ce4aa75d63f8b707f57, type: 2}

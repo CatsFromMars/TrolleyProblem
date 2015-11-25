@@ -13,6 +13,7 @@ public class ScenarioController : MonoBehaviour {
 	public GameObject electricity;
 
 	public AudioClip[] voiceClips;
+	public AudioClip[] soundEffects;
 
 	private int state = 0;
 	private bool panelControlsPlatforms = false;
@@ -82,12 +83,11 @@ public class ScenarioController : MonoBehaviour {
 
 				// Power outage
 				case 2:
-					// TODO: add sound effects for lights flickering out.
 					areaLight.SetActive(false);
 					pLight1.SetActive(false);
 					pLight2.SetActive(false);
 					playerLighting.SetActive(false);
-					yield return new WaitForSeconds(3f);
+					yield return StartCoroutine(PlaySoundAndWait(soundEffects[0], 2f)); // lights-off
 
 					if (Config.Group != RGroup.LeverControl) {
 						// TODO: whirring sound effect for disappearing control panel.
@@ -103,19 +103,20 @@ public class ScenarioController : MonoBehaviour {
 					Debug.Log("Looks like we are experiencing some technical difficulties. Please stay calm! We will send personnel out to investigate.");
 					yield return StartCoroutine(PlaySoundAndWait(4, 9f)); // RS-04
 
-					// TODO: lights on subject's platform appear, with SE
+					// Lights on subject's platform appear, with SE
 					playerLighting.SetActive(true);
-					yield return new WaitForSeconds(1f);
+					yield return StartCoroutine(PlaySoundAndWait(soundEffects[1], 1f)); // lights-on
 					Debug.Log("Lights in section C are now online. Restoring power...");
-					yield return StartCoroutine(PlaySoundAndWait(5, 4f)); // AI-02
+					yield return StartCoroutine(PlaySoundAndWait(5, 6f)); // AI-02
 
-					// TODO: lights on platforms return, with SE
-					yield return new WaitForSeconds(1f);
+					// Lights on platforms return
 					areaLight.SetActive(false);
 					pLight1.SetActive(true);
 					pLight2.SetActive(true);
+					yield return new WaitForSeconds(1f);
 					Debug.Log("All power restored. Rebooting generator...");
 					yield return StartCoroutine(PlaySoundAndWait(6, 5f)); // AI-03
+					yield return StartCoroutine(PlaySoundAndWait(soundEffects[2], 5f)); // generator-charging
 					break;
 
 				// Introduce fat man or 1-person platform
@@ -138,7 +139,6 @@ public class ScenarioController : MonoBehaviour {
 
 				// Electricity! zap
 				case 4:
-					// TODO: play sound effect for electric death trap
 					electricity.SetActive(true);
 					yield return new WaitForSeconds(2f);
 					Debug.Log("Warning: the electric generator has malfunctioned. Please keep away from the ground floor.");
@@ -236,13 +236,16 @@ public class ScenarioController : MonoBehaviour {
 	}
 
 	private IEnumerator PlaySoundAndWait(int sound, float seconds) {
-		source.PlayOneShot(voiceClips[sound]);
+		return PlaySoundAndWait(voiceClips[sound], seconds);
+	}
+
+	private IEnumerator PlaySoundAndWait(AudioClip sound, float seconds) {
+		source.PlayOneShot(sound);
 
 		if (seconds > 0) {
 			yield return new WaitForSeconds(seconds);
 		}
 	}
-
 	private IEnumerator WaitForElevators() {
 		while (!(singlePlatform.reachedStopZone && groupPlatform.reachedStopZone)) {
 			yield return null;

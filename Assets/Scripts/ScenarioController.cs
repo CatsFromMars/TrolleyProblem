@@ -53,7 +53,7 @@ public class ScenarioController : MonoBehaviour {
 				case 0:
 					yield return new WaitForSeconds(3f); // wait 3 seconds before starting script
 					Debug.Log("Hello, and welcome to the facility. Today, you will be assisting a few construction workers as they revamp the lab.");
-					yield return StartCoroutine(PlaySoundAndWait(0, 8f));
+					yield return StartCoroutine(PlaySoundAndWait(0, 8f)); // RS-01
 
 					controller.Activated = true; // control panel lights up
 					controller.buttonState = ButtonState.NotPressed;
@@ -65,7 +65,7 @@ public class ScenarioController : MonoBehaviour {
 					pLight2.SetActive(true);
 
 					Debug.Log("The control panel in front of you controls the workers' platforms. Please use the buttons to lower the platforms to the pipe. Note that only one platform can move at a time.");
-					yield return StartCoroutine(PlaySoundAndWait(1, 0f));
+					yield return StartCoroutine(PlaySoundAndWait(1, 0f)); // RS-02
 					yield return StartCoroutine(WaitForElevators()); // wait for elevators to reach right level
 					break;
 
@@ -76,7 +76,7 @@ public class ScenarioController : MonoBehaviour {
 					yield return new WaitForSeconds(1f);
 					controller.buttonState = ButtonState.NotPressed;
 					Debug.Log("Good work. Now that the platforms are in the correct place--");
-					yield return StartCoroutine(PlaySoundAndWait(2, 3f));
+					yield return StartCoroutine(PlaySoundAndWait(2, 3f)); // RS-03
 					break;
 
 				// Power outage
@@ -97,33 +97,29 @@ public class ScenarioController : MonoBehaviour {
 					yield return new WaitForSeconds(1f);
 
 					Debug.Log("Analyzing system failure. Please hold.");
-					yield return StartCoroutine(PlaySoundAndWait(3, 4f));
+					yield return StartCoroutine(PlaySoundAndWait(3, 4f)); // AI-01
 
 					Debug.Log("Looks like we are experiencing some technical difficulties. Please stay calm! We will send personnel out to investigate.");
-					yield return StartCoroutine(PlaySoundAndWait(4, 9f));
+					yield return StartCoroutine(PlaySoundAndWait(4, 9f)); // RS-04
 
 					// TODO: lights on subject's platform appear, with SE
 					playerLighting.SetActive(true);
 					yield return new WaitForSeconds(1f);
-					Debug.Log("Lights in section C are now online.");
-					yield return StartCoroutine(PlaySoundAndWait(5, 4f));
+					Debug.Log("Lights in section C are now online. Restoring power...");
+					yield return StartCoroutine(PlaySoundAndWait(5, 4f)); // AI-02
 
-					// TODO: lights on 5-person platform light up, with SE
+					// TODO: lights on platforms return, with SE
 					yield return new WaitForSeconds(1f);
+					areaLight.SetActive(false);
+					pLight1.SetActive(true);
 					pLight2.SetActive(true);
-					Debug.Log("Section B, normal. Analysis: 32% complete.");
-					yield return StartCoroutine(PlaySoundAndWait(6, 5f));
+					Debug.Log("All power restored. Rebooting generator...");
+					yield return StartCoroutine(PlaySoundAndWait(6, 5f)); // AI-03
 					break;
 
 				// Introduce fat man or 1-person platform
 				case 3:
-					if (Config.Group == RGroup.LeverControl) {
-						// TODO: lights on 1-person platform light up, with SE
-						pLight1.SetActive(true);
-						yield return new WaitForSeconds(1f);
-						Debug.Log("Section D, normal. Analysis: 77% complete.");
-						yield return StartCoroutine(PlaySoundAndWait(7, 6f));
-					} else {
+					if (Config.Group != RGroup.LeverControl) {
 						// TODO: guy walks out onto platform, with footsteps
 						yield return new WaitForSeconds(2f);
 						if (Config.Group == RGroup.Haptic) {
@@ -131,14 +127,11 @@ public class ScenarioController : MonoBehaviour {
 						}
 						yield return new WaitForSeconds(1f);
 						Debug.Log("Don't worry, I'll get this fixed.");
-						yield return StartCoroutine(PlaySoundAndWait(8, 4f));
+						yield return StartCoroutine(PlaySoundAndWait(7, 4f)); // WK-01
 
 						// TODO: guy walks over to edge and bends down, looking at floor
 						fatMan.SetActive(true);
 						yield return new WaitForSeconds(2f);
-
-						Debug.Log("Section D, normal. Analysis: 77% complete.");
-						yield return StartCoroutine(PlaySoundAndWait(9, 4f));
 					}
 					break;
 
@@ -148,21 +141,21 @@ public class ScenarioController : MonoBehaviour {
 					electricity.SetActive(true);
 					yield return new WaitForSeconds(2f);
 					Debug.Log("Warning: the electric generator has malfunctioned. Please keep away from the ground floor.");
-					yield return StartCoroutine(PlaySoundAndWait(10, 7f));
+					yield return StartCoroutine(PlaySoundAndWait(8, 7f)); // AI-04
 
 					// 5-person elevator begin to move
 					groupPlatform.Activated = true;
 					groupPlatform.movingAnimation = true;
 					// TODO: guys on elevator appear alarmed
 					yield return new WaitForSeconds(1f);
-					Debug.Log("Warning: platform A unstable. Brake failure in 20 seconds.");
-					yield return StartCoroutine(PlaySoundAndWait(11, 5f));
+					Debug.Log("Danger! Platform A unstable. Brake failure in 20 seconds.");
+					yield return StartCoroutine(PlaySoundAndWait(9, 5f)); // AI-05
 					break;
 
 				// Introduce the decision
 				case 5:
 					Debug.Log("Oh man! The elevator is going to fall! We don't have much time before it hits the floor and electrocutes everyone on it!");
-					yield return StartCoroutine(PlaySoundAndWait(12, 6f));
+					yield return StartCoroutine(PlaySoundAndWait(10, 6f)); // RS-05
 
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = true;
@@ -172,22 +165,22 @@ public class ScenarioController : MonoBehaviour {
 						yield return new WaitForSeconds(2f);
 
 						Debug.Log("The emergency brakes won't kick in unless the generator shorts. Using the control panel, you can choose which elevator will fall. But no matter what, one of the elevators will hit the floor...");
-						yield return StartCoroutine(PlaySoundAndWait(13, 10f));
+						yield return StartCoroutine(PlaySoundAndWait(11, 10f)); // RS-06
 						decisionTime = Time.time;
 						Debug.Log("Oh man oh man oh man. What do we do?");
-						yield return StartCoroutine(PlaySoundAndWait(14, 3f));
+						yield return StartCoroutine(PlaySoundAndWait(12, 3f)); // RS-07
 					} else {
 						Debug.Log("The emergency brakes won't kick in unless the generator shorts. But we can't disable the electricity... unless...");
-						yield return StartCoroutine(PlaySoundAndWait(15, 8f));
+						yield return StartCoroutine(PlaySoundAndWait(13, 8f)); // RS-08
 
 						Debug.Log("The only way to stop the platform is to push the worker in front of you and short the generator.");
-						yield return StartCoroutine(PlaySoundAndWait(16, 6f));
+						yield return StartCoroutine(PlaySoundAndWait(14, 6f)); // RS-09
 
 						decisionTime = Time.time;
 						// TODO: enable fat man's collider
 						fatMan.GetComponent<Animator>().enabled = false;
 						Debug.Log("The decision is up to you.");
-						yield return StartCoroutine(PlaySoundAndWait(17, 3f));
+						yield return StartCoroutine(PlaySoundAndWait(15, 3f)); // RS-10
 					}
 
 					yield return StartCoroutine(WaitForDeath());
@@ -206,11 +199,11 @@ public class ScenarioController : MonoBehaviour {
 				case 6:
 					// TODO: play SE, animation of floor crackling
 					Debug.Log("Bio material detected. Disengaging power supply.");
-					yield return StartCoroutine(PlaySoundAndWait(18, 4f));
+					yield return StartCoroutine(PlaySoundAndWait(16, 4f)); // AI-06
 
 					// TODO: fade out scene
 					Debug.Log("This concludes the research experiment. Please remove your headgear.");
-					yield return StartCoroutine(PlaySoundAndWait(19, 5f));
+					yield return StartCoroutine(PlaySoundAndWait(17, 5f)); // RS-11
 					break;
 
 				// Results

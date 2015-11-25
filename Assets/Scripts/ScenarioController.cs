@@ -25,6 +25,7 @@ public class ScenarioController : MonoBehaviour {
 
 	void Start() {
 		source = GetComponent<AudioSource>();
+		// TODO: fade in
 		StartCoroutine(RunState());
 	}
 
@@ -127,11 +128,11 @@ public class ScenarioController : MonoBehaviour {
 						}
 						yield return new WaitForSeconds(1f);
 						Debug.Log("Don't worry, I'll get this fixed.");
-						yield return StartCoroutine(PlaySoundAndWait(7, 4f)); // WK-01
+						yield return StartCoroutine(PlaySoundAndWait(7, 3f)); // WK-01
 
 						// TODO: guy walks over to edge and bends down, looking at floor
 						fatMan.SetActive(true);
-						yield return new WaitForSeconds(2f);
+						yield return new WaitForSeconds(1f);
 					}
 					break;
 
@@ -149,7 +150,7 @@ public class ScenarioController : MonoBehaviour {
 					// TODO: guys on elevator appear alarmed
 					yield return new WaitForSeconds(1f);
 					Debug.Log("Danger! Platform A unstable. Brake failure in 20 seconds.");
-					yield return StartCoroutine(PlaySoundAndWait(9, 5f)); // AI-05
+					yield return StartCoroutine(PlaySoundAndWait(9, 6f)); // AI-05
 					break;
 
 				// Introduce the decision
@@ -162,7 +163,7 @@ public class ScenarioController : MonoBehaviour {
 						controller.buttonState = ButtonState.LeftPressed;
 						singlePlatform.movingAnimation = true;
 						panelControlsPlatforms = true;
-						yield return new WaitForSeconds(2f);
+						yield return new WaitForSeconds(1f);
 
 						Debug.Log("The emergency brakes won't kick in unless the generator shorts. Using the control panel, you can choose which elevator will fall. But no matter what, one of the elevators will hit the floor...");
 						yield return StartCoroutine(PlaySoundAndWait(11, 10f)); // RS-06
@@ -199,9 +200,9 @@ public class ScenarioController : MonoBehaviour {
 				case 6:
 					// TODO: play SE, animation of floor crackling
 					Debug.Log("Bio material detected. Disengaging power supply.");
-					yield return StartCoroutine(PlaySoundAndWait(16, 4f)); // AI-06
+					yield return StartCoroutine(PlaySoundAndWait(16, 5f)); // AI-06
 
-					// TODO: fade out scene
+					// TODO: Fade out scene
 					Debug.Log("This concludes the research experiment. Please remove your headgear.");
 					yield return StartCoroutine(PlaySoundAndWait(17, 5f)); // RS-11
 					break;

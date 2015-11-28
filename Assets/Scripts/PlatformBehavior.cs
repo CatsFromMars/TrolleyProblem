@@ -67,14 +67,19 @@ public class PlatformBehavior : MonoBehaviour {
                     newPos.y = stopY;
                     transform.position = newPos;
                     reachedStopZone = true;
+
+                    // play stop sound effect
+                    AudioSource source = GetComponent<AudioSource>();
+                    source.PlayOneShot(elevatorStop);
+                    source.Pause();
                 }
             }
         } else {
             // During experiment, moving via animation
 			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), true);
             if (Activated) {
-    			transform.position += speed * Vector3.down * Time.deltaTime;
-    			if(transform.position.y <= deadY) isDead = true;
+    			transform.position += speed / 4f * Vector3.down * Time.deltaTime;
+    			if (transform.position.y <= deadY) isDead = true;
             }
         }
     }

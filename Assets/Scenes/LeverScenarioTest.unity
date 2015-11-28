@@ -1416,7 +1416,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a56a76330df9e314fb9f6a6951597046, type: 3}
   - {fileID: 8300000, guid: 37ca241c216e4624f93219da6d283489, type: 3}
   - {fileID: 8300000, guid: d382d8bb0688ff84ab64ada6ba622713, type: 3}
-  - {fileID: 8300000, guid: b1fe16b7f07438d4692fe97e8b091f75, type: 3}
+  - {fileID: 0}
   - {fileID: 8300000, guid: 76db26e2623a5d24ca5ddbcca770c224, type: 3}
   - {fileID: 8300000, guid: 974065dc5fb51824ab8d127004c20f3d, type: 3}
   - {fileID: 8300000, guid: 2dadf341ddb6e0e4980929b58d5e8281, type: 3}
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5555d365690f4674e95684d5e611e251, type: 3}
   - {fileID: 8300000, guid: bd55aac2bf4098b46a3d20010605fe9e, type: 3}
   - {fileID: 8300000, guid: f17e01a2c975ed24997f309b75955ca7, type: 3}
-  - {fileID: 8300000, guid: 07e242f978765814ea99a0faa86aade5, type: 3}
+  - {fileID: 0}
   soundEffects:
   - {fileID: 8300000, guid: 0e84030994f25f54ea92ddce256e0d6a, type: 3}
   - {fileID: 8300000, guid: d027a37ce78d39841a3d8fbcf09388df, type: 3}
@@ -3089,6 +3089,9 @@ MonoBehaviour:
   speed: .400000006
   deadY: -5
   elevatorAnimator: {fileID: 27744204}
+  elevatorStart: {fileID: 0}
+  elevatorStop: {fileID: 0}
+  scream: {fileID: 0}
   stopY: 4
   reachedStopZone: 0
   movingAnimation: 0
@@ -4113,6 +4116,9 @@ MonoBehaviour:
   speed: .400000006
   deadY: -5
   elevatorAnimator: {fileID: 592797633}
+  elevatorStart: {fileID: 0}
+  elevatorStop: {fileID: 0}
+  scream: {fileID: 0}
   stopY: 4
   reachedStopZone: 0
   movingAnimation: 0

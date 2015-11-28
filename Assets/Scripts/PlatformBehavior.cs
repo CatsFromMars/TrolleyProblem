@@ -5,14 +5,24 @@ public class PlatformBehavior : MonoBehaviour {
     public float speed = 0.5f;
 	public float deadY = -2f;
 	public Animator elevatorAnimator;
+    public AudioClip elevatorStart;
+    public AudioClip elevatorStop;
+    public AudioClip scream;
 
     public bool Activated {
         get {
             return isActivated;
         }
         set {
-            // TODO: play sound effect when starting or stopping
             isActivated = value;
+            AudioSource source = GetComponent<AudioSource>();
+            if (isActivated) {
+                source.PlayOneShot(elevatorStart);
+                source.Play();
+            } else {
+                source.PlayOneShot(elevatorStop);
+                source.Pause();
+            }
 
             if (movingAnimation) {
                 // TODO: if (isActivated && not playing animation) start playing animation;
@@ -25,8 +35,13 @@ public class PlatformBehavior : MonoBehaviour {
             return isDead;
         }
         set {
-            // TODO: play dying animation on all characters, zap sound effect
             isDead = value;
+            if (isDead) {
+                // play dying sound effect
+                AudioSource source = GetComponent<AudioSource>();
+                source.PlayOneShot(scream);
+                // TODO: play dying animation on all characters
+            }
         }
     }
 

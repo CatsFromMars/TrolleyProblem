@@ -3190,6 +3190,10 @@ MonoBehaviour:
   speed: .400000006
   deadY: -5
   elevatorAnimator: {fileID: 27744204}
+  elevatorMoving: {fileID: 0}
+  elevatorStart: {fileID: 8300000, guid: 41b2cd252ce824b468acbe65b5dce863, type: 3}
+  elevatorStop: {fileID: 8300000, guid: 551e404f3b41fd742b8e608fb32669e3, type: 3}
+  scream: {fileID: 8300000, guid: 22e1a4e0ff7b0d14bab1987f3a9c117d, type: 3}
   stopY: 4
   reachedStopZone: 0
   movingAnimation: 0
@@ -4308,6 +4312,10 @@ MonoBehaviour:
   speed: .400000006
   deadY: -5
   elevatorAnimator: {fileID: 592797633}
+  elevatorMoving: {fileID: 0}
+  elevatorStart: {fileID: 8300000, guid: 41b2cd252ce824b468acbe65b5dce863, type: 3}
+  elevatorStop: {fileID: 8300000, guid: 551e404f3b41fd742b8e608fb32669e3, type: 3}
+  scream: {fileID: 8300000, guid: 80a136766ce7c57499ef0183b6668e13, type: 3}
   stopY: 4
   reachedStopZone: 0
   movingAnimation: 0

@@ -101,7 +101,7 @@ public class ScenarioController : MonoBehaviour {
 					yield return StartCoroutine(PlaySoundAndWait(3, 4f)); // AI-01
 
 					Debug.Log("Looks like we are experiencing some technical difficulties. Please stay calm as we investigate.");
-					yield return StartCoroutine(PlaySoundAndWait(4, 7f)); // RS-04
+					yield return StartCoroutine(PlaySoundAndWait(4, 6.5f)); // RS-04
 					break;
 
 				// Lights restored
@@ -112,6 +112,12 @@ public class ScenarioController : MonoBehaviour {
 					Debug.Log("Lights in section C are now online. Restoring power...");
 					yield return StartCoroutine(PlaySoundAndWait(5, 6f)); // AI-02
 
+					// Lights on platforms return
+					areaLight.SetActive(false);
+					pLight1.SetActive(true);
+					pLight2.SetActive(true);
+					yield return new WaitForSeconds(1f);
+
 					if (Config.Group != RGroup.LeverControl) {
 						Debug.Log("Please sit tight-- we're sending a guy to fix the control panel.");
 						yield return StartCoroutine(PlaySoundAndWait(6, 4f)); // RS-05
@@ -119,13 +125,9 @@ public class ScenarioController : MonoBehaviour {
 						// fat man walks over to edge and bends down, looking at floor
 						fatMan.SetActive(true);
 						// TODO: play footstep SE?
+						yield return new WaitForSeconds(1f);
 					}
 
-					// Lights on platforms return
-					areaLight.SetActive(false);
-					pLight1.SetActive(true);
-					pLight2.SetActive(true);
-					yield return new WaitForSeconds(1f);
 					Debug.Log("All power restored. Rebooting generator...");
 					yield return StartCoroutine(PlaySoundAndWait(7, 5f)); // AI-03
 					yield return StartCoroutine(PlaySoundAndWait(soundEffects[2], 5f)); // generator-charging

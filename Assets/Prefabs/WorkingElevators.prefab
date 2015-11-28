@@ -29679,7 +29679,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121960}
-  m_LocalRotation: {x: -.216525599, y: .274583071, z: .601910412, w: .717930794}
+  m_LocalRotation: {x: -.21652557, y: .274583071, z: .601910412, w: .717930794}
   m_LocalPosition: {x: -.0100653851, y: 0, z: -2.7755574e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33456,7 +33456,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 127764}
-  m_LocalRotation: {x: -.216525599, y: .274583071, z: .601910412, w: .717930794}
+  m_LocalRotation: {x: -.21652557, y: .274583071, z: .601910412, w: .717930794}
   m_LocalPosition: {x: -.0100653851, y: 6.02711836e-18, z: -3.69747743e-19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33534,7 +33534,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 120294}
-  m_LocalRotation: {x: .757123888, y: -.45641911, z: -.449318647, w: .128676489}
+  m_LocalRotation: {x: .757123947, y: -.45641914, z: -.449318677, w: .128676519}
   m_LocalPosition: {x: .0364644155, y: .119836874, z: -.160022929}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -37496,7 +37496,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134252}
-  m_LocalRotation: {x: .757123888, y: -.45641911, z: -.449318647, w: .128676474}
+  m_LocalRotation: {x: .757123947, y: -.45641914, z: -.449318677, w: .128676504}
   m_LocalPosition: {x: .0364644155, y: .119836874, z: -.160022929}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -43571,7 +43571,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: a37eba2a2e25b43749ddaa19379d010b, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -43927,9 +43927,9 @@ MonoBehaviour:
   speed: .400000006
   deadY: -5
   elevatorAnimator: {fileID: 9587018}
-  elevatorStart: {fileID: 0}
-  elevatorStop: {fileID: 0}
-  scream: {fileID: 0}
+  elevatorStart: {fileID: 8300000, guid: 41b2cd252ce824b468acbe65b5dce863, type: 3}
+  elevatorStop: {fileID: 8300000, guid: 551e404f3b41fd742b8e608fb32669e3, type: 3}
+  scream: {fileID: 8300000, guid: 22e1a4e0ff7b0d14bab1987f3a9c117d, type: 3}
   stopY: 4
   reachedStopZone: 0
   movingAnimation: 0
@@ -43947,9 +43947,9 @@ MonoBehaviour:
   speed: .400000006
   deadY: -5
   elevatorAnimator: {fileID: 9516588}
-  elevatorStart: {fileID: 0}
-  elevatorStop: {fileID: 0}
-  scream: {fileID: 0}
+  elevatorStart: {fileID: 8300000, guid: 41b2cd252ce824b468acbe65b5dce863, type: 3}
+  elevatorStop: {fileID: 8300000, guid: 551e404f3b41fd742b8e608fb32669e3, type: 3}
+  scream: {fileID: 8300000, guid: 80a136766ce7c57499ef0183b6668e13, type: 3}
   stopY: 4
   reachedStopZone: 0
   movingAnimation: 0

@@ -57,7 +57,7 @@ public class PlatformBehavior : MonoBehaviour {
         } else {
             // During experiment, moving via animation
 			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), true);
-			transform.position += speed * Vector3.down * Time.deltaTime;
+			transform.position += speed/4f * Vector3.down * Time.deltaTime;
 			if(transform.position.y <= deadY) isDead = true;
         }
     }

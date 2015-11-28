@@ -4,7 +4,7 @@ using System.Collections;
 public class PlatformBehavior : MonoBehaviour {
     public float speed = 0.5f;
 	public float deadY = -2f;
-	public Animator elevatorAnimator; 
+	public Animator elevatorAnimator;
 
     public bool Activated {
         get {
@@ -57,8 +57,10 @@ public class PlatformBehavior : MonoBehaviour {
         } else {
             // During experiment, moving via animation
 			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), true);
-			transform.position += speed * Vector3.down * Time.deltaTime;
-			if(transform.position.y <= deadY) isDead = true;
+            if (Activated) {
+    			transform.position += speed * Vector3.down * Time.deltaTime;
+    			if(transform.position.y <= deadY) isDead = true;
+            }
         }
     }
 }

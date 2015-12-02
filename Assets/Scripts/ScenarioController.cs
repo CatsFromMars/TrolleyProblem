@@ -17,7 +17,7 @@ public class ScenarioController : MonoBehaviour {
 
 	public GameObject animationTrigger;
 	public bool pushedFatMan = false; // did player push fat man???
-	public GameObject fader;
+	public Animator screenFader;
 
 	private int state = 0;
 	private bool scenarioStarted = false;
@@ -34,7 +34,6 @@ public class ScenarioController : MonoBehaviour {
 		// TODO: fade in
 		Debug.Log("Scene loaded. Press any key to begin.");
 		animationTrigger.SetActive (false);
-		fader.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -213,7 +212,7 @@ public class ScenarioController : MonoBehaviour {
 
 					// TODO: Fade out scene
 					Debug.Log("This concludes the research experiment. Please remove your headgear.");
-					fader.SetActive (true);
+					screenFader.SetTrigger(Animator.StringToHash("Fade"));
 					yield return StartCoroutine(PlaySoundAndWait(15, 5f)); // RS-10
 					break;
 

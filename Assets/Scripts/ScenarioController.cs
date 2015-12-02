@@ -15,7 +15,9 @@ public class ScenarioController : MonoBehaviour {
 	public AudioClip[] voiceClips;
 	public AudioClip[] soundEffects;
 
+	public GameObject animationTrigger;
 	public bool pushedFatMan = false; // did player push fat man???
+	public GameObject fader;
 
 	private int state = 0;
 	private bool scenarioStarted = false;
@@ -31,6 +33,8 @@ public class ScenarioController : MonoBehaviour {
 		source = GetComponent<AudioSource>();
 		// TODO: fade in
 		Debug.Log("Scene loaded. Press any key to begin.");
+		animationTrigger.SetActive (false);
+		fader.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -180,7 +184,7 @@ public class ScenarioController : MonoBehaviour {
 
 						decisionTime = Time.time;
 						// Enable pushing fat man
-						fatMan.GetComponent<Animator>().enabled = false;
+						animationTrigger.SetActive (true);
 
 						Debug.Log("Oh man oh man oh man. What do we do?");
 						yield return StartCoroutine(PlaySoundAndWait(12, 3f)); // RS-08
@@ -206,6 +210,7 @@ public class ScenarioController : MonoBehaviour {
 
 					// TODO: Fade out scene
 					Debug.Log("This concludes the research experiment. Please remove your headgear.");
+					fader.SetActive (true);
 					yield return StartCoroutine(PlaySoundAndWait(15, 5f)); // RS-10
 					break;
 

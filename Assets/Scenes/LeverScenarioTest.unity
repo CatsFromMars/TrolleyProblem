@@ -1690,6 +1690,8 @@ MonoBehaviour:
   pLight2: {fileID: 348942384}
   areaLight: {fileID: 1411141177}
   electricity: {fileID: 1100742667}
+  RSSource: {fileID: 645733115}
+  AISource: {fileID: 58457852}
   voiceClips:
   - {fileID: 8300000, guid: 9035213cd1959a346a1c083ea559d606, type: 3}
   - {fileID: 8300000, guid: 2e87c78c8d981f8449a02337199f7aa5, type: 3}
@@ -1760,7 +1762,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -.699999988
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0

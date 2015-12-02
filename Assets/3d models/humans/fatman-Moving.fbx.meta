@@ -1,0 +1,1523 @@
+fileFormatVersion: 2
+guid: daaf3ac11c549fc48bc29544bb791616
+timeCreated: 1449018604
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BONNIE:BONNIE
+    100002: BONNIE:BONNIE_head_a_jnt
+    100004: BONNIE:BONNIE_hip_jnt
+    100006: BONNIE:BONNIE_lf_ankle_jnt
+    100008: BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt
+    100010: BONNIE:BONNIE_lf_ankleBallReader_Ball_jnt
+    100012: BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt
+    100014: BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt
+    100016: BONNIE:BONNIE_lf_ankleCtrl_jnt
+    100018: BONNIE:BONNIE_lf_ankleWeight_jnt
+    100020: BONNIE:BONNIE_lf_arm_rig_grp
+    100022: BONNIE:BONNIE_lf_ball_jnt
+    100024: BONNIE:BONNIE_lf_clavicle_jnt
+    100026: BONNIE:BONNIE_lf_elbow_jnt
+    100028: BONNIE:BONNIE_lf_elbowCtrl_jnt
+    100030: BONNIE:BONNIE_lf_elbowCtrlSplit_1_jnt
+    100032: BONNIE:BONNIE_lf_elbowCtrlSplit_2_jnt
+    100034: BONNIE:BONNIE_lf_elbowWeight_jnt
+    100036: BONNIE:BONNIE_lf_elbowWeightSplit_1_jnt
+    100038: BONNIE:BONNIE_lf_elbowWeightSplit_2_jnt
+    100040: BONNIE:BONNIE_lf_hand_jnt
+    100042: BONNIE:BONNIE_lf_index_a_jnt
+    100044: BONNIE:BONNIE_lf_index_b_jnt
+    100046: BONNIE:BONNIE_lf_index_c_jnt
+    100048: BONNIE:BONNIE_lf_index_d_jnt
+    100050: BONNIE:BONNIE_lf_knee_jnt
+    100052: BONNIE:BONNIE_lf_kneeCtrl_jnt
+    100054: BONNIE:BONNIE_lf_kneeCtrlSplit_1_jnt
+    100056: BONNIE:BONNIE_lf_kneeWeight_jnt
+    100058: BONNIE:BONNIE_lf_kneeWeightSplit_1_jnt
+    100060: BONNIE:BONNIE_lf_leg_rig_grp
+    100062: BONNIE:BONNIE_lf_middle_a_jnt
+    100064: BONNIE:BONNIE_lf_middle_b_jnt
+    100066: BONNIE:BONNIE_lf_middle_c_jnt
+    100068: BONNIE:BONNIE_lf_middle_d_jnt
+    100070: BONNIE:BONNIE_lf_pinky_a_jnt
+    100072: BONNIE:BONNIE_lf_pinky_b_jnt
+    100074: BONNIE:BONNIE_lf_pinky_c_jnt
+    100076: BONNIE:BONNIE_lf_pinky_d_jnt
+    100078: BONNIE:BONNIE_lf_pinkyCup_jnt
+    100080: BONNIE:BONNIE_lf_ring_a_jnt
+    100082: BONNIE:BONNIE_lf_ring_b_jnt
+    100084: BONNIE:BONNIE_lf_ring_c_jnt
+    100086: BONNIE:BONNIE_lf_ring_d_jnt
+    100088: BONNIE:BONNIE_lf_ringCup_jnt
+    100090: BONNIE:BONNIE_lf_thumb_a_jnt
+    100092: BONNIE:BONNIE_lf_thumb_b_jnt
+    100094: BONNIE:BONNIE_lf_thumb_c_jnt
+    100096: BONNIE:BONNIE_lf_thumb_d_jnt
+    100098: BONNIE:BONNIE_lf_toe_jnt
+    100100: BONNIE:BONNIE_lf_upArm_jnt
+    100102: BONNIE:BONNIE_lf_upArmCtrl_jnt
+    100104: BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp
+    100106: BONNIE:BONNIE_lf_upArmCtrlSplit_1_jnt
+    100108: BONNIE:BONNIE_lf_upArmTwistTarget_loc
+    100110: BONNIE:BONNIE_lf_upArmWeight_jnt
+    100112: BONNIE:BONNIE_lf_upArmWeightSplit_1_jnt
+    100114: BONNIE:BONNIE_lf_upLeg_jnt
+    100116: BONNIE:BONNIE_lf_upLegCtrl_jnt
+    100118: BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp
+    100120: BONNIE:BONNIE_lf_upLegCtrlSplit_1_jnt
+    100122: BONNIE:BONNIE_lf_upLegWeight_jnt
+    100124: BONNIE:BONNIE_lf_upLegWeightSplit_1_jnt
+    100126: BONNIE:BONNIE_lf_wrist_jnt
+    100128: BONNIE:BONNIE_lf_wristCtrl_jnt
+    100130: BONNIE:BONNIE_lf_wristWeight_jnt
+    100132: BONNIE:BONNIE_neck_jnt
+    100134: BONNIE:BONNIE_rig_grp
+    100136: BONNIE:BONNIE_rt_ankle_jnt
+    100138: BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt
+    100140: BONNIE:BONNIE_rt_ankleBallReader_Ball_jnt
+    100142: BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt
+    100144: BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt
+    100146: BONNIE:BONNIE_rt_ankleCtrl_jnt
+    100148: BONNIE:BONNIE_rt_ankleWeight_jnt
+    100150: BONNIE:BONNIE_rt_arm_rig_grp
+    100152: BONNIE:BONNIE_rt_ball_jnt
+    100154: BONNIE:BONNIE_rt_clavicle_jnt
+    100156: BONNIE:BONNIE_rt_elbow_jnt
+    100158: BONNIE:BONNIE_rt_elbowCtrl_jnt
+    100160: BONNIE:BONNIE_rt_elbowCtrlSplit_1_jnt
+    100162: BONNIE:BONNIE_rt_elbowCtrlSplit_2_jnt
+    100164: BONNIE:BONNIE_rt_elbowWeight_jnt
+    100166: BONNIE:BONNIE_rt_elbowWeightSplit_1_jnt
+    100168: BONNIE:BONNIE_rt_elbowWeightSplit_2_jnt
+    100170: BONNIE:BONNIE_rt_hand_jnt
+    100172: BONNIE:BONNIE_rt_index_a_jnt
+    100174: BONNIE:BONNIE_rt_index_b_jnt
+    100176: BONNIE:BONNIE_rt_index_c_jnt
+    100178: BONNIE:BONNIE_rt_index_d_jnt
+    100180: BONNIE:BONNIE_rt_knee_jnt
+    100182: BONNIE:BONNIE_rt_kneeCtrl_jnt
+    100184: BONNIE:BONNIE_rt_kneeCtrlSplit_1_jnt
+    100186: BONNIE:BONNIE_rt_kneeWeight_jnt
+    100188: BONNIE:BONNIE_rt_kneeWeightSplit_1_jnt
+    100190: BONNIE:BONNIE_rt_leg_rig_grp
+    100192: BONNIE:BONNIE_rt_middle_a_jnt
+    100194: BONNIE:BONNIE_rt_middle_b_jnt
+    100196: BONNIE:BONNIE_rt_middle_c_jnt
+    100198: BONNIE:BONNIE_rt_middle_d_jnt
+    100200: BONNIE:BONNIE_rt_pinky_a_jnt
+    100202: BONNIE:BONNIE_rt_pinky_b_jnt
+    100204: BONNIE:BONNIE_rt_pinky_c_jnt
+    100206: BONNIE:BONNIE_rt_pinky_d_jnt
+    100208: BONNIE:BONNIE_rt_pinkyCup_jnt
+    100210: BONNIE:BONNIE_rt_ring_a_jnt
+    100212: BONNIE:BONNIE_rt_ring_b_jnt
+    100214: BONNIE:BONNIE_rt_ring_c_jnt
+    100216: BONNIE:BONNIE_rt_ring_d_jnt
+    100218: BONNIE:BONNIE_rt_ringCup_jnt
+    100220: BONNIE:BONNIE_rt_thumb_a_jnt
+    100222: BONNIE:BONNIE_rt_thumb_b_jnt
+    100224: BONNIE:BONNIE_rt_thumb_c_jnt
+    100226: BONNIE:BONNIE_rt_thumb_d_jnt
+    100228: BONNIE:BONNIE_rt_toe_jnt
+    100230: BONNIE:BONNIE_rt_upArm_jnt
+    100232: BONNIE:BONNIE_rt_upArmCtrl_jnt
+    100234: BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp
+    100236: BONNIE:BONNIE_rt_upArmCtrlSplit_1_jnt
+    100238: BONNIE:BONNIE_rt_upArmTwistTarget_loc
+    100240: BONNIE:BONNIE_rt_upArmWeight_jnt
+    100242: BONNIE:BONNIE_rt_upArmWeightSplit_1_jnt
+    100244: BONNIE:BONNIE_rt_upLeg_jnt
+    100246: BONNIE:BONNIE_rt_upLegCtrl_jnt
+    100248: BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp
+    100250: BONNIE:BONNIE_rt_upLegCtrlSplit_1_jnt
+    100252: BONNIE:BONNIE_rt_upLegWeight_jnt
+    100254: BONNIE:BONNIE_rt_upLegWeightSplit_1_jnt
+    100256: BONNIE:BONNIE_rt_wrist_jnt
+    100258: BONNIE:BONNIE_rt_wristCtrl_jnt
+    100260: BONNIE:BONNIE_rt_wristWeight_jnt
+    100262: BONNIE:BONNIE_Skeleton_grp
+    100264: BONNIE:BONNIE_spine_end_jnt
+    100266: BONNIE:BONNIE_spine_hi_jnt
+    100268: BONNIE:BONNIE_spine_low_jnt
+    100270: BONNIE:BONNIE_spine_mid_jnt
+    100272: BONNIE:BONNIE_spine_rig_grp
+    100274: BONNIE:BONNIE_spineRig_a_jnt
+    100276: BONNIE:BONNIE_spineRig_b_jnt
+    100278: BONNIE:BONNIE_spineRig_c_jnt
+    100280: BONNIE:BONNIE_spineRig_d_jnt
+    100282: BONNIE:BONNIE_spineRig_e_jnt
+    100284: BONNIE:BONNIE_spineRig_f_jnt
+    100286: BONNIE:BONNIE_spineRig_g_jnt
+    100288: BONNIE:BONNIE_spineRig_h_jnt
+    100290: BONNIE:BONNIE_weightSpine_b_jnt
+    100292: BONNIE:BONNIE_weightSpine_c_jnt
+    100294: BONNIE:BONNIE_weightSpine_d_jnt
+    100296: BONNIE:BONNIE_weightSpine_e_jnt
+    100298: BONNIE:BONNIE_weightSpine_f_jnt
+    100300: BONNIE:BONNIE_weightSpine_g_jnt
+    100302: BONNIE:lf_armWeightJnt_grp
+    100304: BONNIE:lf_armWtCtrlJnt_grp
+    100306: BONNIE:lf_legWeightJnt_grp
+    100308: BONNIE:lf_legWtCtrlJnt_grp
+    100310: BONNIE:refSpine_a
+    100312: BONNIE:refSpine_b
+    100314: BONNIE:refSpine_c
+    100316: BONNIE:refSpine_d
+    100318: BONNIE:refSpine_e
+    100320: BONNIE:refSpine_f
+    100322: BONNIE:refSpine_g
+    100324: BONNIE:refSpine_h
+    100326: BONNIE:rt_armWeightJnt_grp
+    100328: BONNIE:rt_armWtCtrlJnt_grp
+    100330: BONNIE:rt_legWeightJnt_grp
+    100332: BONNIE:rt_legWtCtrlJnt_grp
+    100334: BONNIE:weightSpine_grp
+    100336: //RootNode
+    100338: group
+    100340: humanBody2:humanBody_1
+    400000: BONNIE:BONNIE
+    400002: BONNIE:BONNIE_head_a_jnt
+    400004: BONNIE:BONNIE_hip_jnt
+    400006: BONNIE:BONNIE_lf_ankle_jnt
+    400008: BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt
+    400010: BONNIE:BONNIE_lf_ankleBallReader_Ball_jnt
+    400012: BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt
+    400014: BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt
+    400016: BONNIE:BONNIE_lf_ankleCtrl_jnt
+    400018: BONNIE:BONNIE_lf_ankleWeight_jnt
+    400020: BONNIE:BONNIE_lf_arm_rig_grp
+    400022: BONNIE:BONNIE_lf_ball_jnt
+    400024: BONNIE:BONNIE_lf_clavicle_jnt
+    400026: BONNIE:BONNIE_lf_elbow_jnt
+    400028: BONNIE:BONNIE_lf_elbowCtrl_jnt
+    400030: BONNIE:BONNIE_lf_elbowCtrlSplit_1_jnt
+    400032: BONNIE:BONNIE_lf_elbowCtrlSplit_2_jnt
+    400034: BONNIE:BONNIE_lf_elbowWeight_jnt
+    400036: BONNIE:BONNIE_lf_elbowWeightSplit_1_jnt
+    400038: BONNIE:BONNIE_lf_elbowWeightSplit_2_jnt
+    400040: BONNIE:BONNIE_lf_hand_jnt
+    400042: BONNIE:BONNIE_lf_index_a_jnt
+    400044: BONNIE:BONNIE_lf_index_b_jnt
+    400046: BONNIE:BONNIE_lf_index_c_jnt
+    400048: BONNIE:BONNIE_lf_index_d_jnt
+    400050: BONNIE:BONNIE_lf_knee_jnt
+    400052: BONNIE:BONNIE_lf_kneeCtrl_jnt
+    400054: BONNIE:BONNIE_lf_kneeCtrlSplit_1_jnt
+    400056: BONNIE:BONNIE_lf_kneeWeight_jnt
+    400058: BONNIE:BONNIE_lf_kneeWeightSplit_1_jnt
+    400060: BONNIE:BONNIE_lf_leg_rig_grp
+    400062: BONNIE:BONNIE_lf_middle_a_jnt
+    400064: BONNIE:BONNIE_lf_middle_b_jnt
+    400066: BONNIE:BONNIE_lf_middle_c_jnt
+    400068: BONNIE:BONNIE_lf_middle_d_jnt
+    400070: BONNIE:BONNIE_lf_pinky_a_jnt
+    400072: BONNIE:BONNIE_lf_pinky_b_jnt
+    400074: BONNIE:BONNIE_lf_pinky_c_jnt
+    400076: BONNIE:BONNIE_lf_pinky_d_jnt
+    400078: BONNIE:BONNIE_lf_pinkyCup_jnt
+    400080: BONNIE:BONNIE_lf_ring_a_jnt
+    400082: BONNIE:BONNIE_lf_ring_b_jnt
+    400084: BONNIE:BONNIE_lf_ring_c_jnt
+    400086: BONNIE:BONNIE_lf_ring_d_jnt
+    400088: BONNIE:BONNIE_lf_ringCup_jnt
+    400090: BONNIE:BONNIE_lf_thumb_a_jnt
+    400092: BONNIE:BONNIE_lf_thumb_b_jnt
+    400094: BONNIE:BONNIE_lf_thumb_c_jnt
+    400096: BONNIE:BONNIE_lf_thumb_d_jnt
+    400098: BONNIE:BONNIE_lf_toe_jnt
+    400100: BONNIE:BONNIE_lf_upArm_jnt
+    400102: BONNIE:BONNIE_lf_upArmCtrl_jnt
+    400104: BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp
+    400106: BONNIE:BONNIE_lf_upArmCtrlSplit_1_jnt
+    400108: BONNIE:BONNIE_lf_upArmTwistTarget_loc
+    400110: BONNIE:BONNIE_lf_upArmWeight_jnt
+    400112: BONNIE:BONNIE_lf_upArmWeightSplit_1_jnt
+    400114: BONNIE:BONNIE_lf_upLeg_jnt
+    400116: BONNIE:BONNIE_lf_upLegCtrl_jnt
+    400118: BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp
+    400120: BONNIE:BONNIE_lf_upLegCtrlSplit_1_jnt
+    400122: BONNIE:BONNIE_lf_upLegWeight_jnt
+    400124: BONNIE:BONNIE_lf_upLegWeightSplit_1_jnt
+    400126: BONNIE:BONNIE_lf_wrist_jnt
+    400128: BONNIE:BONNIE_lf_wristCtrl_jnt
+    400130: BONNIE:BONNIE_lf_wristWeight_jnt
+    400132: BONNIE:BONNIE_neck_jnt
+    400134: BONNIE:BONNIE_rig_grp
+    400136: BONNIE:BONNIE_rt_ankle_jnt
+    400138: BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt
+    400140: BONNIE:BONNIE_rt_ankleBallReader_Ball_jnt
+    400142: BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt
+    400144: BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt
+    400146: BONNIE:BONNIE_rt_ankleCtrl_jnt
+    400148: BONNIE:BONNIE_rt_ankleWeight_jnt
+    400150: BONNIE:BONNIE_rt_arm_rig_grp
+    400152: BONNIE:BONNIE_rt_ball_jnt
+    400154: BONNIE:BONNIE_rt_clavicle_jnt
+    400156: BONNIE:BONNIE_rt_elbow_jnt
+    400158: BONNIE:BONNIE_rt_elbowCtrl_jnt
+    400160: BONNIE:BONNIE_rt_elbowCtrlSplit_1_jnt
+    400162: BONNIE:BONNIE_rt_elbowCtrlSplit_2_jnt
+    400164: BONNIE:BONNIE_rt_elbowWeight_jnt
+    400166: BONNIE:BONNIE_rt_elbowWeightSplit_1_jnt
+    400168: BONNIE:BONNIE_rt_elbowWeightSplit_2_jnt
+    400170: BONNIE:BONNIE_rt_hand_jnt
+    400172: BONNIE:BONNIE_rt_index_a_jnt
+    400174: BONNIE:BONNIE_rt_index_b_jnt
+    400176: BONNIE:BONNIE_rt_index_c_jnt
+    400178: BONNIE:BONNIE_rt_index_d_jnt
+    400180: BONNIE:BONNIE_rt_knee_jnt
+    400182: BONNIE:BONNIE_rt_kneeCtrl_jnt
+    400184: BONNIE:BONNIE_rt_kneeCtrlSplit_1_jnt
+    400186: BONNIE:BONNIE_rt_kneeWeight_jnt
+    400188: BONNIE:BONNIE_rt_kneeWeightSplit_1_jnt
+    400190: BONNIE:BONNIE_rt_leg_rig_grp
+    400192: BONNIE:BONNIE_rt_middle_a_jnt
+    400194: BONNIE:BONNIE_rt_middle_b_jnt
+    400196: BONNIE:BONNIE_rt_middle_c_jnt
+    400198: BONNIE:BONNIE_rt_middle_d_jnt
+    400200: BONNIE:BONNIE_rt_pinky_a_jnt
+    400202: BONNIE:BONNIE_rt_pinky_b_jnt
+    400204: BONNIE:BONNIE_rt_pinky_c_jnt
+    400206: BONNIE:BONNIE_rt_pinky_d_jnt
+    400208: BONNIE:BONNIE_rt_pinkyCup_jnt
+    400210: BONNIE:BONNIE_rt_ring_a_jnt
+    400212: BONNIE:BONNIE_rt_ring_b_jnt
+    400214: BONNIE:BONNIE_rt_ring_c_jnt
+    400216: BONNIE:BONNIE_rt_ring_d_jnt
+    400218: BONNIE:BONNIE_rt_ringCup_jnt
+    400220: BONNIE:BONNIE_rt_thumb_a_jnt
+    400222: BONNIE:BONNIE_rt_thumb_b_jnt
+    400224: BONNIE:BONNIE_rt_thumb_c_jnt
+    400226: BONNIE:BONNIE_rt_thumb_d_jnt
+    400228: BONNIE:BONNIE_rt_toe_jnt
+    400230: BONNIE:BONNIE_rt_upArm_jnt
+    400232: BONNIE:BONNIE_rt_upArmCtrl_jnt
+    400234: BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp
+    400236: BONNIE:BONNIE_rt_upArmCtrlSplit_1_jnt
+    400238: BONNIE:BONNIE_rt_upArmTwistTarget_loc
+    400240: BONNIE:BONNIE_rt_upArmWeight_jnt
+    400242: BONNIE:BONNIE_rt_upArmWeightSplit_1_jnt
+    400244: BONNIE:BONNIE_rt_upLeg_jnt
+    400246: BONNIE:BONNIE_rt_upLegCtrl_jnt
+    400248: BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp
+    400250: BONNIE:BONNIE_rt_upLegCtrlSplit_1_jnt
+    400252: BONNIE:BONNIE_rt_upLegWeight_jnt
+    400254: BONNIE:BONNIE_rt_upLegWeightSplit_1_jnt
+    400256: BONNIE:BONNIE_rt_wrist_jnt
+    400258: BONNIE:BONNIE_rt_wristCtrl_jnt
+    400260: BONNIE:BONNIE_rt_wristWeight_jnt
+    400262: BONNIE:BONNIE_Skeleton_grp
+    400264: BONNIE:BONNIE_spine_end_jnt
+    400266: BONNIE:BONNIE_spine_hi_jnt
+    400268: BONNIE:BONNIE_spine_low_jnt
+    400270: BONNIE:BONNIE_spine_mid_jnt
+    400272: BONNIE:BONNIE_spine_rig_grp
+    400274: BONNIE:BONNIE_spineRig_a_jnt
+    400276: BONNIE:BONNIE_spineRig_b_jnt
+    400278: BONNIE:BONNIE_spineRig_c_jnt
+    400280: BONNIE:BONNIE_spineRig_d_jnt
+    400282: BONNIE:BONNIE_spineRig_e_jnt
+    400284: BONNIE:BONNIE_spineRig_f_jnt
+    400286: BONNIE:BONNIE_spineRig_g_jnt
+    400288: BONNIE:BONNIE_spineRig_h_jnt
+    400290: BONNIE:BONNIE_weightSpine_b_jnt
+    400292: BONNIE:BONNIE_weightSpine_c_jnt
+    400294: BONNIE:BONNIE_weightSpine_d_jnt
+    400296: BONNIE:BONNIE_weightSpine_e_jnt
+    400298: BONNIE:BONNIE_weightSpine_f_jnt
+    400300: BONNIE:BONNIE_weightSpine_g_jnt
+    400302: BONNIE:lf_armWeightJnt_grp
+    400304: BONNIE:lf_armWtCtrlJnt_grp
+    400306: BONNIE:lf_legWeightJnt_grp
+    400308: BONNIE:lf_legWtCtrlJnt_grp
+    400310: BONNIE:refSpine_a
+    400312: BONNIE:refSpine_b
+    400314: BONNIE:refSpine_c
+    400316: BONNIE:refSpine_d
+    400318: BONNIE:refSpine_e
+    400320: BONNIE:refSpine_f
+    400322: BONNIE:refSpine_g
+    400324: BONNIE:refSpine_h
+    400326: BONNIE:rt_armWeightJnt_grp
+    400328: BONNIE:rt_armWtCtrlJnt_grp
+    400330: BONNIE:rt_legWeightJnt_grp
+    400332: BONNIE:rt_legWtCtrlJnt_grp
+    400334: BONNIE:weightSpine_grp
+    400336: //RootNode
+    400338: group
+    400340: humanBody2:humanBody_1
+    4300000: humanBody2:humanBody_1
+    7400000: Walk
+    7400002: FixLoop
+    7400004: Fall
+    9500000: //RootNode
+    13700000: humanBody2:humanBody_1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 36
+      lastFrame: 232
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONNIE:BONNIE
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_wristCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt/BONNIE:BONNIE_lf_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt/BONNIE:BONNIE_lf_upArmTwistTarget_loc
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt/BONNIE:BONNIE_lf_ankleCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt/BONNIE:BONNIE_lf_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upLegCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upLegCtrl_jnt/BONNIE:BONNIE_lf_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_wristCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt/BONNIE:BONNIE_rt_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt/BONNIE:BONNIE_rt_upArmTwistTarget_loc
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt/BONNIE:BONNIE_rt_ankleCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt/BONNIE:BONNIE_rt_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upLegCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upLegCtrl_jnt/BONNIE:BONNIE_rt_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt/BONNIE:BONNIE_spineRig_g_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt/BONNIE:BONNIE_spineRig_g_jnt/BONNIE:BONNIE_spineRig_h_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f/BONNIE:refSpine_g
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f/BONNIE:refSpine_g/BONNIE:refSpine_h
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt/BONNIE:BONNIE_lf_ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt/BONNIE:BONNIE_lf_ball_jnt/BONNIE:BONNIE_lf_toe_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt/BONNIE:BONNIE_rt_ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt/BONNIE:BONNIE_rt_ball_jnt/BONNIE:BONNIE_rt_toe_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt/BONNIE:BONNIE_lf_index_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt/BONNIE:BONNIE_lf_index_c_jnt/BONNIE:BONNIE_lf_index_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt/BONNIE:BONNIE_lf_middle_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt/BONNIE:BONNIE_lf_middle_c_jnt/BONNIE:BONNIE_lf_middle_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt/BONNIE:BONNIE_lf_pinky_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt/BONNIE:BONNIE_lf_pinky_c_jnt/BONNIE:BONNIE_lf_pinky_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt/BONNIE:BONNIE_lf_ring_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt/BONNIE:BONNIE_lf_ring_c_jnt/BONNIE:BONNIE_lf_ring_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt/BONNIE:BONNIE_lf_thumb_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt/BONNIE:BONNIE_lf_thumb_c_jnt/BONNIE:BONNIE_lf_thumb_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_neck_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_neck_jnt/BONNIE:BONNIE_head_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt/BONNIE:BONNIE_rt_index_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt/BONNIE:BONNIE_rt_index_c_jnt/BONNIE:BONNIE_rt_index_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt/BONNIE:BONNIE_rt_middle_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt/BONNIE:BONNIE_rt_middle_c_jnt/BONNIE:BONNIE_rt_middle_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt/BONNIE:BONNIE_rt_pinky_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt/BONNIE:BONNIE_rt_pinky_c_jnt/BONNIE:BONNIE_rt_pinky_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt/BONNIE:BONNIE_rt_ring_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt/BONNIE:BONNIE_rt_ring_c_jnt/BONNIE:BONNIE_rt_ring_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt/BONNIE:BONNIE_rt_thumb_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt/BONNIE:BONNIE_rt_thumb_c_jnt/BONNIE:BONNIE_rt_thumb_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_upArmWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_wristWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_ankleWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_kneeWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_upLegWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_upArmWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_wristWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_ankleWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_kneeWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_upLegWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_e_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_f_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_g_jnt
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/humanBody2:humanBody_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FixLoop
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONNIE:BONNIE
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_wristCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt/BONNIE:BONNIE_lf_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt/BONNIE:BONNIE_lf_upArmTwistTarget_loc
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt/BONNIE:BONNIE_lf_ankleCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt/BONNIE:BONNIE_lf_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upLegCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upLegCtrl_jnt/BONNIE:BONNIE_lf_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_wristCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt/BONNIE:BONNIE_rt_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt/BONNIE:BONNIE_rt_upArmTwistTarget_loc
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt/BONNIE:BONNIE_rt_ankleCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt/BONNIE:BONNIE_rt_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upLegCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upLegCtrl_jnt/BONNIE:BONNIE_rt_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt/BONNIE:BONNIE_spineRig_g_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt/BONNIE:BONNIE_spineRig_g_jnt/BONNIE:BONNIE_spineRig_h_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f/BONNIE:refSpine_g
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f/BONNIE:refSpine_g/BONNIE:refSpine_h
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt/BONNIE:BONNIE_lf_ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt/BONNIE:BONNIE_lf_ball_jnt/BONNIE:BONNIE_lf_toe_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt/BONNIE:BONNIE_rt_ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt/BONNIE:BONNIE_rt_ball_jnt/BONNIE:BONNIE_rt_toe_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt/BONNIE:BONNIE_lf_index_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt/BONNIE:BONNIE_lf_index_c_jnt/BONNIE:BONNIE_lf_index_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt/BONNIE:BONNIE_lf_middle_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt/BONNIE:BONNIE_lf_middle_c_jnt/BONNIE:BONNIE_lf_middle_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt/BONNIE:BONNIE_lf_pinky_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt/BONNIE:BONNIE_lf_pinky_c_jnt/BONNIE:BONNIE_lf_pinky_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt/BONNIE:BONNIE_lf_ring_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt/BONNIE:BONNIE_lf_ring_c_jnt/BONNIE:BONNIE_lf_ring_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt/BONNIE:BONNIE_lf_thumb_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt/BONNIE:BONNIE_lf_thumb_c_jnt/BONNIE:BONNIE_lf_thumb_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_neck_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_neck_jnt/BONNIE:BONNIE_head_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt/BONNIE:BONNIE_rt_index_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt/BONNIE:BONNIE_rt_index_c_jnt/BONNIE:BONNIE_rt_index_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt/BONNIE:BONNIE_rt_middle_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt/BONNIE:BONNIE_rt_middle_c_jnt/BONNIE:BONNIE_rt_middle_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt/BONNIE:BONNIE_rt_pinky_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt/BONNIE:BONNIE_rt_pinky_c_jnt/BONNIE:BONNIE_rt_pinky_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt/BONNIE:BONNIE_rt_ring_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt/BONNIE:BONNIE_rt_ring_c_jnt/BONNIE:BONNIE_rt_ring_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt/BONNIE:BONNIE_rt_thumb_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt/BONNIE:BONNIE_rt_thumb_c_jnt/BONNIE:BONNIE_rt_thumb_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_upArmWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_wristWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_ankleWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_kneeWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_upLegWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_upArmWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_wristWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_ankleWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_kneeWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_upLegWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_e_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_f_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_g_jnt
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/humanBody2:humanBody_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fall
+      takeName: Take 001
+      firstFrame: 445
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONNIE:BONNIE
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_elbowCtrl_jnt/BONNIE:BONNIE_lf_wristCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt/BONNIE:BONNIE_lf_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_arm_rig_grp/BONNIE:lf_armWtCtrlJnt_grp/BONNIE:BONNIE_lf_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upArmCtrl_jnt/BONNIE:BONNIE_lf_upArmTwistTarget_loc
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:BONNIE_lf_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_lf_ankleBallReader_Knee_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ankle_jnt/BONNIE:BONNIE_lf_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt/BONNIE:BONNIE_lf_ankleCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_kneeCtrl_jnt/BONNIE:BONNIE_lf_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upLegCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_lf_leg_rig_grp/BONNIE:lf_legWtCtrlJnt_grp/BONNIE:BONNIE_lf_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_lf_upLegCtrl_jnt/BONNIE:BONNIE_lf_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_elbowCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_elbowCtrlSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_elbowCtrl_jnt/BONNIE:BONNIE_rt_wristCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt/BONNIE:BONNIE_rt_upArmCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_arm_rig_grp/BONNIE:rt_armWtCtrlJnt_grp/BONNIE:BONNIE_rt_upArmCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upArmCtrl_jnt/BONNIE:BONNIE_rt_upArmTwistTarget_loc
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:BONNIE_rt_ankleBallReader_UpLeg_jnt/BONNIE:BONNIE_rt_ankleBallReader_Knee_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ankle_jnt/BONNIE:BONNIE_rt_ankleBallReader_Ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt/BONNIE:BONNIE_rt_ankleCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_kneeCtrl_jnt/BONNIE:BONNIE_rt_kneeCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upLegCtrl_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_rt_leg_rig_grp/BONNIE:rt_legWtCtrlJnt_grp/BONNIE:BONNIE_rt_upLegCtrl_jnt_frzGrp/BONNIE:BONNIE_rt_upLegCtrl_jnt/BONNIE:BONNIE_rt_upLegCtrlSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt/BONNIE:BONNIE_spineRig_g_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:BONNIE_spineRig_a_jnt/BONNIE:BONNIE_spineRig_b_jnt/BONNIE:BONNIE_spineRig_c_jnt/BONNIE:BONNIE_spineRig_d_jnt/BONNIE:BONNIE_spineRig_e_jnt/BONNIE:BONNIE_spineRig_f_jnt/BONNIE:BONNIE_spineRig_g_jnt/BONNIE:BONNIE_spineRig_h_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f/BONNIE:refSpine_g
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_rig_grp/BONNIE:BONNIE_spine_rig_grp/BONNIE:refSpine_a/BONNIE:refSpine_b/BONNIE:refSpine_c/BONNIE:refSpine_d/BONNIE:refSpine_e/BONNIE:refSpine_f/BONNIE:refSpine_g/BONNIE:refSpine_h
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt/BONNIE:BONNIE_lf_ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_lf_upLeg_jnt/BONNIE:BONNIE_lf_knee_jnt/BONNIE:BONNIE_lf_ankle_jnt/BONNIE:BONNIE_lf_ball_jnt/BONNIE:BONNIE_lf_toe_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt/BONNIE:BONNIE_rt_ball_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_hip_jnt/BONNIE:BONNIE_rt_upLeg_jnt/BONNIE:BONNIE_rt_knee_jnt/BONNIE:BONNIE_rt_ankle_jnt/BONNIE:BONNIE_rt_ball_jnt/BONNIE:BONNIE_rt_toe_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt/BONNIE:BONNIE_lf_index_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_index_a_jnt/BONNIE:BONNIE_lf_index_b_jnt/BONNIE:BONNIE_lf_index_c_jnt/BONNIE:BONNIE_lf_index_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt/BONNIE:BONNIE_lf_middle_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_middle_a_jnt/BONNIE:BONNIE_lf_middle_b_jnt/BONNIE:BONNIE_lf_middle_c_jnt/BONNIE:BONNIE_lf_middle_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt/BONNIE:BONNIE_lf_pinky_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_pinkyCup_jnt/BONNIE:BONNIE_lf_pinky_a_jnt/BONNIE:BONNIE_lf_pinky_b_jnt/BONNIE:BONNIE_lf_pinky_c_jnt/BONNIE:BONNIE_lf_pinky_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt/BONNIE:BONNIE_lf_ring_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_ringCup_jnt/BONNIE:BONNIE_lf_ring_a_jnt/BONNIE:BONNIE_lf_ring_b_jnt/BONNIE:BONNIE_lf_ring_c_jnt/BONNIE:BONNIE_lf_ring_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt/BONNIE:BONNIE_lf_thumb_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_lf_clavicle_jnt/BONNIE:BONNIE_lf_upArm_jnt/BONNIE:BONNIE_lf_elbow_jnt/BONNIE:BONNIE_lf_wrist_jnt/BONNIE:BONNIE_lf_hand_jnt/BONNIE:BONNIE_lf_thumb_a_jnt/BONNIE:BONNIE_lf_thumb_b_jnt/BONNIE:BONNIE_lf_thumb_c_jnt/BONNIE:BONNIE_lf_thumb_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_neck_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_neck_jnt/BONNIE:BONNIE_head_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt/BONNIE:BONNIE_rt_index_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_index_a_jnt/BONNIE:BONNIE_rt_index_b_jnt/BONNIE:BONNIE_rt_index_c_jnt/BONNIE:BONNIE_rt_index_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt/BONNIE:BONNIE_rt_middle_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_middle_a_jnt/BONNIE:BONNIE_rt_middle_b_jnt/BONNIE:BONNIE_rt_middle_c_jnt/BONNIE:BONNIE_rt_middle_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt/BONNIE:BONNIE_rt_pinky_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_pinkyCup_jnt/BONNIE:BONNIE_rt_pinky_a_jnt/BONNIE:BONNIE_rt_pinky_b_jnt/BONNIE:BONNIE_rt_pinky_c_jnt/BONNIE:BONNIE_rt_pinky_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt/BONNIE:BONNIE_rt_ring_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_ringCup_jnt/BONNIE:BONNIE_rt_ring_a_jnt/BONNIE:BONNIE_rt_ring_b_jnt/BONNIE:BONNIE_rt_ring_c_jnt/BONNIE:BONNIE_rt_ring_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt/BONNIE:BONNIE_rt_thumb_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:BONNIE_spine_low_jnt/BONNIE:BONNIE_spine_mid_jnt/BONNIE:BONNIE_spine_hi_jnt/BONNIE:BONNIE_spine_end_jnt/BONNIE:BONNIE_rt_clavicle_jnt/BONNIE:BONNIE_rt_upArm_jnt/BONNIE:BONNIE_rt_elbow_jnt/BONNIE:BONNIE_rt_wrist_jnt/BONNIE:BONNIE_rt_hand_jnt/BONNIE:BONNIE_rt_thumb_a_jnt/BONNIE:BONNIE_rt_thumb_b_jnt/BONNIE:BONNIE_rt_thumb_c_jnt/BONNIE:BONNIE_rt_thumb_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_upArmWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_armWeightJnt_grp/BONNIE:BONNIE_lf_wristWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_ankleWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_kneeWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_upLegWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:lf_legWeightJnt_grp/BONNIE:BONNIE_lf_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_elbowWeightSplit_2_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_upArmWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_upArmWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_armWeightJnt_grp/BONNIE:BONNIE_rt_wristWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_ankleWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_kneeWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_kneeWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_upLegWeight_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:rt_legWeightJnt_grp/BONNIE:BONNIE_rt_upLegWeightSplit_1_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_b_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_c_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_d_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_e_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_f_jnt
+        weight: 1
+      - path: BONNIE:BONNIE/BONNIE:BONNIE_Skeleton_grp/BONNIE:weightSpine_grp/BONNIE:BONNIE_weightSpine_g_jnt
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/humanBody2:humanBody_1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

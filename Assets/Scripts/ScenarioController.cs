@@ -33,7 +33,6 @@ public class ScenarioController : MonoBehaviour {
 		source = GetComponent<AudioSource>();
 		// TODO: fade in
 		Debug.Log("Scene loaded. Press any key to begin.");
-		animationTrigger.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -65,7 +64,6 @@ public class ScenarioController : MonoBehaviour {
 			switch (state++) {
 				// Intro phase
 				case 0:
-					yield return new WaitForSeconds(3f); // wait 3 seconds before starting script
 					Debug.Log("Hello, and welcome to the facility. Today, you will be assisting a few construction workers as they revamp the lab.");
 					yield return StartCoroutine(PlaySoundAndWait(0, 7f)); // RS-01
 

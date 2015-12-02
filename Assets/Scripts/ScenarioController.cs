@@ -15,7 +15,10 @@ public class ScenarioController : MonoBehaviour {
 	public AudioClip[] voiceClips;
 	public AudioClip[] soundEffects;
 
+	public bool pushedFatMan = false; // did player push fat man???
+
 	private int state = 0;
+	private bool scenarioStarted = false;
 	private bool panelControlsPlatforms = false;
 	private ButtonState buttonState = ButtonState.NotPressed;
 	private int timesFlipped = 0;
@@ -27,11 +30,17 @@ public class ScenarioController : MonoBehaviour {
 	void Start() {
 		source = GetComponent<AudioSource>();
 		// TODO: fade in
-		StartCoroutine(RunState());
+		Debug.Log("Scene loaded. Press any key to begin.");
 	}
 
 	// Update is called once per frame
 	void Update() {
+		// start state when key is pressed
+		if (!scenarioStarted && Input.anyKey) {
+			StartCoroutine(RunState());
+			scenarioStarted = true;
+		}
+
 		// Check if control panel affects platforms
 		if (panelControlsPlatforms && controller.buttonState != buttonState && controller.buttonState != ButtonState.NotPressed) {
 			actionTime = Time.time;
@@ -166,7 +175,7 @@ public class ScenarioController : MonoBehaviour {
 						Debug.Log("Oh man oh man oh man. What do we do?");
 						yield return StartCoroutine(PlaySoundAndWait(12, 3f)); // RS-08
 					} else {
-						Debug.Log("The emergency brakes won’t kick in unless the generator shorts. But the only way to short the electricity... The only way to stop the elevator is to push the worker in front of you and short the generator.");
+						Debug.Log("The emergency brakes won't kick in unless the generator shorts. But the only way to short the electricity... The only way to stop the elevator is to push the worker in front of you and short the generator.");
 						yield return StartCoroutine(PlaySoundAndWait(13, 10f)); // RS-09
 
 						decisionTime = Time.time;
@@ -214,10 +223,10 @@ public class ScenarioController : MonoBehaviour {
 							Debug.Log("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
 						}
 					} else {
-						if (groupPlatform.Dead) {
-							Debug.Log("Results: did not push fat man");
-						} else {
+						if (pushedFatMan) {
 							Debug.Log("Results: pushed fat man");
+						} else {
+							Debug.Log("Results: did not push fat man");
 						}
 					}
 
@@ -252,7 +261,7 @@ public class ScenarioController : MonoBehaviour {
 			yield return null;
 			dead = Config.Group == RGroup.LeverControl
 			         ? (singlePlatform.Dead || groupPlatform.Dead)
-			         : (groupPlatform.Dead || fatMan.transform.position.y <= -2f);
+			         : (groupPlatform.Dead || pushedFatMan);
 		}
 	}
 

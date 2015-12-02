@@ -198,6 +198,9 @@ public class ScenarioController : MonoBehaviour {
 						singlePlatform.Activated = false;
 						groupPlatform.Activated = false;
 					} else {
+						if (pushedFatMan) {
+							fatMan.GetComponent<AudioSource>().PlayOneShot(soundEffects[3]); // scream
+						}
 						groupPlatform.Activated = false;
 					}
 					break;

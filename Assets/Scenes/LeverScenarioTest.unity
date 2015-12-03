@@ -1869,15 +1869,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -.0190673955
+      value: -.017515
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -.916999996
+      value: -1.10450006
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -.639999986
+      value: -.666999996
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1897,19 +1897,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalScale.x
-      value: .147048458
+      value: .315773457
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalScale.y
-      value: .147048444
+      value: .315773427
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_LocalScale.z
-      value: .147048444
+      value: .315773427
       objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: efb06b24f79e64321a18d749c74662c1, type: 3}
       propertyPath: m_Name
@@ -2721,6 +2721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 645733112}
+  fmAnimator: {fileID: 1545101815}
 --- !u!54 &1245799805
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3228,6 +3229,11 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!95 &1545101815 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: daaf3ac11c549fc48bc29544bb791616,
+    type: 3}
+  m_PrefabInternal: {fileID: 1545101811}
 --- !u!4 &1564548250 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class AnimationTrigger : MonoBehaviour {
 	public ScenarioController controller;
+	public Animator fmAnimator;
 
     void Update() {
         // press 3 to trigger push
@@ -14,6 +15,7 @@ public class AnimationTrigger : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Hand") {
 			controller.pushedFatMan = true;
+			fmAnimator.SetBool(Animator.StringToHash("Push"), true);
 		}
 	}
 }

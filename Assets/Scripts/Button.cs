@@ -12,9 +12,11 @@ public class Button : MonoBehaviour {
 			Debug.Log("TWAS A HAND");
 			if (b == button.LEFT) {
 				c.buttonState = ButtonState.LeftPressed;
+				c.leftAnimator.SetTrigger(Animator.StringToHash("Push"));
 				mat.color = c.leftPressed;
 			} else {
 				c.buttonState = ButtonState.RightPressed;
+				c.rightAnimator.SetTrigger(Animator.StringToHash("Push"));
 				mat.color = c.rightPressed;
 			}
 		}

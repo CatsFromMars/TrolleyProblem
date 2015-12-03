@@ -1662,6 +1662,7 @@ GameObject:
   - 4: {fileID: 645733113}
   - 82: {fileID: 645733115}
   - 114: {fileID: 645733112}
+  - 114: {fileID: 645733116}
   - 114: {fileID: 645733114}
   m_Layer: 0
   m_Name: Scripts
@@ -1812,6 +1813,17 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &645733116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 645733111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c3dd7499db3d6498968765e3b71621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &661370223
 Prefab:
   m_ObjectHideFlags: 0

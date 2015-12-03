@@ -13,7 +13,10 @@ public class Arduino : MonoBehaviour {
 	void Start() {
 		// connect to port for Arduino
 		port = new SerialPort("COM3", 9600);
+		port.ReadTimeout = 500;
+
 		try {
+			port.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
 			port.Open();
 			Debug.Log("connected successfully to Arduino");
 
@@ -29,14 +32,14 @@ public class Arduino : MonoBehaviour {
 		}
 	}
 
-	void Update() {
-		if (writing && port.IsOpen) {
-			String message = port.ReadLine();
-			if (message.Length > 0) {
-				writer.WriteLine(message);
-			}
+	private void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e) {
+		if (!writing) {
+			return;
 		}
-	}
+        SerialPort sp = (SerialPort)sender;
+        string indata = sp.ReadExisting();
+        writer.Write(indata);
+    }
 
 	public void Finish() {
 		if (writer != null) {

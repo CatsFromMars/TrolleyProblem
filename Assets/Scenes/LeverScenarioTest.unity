@@ -896,6 +896,8 @@ MonoBehaviour:
   leftUnpressed: {r: .24394463, g: .502868176, b: .691176474, a: 1}
   rightPressed: {r: .788235366, g: .984313786, b: 1, a: 1}
   rightUnpressed: {r: .24313727, g: .501960814, b: .690196097, a: 1}
+  leftAnimator: {fileID: 294938366}
+  rightAnimator: {fileID: 294938369}
   disabled: {r: .625, g: .625, b: .625, a: 0}
 --- !u!135 &294938359
 SphereCollider:
@@ -950,6 +952,40 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: .600000024
   m_Center: {x: -.506378472, y: 3.26345301, z: 1.09105289}
+--- !u!95 &294938366
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294938354}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e669c67942db194e99815480600a7c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &294938369
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294938353}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42d2d92880f512c49b499602783602f9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &300336989
 Prefab:
   m_ObjectHideFlags: 0

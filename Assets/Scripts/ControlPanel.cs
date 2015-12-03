@@ -16,6 +16,8 @@ public class ControlPanel : MonoBehaviour {
 	public Color leftUnpressed;
 	public Color rightPressed;
 	public Color rightUnpressed;
+	public Animator leftAnimator;
+	public Animator rightAnimator;
 	public Color disabled;
 
 	// Is the control panel on (lit up and accepting input)?
@@ -50,11 +52,13 @@ public class ControlPanel : MonoBehaviour {
 			buttonState = ButtonState.LeftPressed;
 			leftMat.color = leftPressed;
 			rightMat.color = rightUnpressed;
+			rightAnimator.SetTrigger(Animator.StringToHash("Push"));
 			Debug.Log("Pressed left button");
 		} else if (Activated && Config.Debug && Input.GetKeyDown(KeyCode.Alpha2)) {
 			buttonState = ButtonState.RightPressed;
 			leftMat.color = leftUnpressed;
 			rightMat.color = rightPressed;
+			leftAnimator.SetTrigger(Animator.StringToHash("Push"));
 			Debug.Log("Pressed right button");
 		}
 

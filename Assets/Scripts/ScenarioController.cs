@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 using System.IO;
 
@@ -23,7 +24,6 @@ public class ScenarioController : MonoBehaviour {
 	public Animator screenFader;
 	public Arduino arduinoController;
 
-	private int subjectId;
 	private int state = 0;
 	private bool scenarioStarted = false;
 	private bool panelControlsPlatforms = false;
@@ -32,10 +32,9 @@ public class ScenarioController : MonoBehaviour {
 	private float decisionTime; // time decision is introduced
 	private float actionTime; // time when player has acted
 
-	private StreamWriter writer;
+	private string filename;
 
 	void Start() {
-		// TODO: fade in
 		Debug.Log("Scene loaded. Press any key to begin.");
 		animationTrigger.SetActive (false);
 	}
@@ -60,17 +59,22 @@ public class ScenarioController : MonoBehaviour {
 				singlePlatform.Activated = false;
 				groupPlatform.Activated = true;
 			}
+
+			arduinoController.logEvent = "Button pressed: " + (buttonState == ButtonState.RightPressed ? "right" : "left");
 		}
 	}
 
 	// Script-specific details, updating state of game
 	public IEnumerator RunState() {
+
 		while (state < 8) {
 			switch (state++) {
 				// Intro phase
 				case 0:
-					subjectId = arduinoController.InitializeArduino();
+					filename = arduinoController.InitializeArduino();
 					yield return new WaitForSeconds(1f);
+
+					arduinoController.logEvent = "Experiment started";
 
 					Debug.Log("Hello, and welcome to the facility. Today, you will be assisting a few construction workers as they revamp the lab.");
 					yield return StartCoroutine(PlaySoundAndWait(0, RSSource, 7f)); // RS-01
@@ -110,6 +114,7 @@ public class ScenarioController : MonoBehaviour {
 					pLight2.SetActive(false);
 					playerLighting.SetActive(false);
 					yield return StartCoroutine(PlaySoundAndWait(soundEffects[0], AISource, 2f)); // lights-off
+					arduinoController.logEvent = "Lights out";
 
 					if (Config.Group != RGroup.LeverControl) {
 						// TODO: whirring sound effect for disappearing control panel.
@@ -159,6 +164,7 @@ public class ScenarioController : MonoBehaviour {
 				case 4:
 					electricity.SetActive(true);
 					yield return new WaitForSeconds(2f);
+					arduinoController.logEvent = "Electricity activated";
 					Debug.Log("Warning: the electric generator has malfunctioned. Please keep away from the ground floor.");
 					yield return StartCoroutine(PlaySoundAndWait(8, AISource, 7f)); // AI-04
 
@@ -187,6 +193,7 @@ public class ScenarioController : MonoBehaviour {
 						decisionTime = Time.time;
 						actionTime = -1f;
 						timesFlipped = 0;
+						arduinoController.logEvent = "Decision time";
 
 						Debug.Log("Using the control panel, you can switch the falling platforms. But no matter what, we can only save one of them...");
 						yield return StartCoroutine(PlaySoundAndWait(11, RSSource, 3f)); // RS-07
@@ -199,6 +206,7 @@ public class ScenarioController : MonoBehaviour {
 						yield return StartCoroutine(PlaySoundAndWait(13, RSSource, 10f)); // RS-09
 
 						decisionTime = Time.time;
+						arduinoController.logEvent = "Decision time";
 						// Enable pushing fat man
 
 						//Debug.Log("Oh man oh man oh man. What do we do?");
@@ -217,13 +225,16 @@ public class ScenarioController : MonoBehaviour {
 						}
 						if (singlePlatform.Dead) {
 							yield return StartCoroutine(PlaySoundAndWait(soundEffects[3], singlePlatform.GetComponent<AudioSource>(), 1f)); // scream
+							arduinoController.logEvent = "Single elevator death";
 						} else {
 							yield return StartCoroutine(PlaySoundAndWait(soundEffects[4], groupPlatform.GetComponent<AudioSource>(), 1f)); // scream
+							arduinoController.logEvent = "Group elevator death";
 						}
 					} else {
 						actionTime = Time.time;
 						if (pushedFatMan) {
 							yield return StartCoroutine(PlaySoundAndWait(soundEffects[3], fatMan.GetComponent<AudioSource>(), 1f)); // scream
+							arduinoController.logEvent = "Fat man pushed";
 						}
 						groupPlatform.Activated = false;
 					}
@@ -245,33 +256,33 @@ public class ScenarioController : MonoBehaviour {
 
 				// Results
 				default:
-					string filename = arduinoController.logDirectory + "/results" + subjectId.ToString("D2") + ".txt";
-					writer = new StreamWriter(filename);
-					writer.WriteLine("==== RESULTS ====");
+					arduinoController.writing = false;
+					arduinoController.writer.WriteLine();
+					arduinoController.writer.WriteLine("==== RESULTS ====");
 					Debug.Log("==== RESULTS ====");
-					writer.WriteLine("Research Group: " + Config.Group.ToString());
+					arduinoController.writer.WriteLine("Research Group: " + Config.Group.ToString());
 					Debug.Log("Research Group: " + Config.Group.ToString());
-					writer.WriteLine("Time to make decision: " + (actionTime - decisionTime).ToString() + " s");
-					Debug.Log("Time to make decision: " + (actionTime - decisionTime).ToString() + " s");
+					arduinoController.writer.WriteLine("Time to make decision (last action - decision time): " + (actionTime - decisionTime).ToString() + " s");
+					Debug.Log("Time to make decision (last action - decision time): " + (actionTime - decisionTime).ToString() + " s");
 
 					if (Config.Group == RGroup.LeverControl) {
 						if (controller.buttonState == ButtonState.RightPressed) {
-							writer.WriteLine("Results: killed single person, with " + timesFlipped.ToString() + " flips");
-							Debug.Log("Results: killed single person, with " + timesFlipped.ToString() + " flips");
+							arduinoController.writer.WriteLine("Results: killed single person with " + timesFlipped.ToString() + " flips");
+							Debug.Log("Results: killed single person with " + timesFlipped.ToString() + " flips");
 						} else {
-							writer.WriteLine("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
-							Debug.Log("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
+							arduinoController.writer.WriteLine("Results: killed 5 people with " + timesFlipped.ToString() + " flips");
+							Debug.Log("Results: killed 5 people with " + timesFlipped.ToString() + " flips");
 						}
 					} else {
 						if (pushedFatMan) {
-							writer.WriteLine("Results: pushed fat man");
+							arduinoController.writer.WriteLine("Results: pushed fat man");
 							Debug.Log("Results: pushed fat man");
 						} else {
-							writer.WriteLine("Results: did not push fat man");
+							arduinoController.writer.WriteLine("Results: did not push fat man");
 							Debug.Log("Results: did not push fat man");
 						}
 					}
-					writer.Close();
+					arduinoController.Finish();
 					Debug.Log("Scenario complete, data saved to " + filename);
 					break;
 			}

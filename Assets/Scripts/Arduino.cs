@@ -6,15 +6,16 @@ using System.IO.Ports;
 using System.Threading;
 
 public class Arduino : MonoBehaviour {
-	SerialPort port = new SerialPort("COM3", 9600);
-	StreamWriter writer;
-
+	public StreamWriter writer;
 	public string logDirectory = "Log";
-	private bool writing = false;
-	private Thread readerThread;
+	public string logEvent = "";
+	public bool writing = false;
 
-	// Set up Arduino and logger and return experiment number
-	public int InitializeArduino() {
+	private Thread readerThread;
+	private SerialPort port = new SerialPort("COM3", 9600);
+
+	// Set up Arduino and logger and return file name
+	public string InitializeArduino() {
 		// connect to port for Arduino
 		port.ReadTimeout = 500;
 		port.Parity = Parity.None;
@@ -23,28 +24,31 @@ public class Arduino : MonoBehaviour {
         port.RtsEnable = true;
         port.Handshake = Handshake.None;
 
+		string filename = logDirectory + "/subject999.csv";
+
 		try {
 			port.Open();
 			Debug.Log("connected successfully to Arduino");
 
 			// set up writer log
 			writing = true;
-			int fileCount = Directory.GetFiles(logDirectory, "*.txt", SearchOption.TopDirectoryOnly).Length + 1;
-			writer = new StreamWriter(logDirectory + "/heartRate" + fileCount.ToString("D2") + ".txt");
-			writer.WriteLine("Heart Rate Log - " + DateTime.Now.ToString("HH:mm:ss.ffff"));
-			writer.WriteLine("Current time,time (ms),BPM,EDR");
+			int fileCount = Directory.GetFiles(logDirectory, "*.csv", SearchOption.TopDirectoryOnly).Length + 1;
+			filename = logDirectory + "/subject" + fileCount.ToString("D2") + ".csv";
+			writer = new StreamWriter(filename);
+			writer.WriteLine("Log: Subject " + fileCount.ToString("D2"));
+			writer.WriteLine("Current Time,Time (ms),Heart Rate (BPM),EDR,Event");
 
 			// set up reader thread
 			readerThread = new Thread(ReadAndWriteData);
 			readerThread.IsBackground = true;
 			readerThread.Start();
-			return fileCount;
+			return filename;
 
 		} catch (Exception) {
 			Debug.Log("could not connect to Arduino port. aborting");
 			writing = false;
 			enabled = false;
-			return 999;
+			return filename;
 		}
 	}
 
@@ -53,7 +57,8 @@ public class Arduino : MonoBehaviour {
 	        try {
 		        string indata = port.ReadLine();
 		        writer.Write(DateTime.Now.ToString("HH:mm:ss.ffff") + ",");
-	    	    writer.WriteLine(indata);
+	    	    writer.Write(indata);
+	    	    writer.WriteLine("," + logEvent);
 	    	} catch (TimeoutException) {
 			}
 		}

@@ -83,10 +83,10 @@ void setup() {
 
   // set up the Heart Rate monitor
   myEventManager.addListener( HEART_BEAT_DETECTED, myListener ); // set up interrupt-safe event listener
-  Serial.println("Waiting for heart rate to be put on");
+  //Serial.println("Waiting for heart rate to be put on");
   delay(2000);
   initializeHeartRateArray();
-  Serial.println("Heart rate test begin.");
+  //Serial.println("Heart rate test begin.");
   int heart_interrupt_id = digitalPinToInterrupt(2);
   attachInterrupt(heart_interrupt_id, heartRateBeatDetected, RISING); //set interrupt 0,digital port 2
 
@@ -135,7 +135,7 @@ void myListener( int eventCode, int eventParam ) {
 
   } else if (eventCode == BUTTON_PRESS_DETECTED) {
 
-    Serial.println(F("Button pressed!"));
+    //Serial.println(F("Button pressed!"));
     startNewLog();
 
   }
@@ -222,7 +222,7 @@ void heartRateBeatDetected() {
   {
     data_effect = 0; //sign bit
     counter = 0;
-    Serial.println(F("Heart rate measure error: test will restart!"));
+    //Serial.println(F("Heart rate measure error: test will restart!"));
     initializeHeartRateArray();
   }
   if (counter == 20 && data_effect)

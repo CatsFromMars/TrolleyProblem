@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlatformBehavior : MonoBehaviour {
     public float speed = 0.5f;
-	public float deadY = -2f;
+	public float deadY = 0f;
 	public Animator elevatorAnimator;
     public AudioClip elevatorStart;
     public AudioClip elevatorStop;

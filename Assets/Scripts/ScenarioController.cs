@@ -33,6 +33,7 @@ public class ScenarioController : MonoBehaviour {
 	void Start() {
 		// TODO: fade in
 		Debug.Log("Scene loaded. Press any key to begin.");
+		animationTrigger.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -129,11 +130,11 @@ public class ScenarioController : MonoBehaviour {
 					yield return new WaitForSeconds(1f);
 
 					if (Config.Group != RGroup.LeverControl) {
+						fatMan.SetActive(true);
 						Debug.Log("Please sit tight-- we're sending a guy to fix the control panel.");
 						yield return StartCoroutine(PlaySoundAndWait(6, RSSource, 4f)); // RS-05
 
 						// fat man walks over to edge and bends down, looking at floor
-						fatMan.SetActive(true);
 						// TODO: play footstep SE?
 						yield return new WaitForSeconds(1f);
 					}
@@ -161,6 +162,7 @@ public class ScenarioController : MonoBehaviour {
 				// Introduce the decision
 				case 5:
 					Debug.Log("Oh man! The elevator is going to fall! We don't have much time before it hits the floor and electrocutes everyone on it!");
+					animationTrigger.SetActive(true);
 					yield return StartCoroutine(PlaySoundAndWait(10, RSSource, 6f)); // RS-06
 
 					if (Config.Group == RGroup.LeverControl) {
@@ -181,7 +183,6 @@ public class ScenarioController : MonoBehaviour {
 
 						decisionTime = Time.time;
 						// Enable pushing fat man
-						animationTrigger.SetActive(true);
 
 						Debug.Log("Oh man oh man oh man. What do we do?");
 						yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08

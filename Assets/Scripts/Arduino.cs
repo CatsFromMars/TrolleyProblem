@@ -36,6 +36,7 @@ public class Arduino : MonoBehaviour {
 
 			// set up reader thread
 			readerThread = new Thread(ReadAndWriteData);
+			readerThread.IsBackground = true;
 			readerThread.Start();
 
 		} catch (Exception e) {

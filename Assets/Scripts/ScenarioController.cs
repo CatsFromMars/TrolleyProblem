@@ -219,6 +219,7 @@ public class ScenarioController : MonoBehaviour {
 						panelControlsPlatforms = false;
 						singlePlatform.Activated = false;
 						groupPlatform.Activated = false;
+
 						if (actionTime < 0) {
 							actionTime = Time.time;
 						}
@@ -232,10 +233,13 @@ public class ScenarioController : MonoBehaviour {
 					} else {
 						actionTime = Time.time;
 						if (pushedFatMan) {
+							groupPlatform.Activated = false;
 							yield return StartCoroutine(PlaySoundAndWait(soundEffects[3], fatMan.GetComponent<AudioSource>(), 1f)); // scream
 							arduinoController.logEvent = "Fat man pushed";
+						} else {
+							yield return StartCoroutine(PlaySoundAndWait(soundEffects[4], groupPlatform.GetComponent<AudioSource>(), 1f)); // scream
+							arduinoController.logEvent = "Group elevator death";
 						}
-						groupPlatform.Activated = false;
 					}
 					break;
 

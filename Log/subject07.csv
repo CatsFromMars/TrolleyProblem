@@ -1,0 +1,10 @@
+Log: Subject 07
+Current Time,Time (ms),Heart Rate (BPM),EDR,Event
+16:59:55.7927,5245701,76,1,Experiment started
+16:59:56.6439,5246550,76,0,Experiment started
+17:00:16.5868,5266485,76,17,Button pressed: left
+
+==== RESULTS ====
+Research Group: LeverControl
+Time to make decision (last action - decision time): 15.36331 s
+Results: killed single person with 1 flips

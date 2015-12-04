@@ -1,0 +1,265 @@
+Log: Subject 06
+Current Time,Time (ms),Heart Rate (BPM),EDR,Event
+16:48:57.5736,4587698,79,28,
+16:48:58.2652,4588388,79,31,
+16:48:59.0761,4589201,79,24,Experiment started
+16:48:59.8787,4590002,79,1,Experiment started
+16:49:00.6085,4590735,79,1,Experiment started
+16:49:01.4479,4591570,79,1,Experiment started
+16:49:02.3204,4592446,79,7,Experiment started
+16:49:03.0659,4593189,79,15,Experiment started
+16:49:03.8516,4593976,77,21,Experiment started
+16:49:04.6551,4594779,77,26,Experiment started
+16:49:05.4703,4595592,77,30,Experiment started
+16:49:06.1826,4596305,77,29,Experiment started
+16:49:06.9564,4597080,77,30,Experiment started
+16:49:07.8251,4597945,77,33,Experiment started
+16:49:08.5462,4598668,77,35,Experiment started
+16:49:09.3035,4599425,77,37,Experiment started
+16:49:10.1513,4600272,77,38,Experiment started
+16:49:10.8848,4601004,77,40,Experiment started
+16:49:11.5971,4601718,77,40,Experiment started
+16:49:12.4039,4602521,77,42,Experiment started
+16:49:13.1740,4603292,77,43,Experiment started
+16:49:13.8536,4603972,77,44,Experiment started
+16:49:14.6360,4604754,77,30,Experiment started
+16:49:15.4884,4605605,77,79,Experiment started
+16:49:16.2214,4606337,77,162,Experiment started
+16:49:17.0652,4607180,77,168,Experiment started
+16:49:17.8887,4608006,77,164,Experiment started
+16:49:18.7033,4608820,77,528,Experiment started
+16:49:19.4326,4609547,77,528,Experiment started
+16:49:20.1163,4610233,77,409,Experiment started
+16:49:20.8905,4611005,77,522,Experiment started
+16:49:21.6443,4611758,77,513,Experiment started
+16:49:22.3122,4612426,77,492,Experiment started
+16:49:23.0168,4613131,77,490,Experiment started
+16:49:23.7619,4613877,77,482,Experiment started
+16:49:24.4870,4614600,77,160,Experiment started
+16:49:25.2563,4615369,77,143,Experiment started
+16:49:26.0593,4616173,77,91,Experiment started
+16:49:26.8955,4617009,77,90,Experiment started
+16:49:27.6404,4617755,77,97,Experiment started
+16:49:28.4102,4618524,77,152,Experiment started
+16:49:29.1802,4619296,77,81,Experiment started
+16:49:29.8683,4619983,77,71,Experiment started
+16:49:30.6225,4620735,77,84,Experiment started
+16:49:31.4622,4621576,77,206,Experiment started
+16:49:32.2108,4622321,77,130,Experiment started
+16:49:32.9770,4623090,77,48,Experiment started
+16:49:33.7927,4623905,77,20,Experiment started
+16:49:34.5580,4624668,77,16,Experiment started
+16:49:35.3362,4625447,77,15,Experiment started
+16:49:36.0411,4626152,79,7,Experiment started
+16:49:36.7944,4626907,79,5,Experiment started
+16:49:37.6138,4627724,79,67,Experiment started
+16:49:38.3961,4628506,79,145,Experiment started
+16:49:39.1205,4629232,79,130,Experiment started
+16:49:39.8991,4630011,79,72,Experiment started
+16:49:40.6810,4630790,79,72,Experiment started
+16:49:41.4387,4631548,79,77,Experiment started
+16:49:42.2216,4632331,79,54,Experiment started
+16:49:42.9138,4633020,79,243,Experiment started
+16:49:43.6141,4633721,79,100,Experiment started
+16:49:44.3470,4634456,79,24,Experiment started
+16:49:45.0317,4635142,79,27,Experiment started
+16:49:45.7403,4635847,79,28,Experiment started
+16:49:46.5138,4636622,79,29,Experiment started
+16:49:47.2021,4637308,79,32,Experiment started
+16:49:47.9437,4638051,79,35,Experiment started
+16:49:48.7046,4638814,79,28,Experiment started
+16:49:49.4468,4639554,79,6,Experiment started
+16:49:50.2370,4640347,79,0,Experiment started
+16:49:51.0273,4641137,79,1,Experiment started
+16:49:51.8019,4641911,79,1,Experiment started
+16:49:52.6244,4642733,79,1,Experiment started
+16:49:53.3456,4643453,79,6,Experiment started
+16:49:54.1116,4644216,79,13,Button pressed: right
+16:49:54.9138,4644993,79,20,Button pressed: right
+16:49:55.5985,4645704,79,24,Button pressed: right
+16:49:56.4097,4646512,79,21,Button pressed: right
+16:49:57.1878,4647293,79,15,Button pressed: right
+16:49:57.9122,4648015,79,15,Button pressed: right
+16:49:58.7271,4648833,79,19,Button pressed: right
+16:49:59.4447,4649548,79,19,Button pressed: right
+16:50:00.1487,4650253,79,19,Button pressed: right
+16:50:00.8980,4651002,79,20,Button pressed: right
+16:50:01.5658,4651670,79,22,Button pressed: right
+16:50:02.2869,4652391,79,22,Button pressed: right
+16:50:03.0564,4653159,79,17,Button pressed: right
+16:50:03.7444,4653845,79,15,Button pressed: right
+16:50:04.4864,4654586,79,17,Button pressed: right
+16:50:05.2148,4655318,79,21,Button pressed: right
+16:50:05.9195,4656021,79,24,Button pressed: right
+16:50:06.6771,4656780,79,509,Button pressed: right
+16:50:07.4027,4657501,81,528,Button pressed: right
+16:50:08.0538,4658152,81,528,Button pressed: right
+16:50:08.7495,4658850,81,169,Button pressed: right
+16:50:09.4220,4659520,81,310,Button pressed: right
+16:50:10.1468,4660245,81,39,Button pressed: right
+16:50:10.9376,4661039,81,8,Button pressed: right
+16:50:11.6583,4661757,81,0,Button pressed: right
+16:50:12.3994,4662500,81,4,Button pressed: right
+16:50:13.0878,4663187,81,502,Button pressed: right
+16:50:13.7921,4663888,81,163,Button pressed: right
+16:50:14.4879,4664588,81,97,Button pressed: right
+16:50:15.2456,4665345,81,210,Button pressed: right
+16:50:15.9745,4666071,81,509,Button pressed: right
+16:50:16.6552,4666752,81,170,Button pressed: left
+16:50:17.3630,4667458,81,529,Button pressed: left
+16:50:18.1009,4668199,81,67,Button pressed: left
+16:50:18.8417,4668937,81,36,Button pressed: left
+16:50:19.5223,4669620,81,12,Button pressed: left
+16:50:20.2021,4670300,81,11,Button pressed: left
+16:50:20.9801,4671077,81,525,Button pressed: left
+16:50:21.7422,4671837,81,529,Button pressed: left
+16:50:22.4419,4672536,83,527,Button pressed: left
+16:50:23.2204,4673315,83,528,Button pressed: left
+16:50:23.9703,4674065,83,528,Button pressed: left
+16:50:24.6617,4674757,83,508,Button pressed: left
+16:50:25.4319,4675526,83,307,Button pressed: left
+16:50:26.2312,4676324,83,521,Button pressed: left
+16:50:26.9761,4677070,83,21,Button pressed: left
+16:50:27.7258,4677820,83,36,Button pressed: left
+16:50:28.1276,4678223,83,34,Button pressed: left
+16:50:28.4386,4678535,83,35,Button pressed: left
+16:50:29.1880,4679279,83,521,Button pressed: left
+16:50:29.8805,4679972,83,529,Button pressed: left
+16:50:30.5269,4680617,83,528,Button pressed: left
+16:50:31.2029,4681295,83,528,Button pressed: left
+16:50:32.0141,4682106,83,529,Lights out
+16:50:32.7552,4682848,83,529,Lights out
+16:50:33.6078,4683702,83,70,Lights out
+16:50:34.4878,4684577,83,358,Lights out
+16:50:35.2257,4685317,83,529,Lights out
+16:50:35.9829,4686075,83,51,Lights out
+16:50:36.7612,4686856,83,1,Lights out
+16:50:37.4776,4687572,84,2,Lights out
+16:50:38.2600,4688352,84,9,Lights out
+16:50:39.1487,4689239,84,15,Lights out
+16:50:39.9062,4689995,84,20,Lights out
+16:50:40.7052,4690796,84,23,Lights out
+16:50:41.5573,4691646,84,25,Lights out
+16:50:42.4579,4692547,84,27,Lights out
+16:50:43.3636,4693450,84,29,Lights out
+16:50:44.2279,4694317,84,31,Lights out
+16:50:44.9852,4695073,84,32,Lights out
+16:50:45.8535,4695943,84,31,Lights out
+16:50:46.6856,4696773,84,22,Lights out
+16:50:47.4018,4697490,84,18,Lights out
+16:50:48.1765,4698261,84,19,Lights out
+16:50:49.0980,4699187,84,21,Lights out
+16:50:49.8884,4699976,84,24,Lights out
+16:50:50.7690,4700856,84,27,Lights out
+16:50:51.6453,4701731,84,29,Lights out
+16:50:52.3902,4702477,84,514,Lights out
+16:50:53.2917,4703375,84,528,Lights out
+16:50:54.0499,4704135,84,529,Lights out
+16:50:54.7619,4704844,72,529,Lights out
+16:50:55.5775,4705660,72,529,Lights out
+16:50:56.5152,4706600,72,528,Lights out
+16:50:57.3341,4707419,72,528,Lights out
+16:50:58.2396,4708323,72,528,Lights out
+16:50:59.1773,4709261,72,528,Lights out
+16:51:00.0086,4710091,72,529,Lights out
+16:51:00.8980,4710978,72,528,Lights out
+16:51:01.8188,4711903,72,528,Lights out
+16:51:02.6551,4712737,72,529,Lights out
+16:51:03.5594,4713641,72,528,Lights out
+16:51:04.4532,4714532,72,527,Lights out
+16:51:05.2107,4715292,72,528,Lights out
+16:51:06.0463,4716125,72,529,Lights out
+16:51:06.9673,4717046,72,528,Lights out
+16:51:07.8072,4717888,72,529,Lights out
+16:51:08.6630,4718741,72,527,Electricity activated
+16:51:09.5932,4719671,72,527,Electricity activated
+16:51:10.5190,4720599,72,529,Electricity activated
+16:51:11.3419,4721421,72,528,Electricity activated
+16:51:12.1814,4722257,72,529,Electricity activated
+16:51:13.0626,4723139,68,528,Electricity activated
+16:51:13.9261,4724004,68,528,Electricity activated
+16:51:14.7007,4724777,68,528,Electricity activated
+16:51:15.5116,4725588,68,528,Electricity activated
+16:51:16.4621,4726540,68,529,Electricity activated
+16:51:17.2690,4727345,68,528,Electricity activated
+16:51:18.1084,4728184,68,528,Electricity activated
+16:51:19.0621,4729137,68,528,Electricity activated
+16:51:19.9346,4730011,68,529,Electricity activated
+16:51:20.6803,4730756,68,528,Electricity activated
+16:51:21.5320,4731607,68,528,Electricity activated
+16:51:22.3601,4732435,68,528,Electricity activated
+16:51:23.0965,4733173,68,529,Electricity activated
+16:51:23.9976,4734071,68,528,Electricity activated
+16:51:24.8540,4734926,68,528,Electricity activated
+16:51:25.5661,4735640,68,529,Electricity activated
+16:51:26.3245,4736397,68,529,Electricity activated
+16:51:27.1514,4737226,68,529,Electricity activated
+16:51:27.8853,4737958,68,529,Electricity activated
+16:51:28.6184,4738692,68,528,Electricity activated
+16:51:29.4326,4739507,68,528,Electricity activated
+16:51:30.2109,4740284,73,528,Electricity activated
+16:51:30.9121,4740981,73,529,Electricity activated
+16:51:31.6452,4741716,73,529,Electricity activated
+16:51:32.3448,4742418,73,529,Electricity activated
+16:51:32.9925,4743061,73,528,Electricity activated
+16:51:33.6803,4743753,73,529,Electricity activated
+16:51:34.3395,4744410,73,528,Electricity activated
+16:51:34.9623,4745034,73,529,Electricity activated
+16:51:35.6627,4745735,73,529,Electricity activated
+16:51:36.3793,4746451,73,529,Electricity activated
+16:51:37.0393,4747107,73,528,Electricity activated
+16:51:37.7021,4747770,73,528,Electricity activated
+16:51:38.4192,4748487,73,529,Electricity activated
+16:51:39.1155,4749185,73,529,Decision time
+16:51:39.7835,4749852,73,529,Decision time
+16:51:40.5446,4750615,73,529,Decision time
+16:51:41.2990,4751368,73,528,Decision time
+16:51:41.9503,4752019,73,3,Decision time
+16:51:42.5805,4752650,73,0,Decision time
+16:51:43.1580,4753227,73,71,Decision time
+16:51:43.7107,4753777,73,134,Decision time
+16:51:44.2763,4754342,89,136,Decision time
+16:51:44.8085,4754875,89,137,Decision time
+16:51:45.3330,4755398,89,121,Decision time
+16:51:45.8775,4755944,89,104,Decision time
+16:51:46.4303,4756497,89,95,Decision time
+16:51:46.9548,4757024,89,83,Decision time
+16:51:47.4915,4757558,89,73,Decision time
+16:51:48.0234,4758090,89,93,Decision time
+16:51:48.5563,4758624,89,101,Decision time
+16:51:49.0927,4759160,89,101,Decision time
+16:51:49.6174,4759681,89,107,Decision time
+16:51:50.1212,4760187,89,111,Decision time
+16:51:50.6245,4760689,89,115,Decision time
+16:51:51.1409,4761205,89,119,Decision time
+16:51:51.6441,4761708,89,115,Decision time
+16:51:52.1732,4762235,89,111,Decision time
+16:51:52.6932,4762757,89,103,Decision time
+16:51:53.1883,4763253,89,106,Decision time
+16:51:53.6969,4763763,89,77,Fat man pushed
+16:51:54.1919,4764258,89,20,Fat man pushed
+16:51:54.7166,4764780,89,18,Fat man pushed
+16:51:55.2076,4765275,115,3,Fat man pushed
+16:51:55.6996,4765766,115,1,Fat man pushed
+16:51:56.2155,4766279,115,1,Fat man pushed
+16:51:56.7517,4766815,115,0,Fat man pushed
+16:51:57.2801,4767333,115,0,Fat man pushed
+16:51:57.7883,4767852,115,1,Fat man pushed
+16:51:58.3334,4768399,115,4,Fat man pushed
+16:51:58.8984,4768961,115,10,Fat man pushed
+16:51:59.4551,4769517,115,15,Fat man pushed
+16:52:00.0084,4770068,115,19,Fat man pushed
+16:52:00.5651,4770627,115,22,Fat man pushed
+16:52:01.1464,4771210,115,24,Fat man pushed
+16:52:01.7117,4771774,115,26,Fat man pushed
+16:52:02.2774,4772337,115,26,Fat man pushed
+16:52:02.8714,4772931,115,27,Fat man pushed
+16:52:03.5392,4773598,115,28,Fat man pushed
+16:52:04.2593,4774321,115,31,Fat man pushed
+16:52:04.8948,4774953,115,28,Fat man pushed
+16:52:05.5010,4775563,115,41,Fat man pushed
+
+==== RESULTS ====
+Research Group: NonHaptic
+Time to make decision (last action - decision time): 13.75758 s
+Results: pushed fat man

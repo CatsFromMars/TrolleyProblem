@@ -98,8 +98,8 @@ public class ScenarioController : MonoBehaviour {
 					controller.Activated = false;
 					panelControlsPlatforms = false;
 					if (Config.Group == RGroup.LeverControl) {
-						singlePlatform.speed *= 1.8f;
-						groupPlatform.speed *= 1.8f;
+						singlePlatform.speed *= 2f;
+						groupPlatform.speed *= 2f;
 					}
 					yield return new WaitForSeconds(1f);
 					controller.buttonState = ButtonState.NotPressed;

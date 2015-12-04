@@ -1,0 +1,19 @@
+Log: Subject 05
+Current Time,Time (ms),Heart Rate (BPM),EDR,Event
+16:38:31.5885,3961919,73,13,Experiment started
+16:38:35.5895,3965922,73,13,Experiment started
+16:38:36.2123,3966542,73,13,Experiment started
+16:38:37.3756,3967705,73,13,Experiment started
+16:38:39.0258,3969356,73,14,Experiment started
+16:38:42.8312,3973160,73,14,Button pressed: left
+16:39:20.2508,4010565,73,13,Lights out
+16:40:04.5058,4054808,73,12,Decision time
+16:40:09.9080,4060206,73,13,Decision time
+16:40:35.1827,4085473,73,12,Button pressed: left
+16:41:04.8732,4115152,73,473,Button pressed: right
+16:41:09.6939,4119972,73,503,Single elevator death
+
+==== RESULTS ====
+Research Group: LeverControl
+Time to make decision (last action - decision time): 36.68185 s
+Results: killed single person with 3 flips

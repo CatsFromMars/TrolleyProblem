@@ -1,0 +1,264 @@
+Log: Subject 02
+Current Time,Time (ms),Heart Rate (BPM),EDR,Event
+15:58:36.4785,1567602,93,99,
+15:58:37.1783,1568299,93,66,
+15:58:37.8746,1568996,93,63,Experiment started
+15:58:38.5628,1569686,93,64,Experiment started
+15:58:39.1728,1570293,93,65,Experiment started
+15:58:39.7753,1570896,93,105,Experiment started
+15:58:40.4144,1571534,90,98,Experiment started
+15:58:41.0741,1572194,90,60,Experiment started
+15:58:41.7082,1572830,90,61,Experiment started
+15:58:42.3596,1573480,90,101,Experiment started
+15:58:43.0688,1574190,90,67,Experiment started
+15:58:43.7685,1574887,90,120,Experiment started
+15:58:44.4118,1575530,90,64,Experiment started
+15:58:45.1287,1576247,90,61,Experiment started
+15:58:45.8332,1576953,90,63,Experiment started
+15:58:46.4886,1577606,90,65,Experiment started
+15:58:47.2096,1578327,90,63,Experiment started
+15:58:47.9135,1579033,90,61,Experiment started
+15:58:48.5572,1579674,90,62,Experiment started
+15:58:49.2362,1580353,90,64,Experiment started
+15:58:49.9455,1581062,90,67,Experiment started
+15:58:50.5920,1581710,90,67,Experiment started
+15:58:51.2355,1582352,90,67,Experiment started
+15:58:51.9239,1583041,90,68,Experiment started
+15:58:52.5744,1583691,90,63,Experiment started
+15:58:53.2137,1584328,90,56,Experiment started
+15:58:53.8854,1585000,90,53,Experiment started
+15:58:54.5410,1585656,89,51,Experiment started
+15:58:55.1143,1586232,89,58,Experiment started
+15:58:55.7617,1586878,89,60,Experiment started
+15:58:56.4123,1587528,89,469,Experiment started
+15:58:56.9939,1588107,89,105,Experiment started
+15:58:58.1775,1589293,89,351,Experiment started
+15:58:59.4110,1590525,89,40,Experiment started
+15:59:00.0246,1591139,89,511,Experiment started
+15:59:00.6478,1591759,89,528,Experiment started
+15:59:01.2207,1592332,89,333,Experiment started
+15:59:01.7857,1592902,89,9,Experiment started
+15:59:02.3720,1593486,89,17,Experiment started
+15:59:03.0024,1594118,89,47,Experiment started
+15:59:03.5888,1594701,89,31,Experiment started
+15:59:04.2439,1595356,89,28,Experiment started
+15:59:04.8128,1595927,89,29,Experiment started
+15:59:05.4154,1596529,89,39,Experiment started
+15:59:06.1768,1597289,89,493,Experiment started
+15:59:06.6112,1597721,89,51,Experiment started
+15:59:07.2543,1598365,89,363,Experiment started
+15:59:07.8762,1598986,89,418,Experiment started
+15:59:08.4992,1599611,89,14,Experiment started
+15:59:09.0974,1600207,89,13,Experiment started
+15:59:09.7810,1600891,89,16,Experiment started
+15:59:10.4451,1601556,89,27,Experiment started
+15:59:11.1078,1602221,89,16,Experiment started
+15:59:11.7059,1602816,89,17,Experiment started
+15:59:12.3777,1603488,89,21,Experiment started
+15:59:13.0616,1604172,89,20,Experiment started
+15:59:13.7545,1604864,89,20,Experiment started
+15:59:14.4138,1605524,89,18,Experiment started
+15:59:15.1592,1606269,89,19,Experiment started
+15:59:15.8717,1606979,89,23,Experiment started
+15:59:16.5428,1607651,89,26,Experiment started
+15:59:17.2760,1608383,89,25,Experiment started
+15:59:17.9974,1609107,89,23,Experiment started
+15:59:18.7145,1609822,89,17,Experiment started
+15:59:19.4185,1610527,89,17,Experiment started
+15:59:20.0410,1611147,89,17,Experiment started
+15:59:20.7411,1611848,89,19,Experiment started
+15:59:21.4623,1612569,89,19,Experiment started
+15:59:22.1300,1613236,89,16,Experiment started
+15:59:22.8753,1613983,87,19,Experiment started
+15:59:23.5673,1614672,87,22,Button pressed: right
+15:59:24.2144,1615322,87,24,Button pressed: right
+15:59:24.9235,1616027,87,27,Button pressed: right
+15:59:25.6521,1616756,87,21,Button pressed: right
+15:59:26.3122,1617419,87,13,Button pressed: right
+15:59:27.0776,1618184,87,11,Button pressed: right
+15:59:27.8063,1618913,87,15,Button pressed: right
+15:59:28.4662,1619571,87,15,Button pressed: right
+15:59:29.0722,1620175,87,15,Button pressed: right
+15:59:29.7236,1620828,87,20,Button pressed: right
+15:59:30.4160,1621520,87,25,Button pressed: right
+15:59:31.0548,1622160,87,26,Button pressed: right
+15:59:31.8126,1622916,87,25,Button pressed: right
+15:59:32.4925,1623595,87,21,Button pressed: right
+15:59:33.2013,1624304,87,28,Button pressed: right
+15:59:33.9343,1625038,87,37,Button pressed: right
+15:59:34.6138,1625717,87,12,Button pressed: right
+15:59:35.2688,1626374,87,9,Button pressed: right
+15:59:35.9127,1627016,87,10,Button pressed: right
+15:59:36.5839,1627684,87,13,Button pressed: right
+15:59:37.2923,1628395,87,18,Button pressed: right
+15:59:37.9353,1629039,87,14,Button pressed: right
+15:59:38.7118,1629794,87,9,Button pressed: right
+15:59:39.3940,1630494,87,11,Button pressed: right
+15:59:40.0860,1631187,87,14,Button pressed: right
+15:59:40.8191,1631919,87,14,Button pressed: right
+15:59:41.5280,1632626,87,10,Button pressed: right
+15:59:42.1377,1633239,87,6,Button pressed: right
+15:59:42.8058,1633907,87,8,Button pressed: right
+15:59:43.4857,1634583,87,10,Button pressed: right
+15:59:44.1819,1635282,87,10,Button pressed: right
+15:59:44.8661,1635968,87,7,Button pressed: right
+15:59:45.5001,1636601,87,3,Button pressed: right
+15:59:46.1596,1637262,87,4,Button pressed: right
+15:59:46.8312,1637931,87,7,Button pressed: right
+15:59:47.4709,1638568,87,10,Button pressed: right
+15:59:48.1263,1639225,87,8,Button pressed: right
+15:59:48.7855,1639884,87,1,Button pressed: right
+15:59:49.4289,1640527,87,0,Button pressed: right
+15:59:50.1208,1641218,87,3,Button pressed: right
+15:59:50.8123,1641912,87,8,Button pressed: right
+15:59:51.4520,1642550,88,13,Button pressed: right
+15:59:52.1357,1643234,88,16,Button pressed: right
+15:59:52.7910,1643887,88,18,Button pressed: left
+15:59:53.4588,1644555,88,17,Button pressed: left
+15:59:54.2204,1645316,88,14,Button pressed: left
+15:59:54.8795,1645977,88,13,Button pressed: left
+15:59:55.6584,1646756,88,8,Button pressed: left
+15:59:56.3870,1647482,88,10,Button pressed: left
+15:59:57.0627,1648157,88,11,Button pressed: left
+15:59:57.7881,1648881,88,14,Button pressed: left
+15:59:58.5171,1649611,88,18,Button pressed: left
+15:59:59.1767,1650269,88,21,Button pressed: left
+15:59:59.8687,1650964,88,23,Button pressed: left
+16:00:00.6348,1651730,88,24,Button pressed: left
+16:00:01.3228,1652417,88,17,Button pressed: left
+16:00:02.1009,1653194,88,13,Button pressed: left
+16:00:02.8916,1653983,88,45,Button pressed: left
+16:00:03.6121,1654706,88,39,Lights out
+16:00:04.2842,1655378,88,35,Lights out
+16:00:04.3128,1655404,88,35,Lights out
+16:00:05.0418,1656134,88,123,Lights out
+16:00:05.6271,1656719,88,27,Lights out
+16:00:06.3193,1657412,88,17,Lights out
+16:00:07.0324,1658125,88,18,Lights out
+16:00:07.6466,1658738,88,41,Lights out
+16:00:08.3677,1659459,88,29,Lights out
+16:00:09.0961,1660187,88,22,Lights out
+16:00:09.7596,1660851,88,20,Lights out
+16:00:10.4730,1661561,88,255,Lights out
+16:00:11.1237,1662213,88,526,Lights out
+16:00:11.7874,1662877,88,528,Lights out
+16:00:12.5207,1663607,88,528,Lights out
+16:00:13.2662,1664356,88,528,Lights out
+16:00:13.9217,1665009,88,528,Lights out
+16:00:14.6295,1665719,88,529,Lights out
+16:00:15.3463,1666436,88,529,Lights out
+16:00:16.0021,1667089,88,423,Lights out
+16:00:16.7018,1667789,88,528,Lights out
+16:00:17.4195,1668507,88,422,Lights out
+16:00:18.0910,1669180,88,22,Lights out
+16:00:18.7914,1669878,88,131,Lights out
+16:00:19.5285,1670616,88,51,Lights out
+16:00:20.2119,1671300,86,17,Lights out
+16:00:20.9126,1671999,86,26,Lights out
+16:00:21.6541,1672739,86,31,Lights out
+16:00:22.3748,1673463,86,29,Lights out
+16:00:23.0631,1674149,86,30,Lights out
+16:00:23.8000,1674888,86,32,Lights out
+16:00:24.4720,1675556,86,254,Lights out
+16:00:25.1233,1676210,86,31,Lights out
+16:00:25.8115,1676896,86,36,Lights out
+16:00:26.4670,1677550,86,48,Lights out
+16:00:27.1099,1678196,86,48,Lights out
+16:00:27.5195,1678606,86,47,Lights out
+16:00:28.3589,1679446,86,36,Lights out
+16:00:28.9616,1680047,86,35,Lights out
+16:00:29.7101,1680796,86,39,Lights out
+16:00:30.3904,1681474,86,33,Lights out
+16:00:31.0010,1682085,86,34,Lights out
+16:00:31.6975,1682780,86,37,Lights out
+16:00:32.4137,1683499,86,38,Lights out
+16:00:33.0325,1684114,86,34,Lights out
+16:00:33.6914,1684773,86,31,Lights out
+16:00:34.3840,1685466,89,30,Lights out
+16:00:35.0474,1686128,89,30,Lights out
+16:00:35.6902,1686770,89,31,Lights out
+16:00:36.3953,1687478,89,32,Lights out
+16:00:37.0909,1688175,89,33,Lights out
+16:00:37.7182,1688799,89,34,Lights out
+16:00:38.3816,1689462,89,37,Lights out
+16:00:39.0856,1690166,89,39,Lights out
+16:00:39.7662,1690846,89,40,Electricity activated
+16:00:40.4007,1691480,89,41,Electricity activated
+16:00:41.0886,1692168,89,37,Electricity activated
+16:00:41.7808,1692861,89,35,Electricity activated
+16:00:42.4318,1693512,89,35,Electricity activated
+16:00:43.1199,1694201,89,36,Electricity activated
+16:00:43.8247,1694903,89,37,Electricity activated
+16:00:44.4717,1695550,89,37,Electricity activated
+16:00:45.1562,1696233,89,39,Electricity activated
+16:00:45.8721,1696950,89,39,Electricity activated
+16:00:46.5404,1697618,89,40,Electricity activated
+16:00:47.1870,1698265,89,39,Electricity activated
+16:00:47.9201,1699000,89,34,Electricity activated
+16:00:48.6251,1699702,88,33,Electricity activated
+16:00:49.2516,1700330,88,33,Electricity activated
+16:00:49.9352,1701011,88,34,Electricity activated
+16:00:50.6152,1701691,88,36,Electricity activated
+16:00:51.2380,1702315,88,38,Electricity activated
+16:00:51.8848,1702960,88,41,Electricity activated
+16:00:52.5773,1703654,88,41,Electricity activated
+16:00:53.2856,1704364,88,37,Electricity activated
+16:00:53.9169,1704993,88,31,Electricity activated
+16:00:54.5759,1705652,88,29,Electricity activated
+16:00:55.2603,1706336,88,30,Electricity activated
+16:00:55.8865,1706962,88,28,Electricity activated
+16:00:56.4885,1707565,88,26,Electricity activated
+16:00:57.1237,1708198,88,28,Electricity activated
+16:00:57.7745,1708850,88,30,Electricity activated
+16:00:58.3897,1709463,88,30,Electricity activated
+16:00:59.0321,1710106,88,28,Electricity activated
+16:00:59.7331,1710806,88,29,Electricity activated
+16:01:00.3507,1711423,88,31,Electricity activated
+16:01:00.9324,1712005,88,31,Electricity activated
+16:01:01.5147,1712589,88,25,Electricity activated
+16:01:02.1367,1713211,93,20,Electricity activated
+16:01:02.7477,1713820,93,18,Electricity activated
+16:01:03.3289,1714401,93,18,Electricity activated
+16:01:03.9346,1715009,93,19,Electricity activated
+16:01:04.5613,1715636,93,23,Electricity activated
+16:01:05.1352,1716209,93,26,Electricity activated
+16:01:05.7205,1716793,93,29,Electricity activated
+16:01:06.3390,1717410,93,31,Electricity activated
+16:01:06.9456,1718016,93,34,Electricity activated
+16:01:07.5146,1718585,93,35,Electricity activated
+16:01:08.1008,1719170,93,36,Electricity activated
+16:01:08.7071,1719779,93,38,Electricity activated
+16:01:09.2922,1720365,93,39,Electricity activated
+16:01:09.8943,1720966,93,39,Decision time
+16:01:10.4845,1721556,93,38,Decision time
+16:01:11.0534,1722124,93,34,Decision time
+16:01:11.6026,1722672,93,24,Decision time
+16:01:12.1557,1723226,93,15,Decision time
+16:01:12.7367,1723807,93,12,Decision time
+16:01:13.3225,1724393,93,13,Group elevator death
+16:01:13.8795,1724947,93,16,Group elevator death
+16:01:14.4571,1725524,102,18,Group elevator death
+16:01:15.0303,1726096,102,17,Group elevator death
+16:01:15.5710,1726639,102,11,Group elevator death
+16:01:16.1202,1727188,102,9,Group elevator death
+16:01:16.6693,1727737,102,9,Group elevator death
+16:01:17.2385,1728307,102,11,Group elevator death
+16:01:17.8079,1728873,102,10,Group elevator death
+16:01:18.3647,1729430,102,7,Group elevator death
+16:01:18.8765,1729945,102,5,Group elevator death
+16:01:19.4045,1730470,102,6,Group elevator death
+16:01:19.9290,1730997,102,7,Group elevator death
+16:01:20.4815,1731548,102,4,Group elevator death
+16:01:21.0672,1732133,102,0,Group elevator death
+16:01:21.6743,1732743,102,1,Group elevator death
+16:01:22.2597,1733324,102,3,Group elevator death
+16:01:22.8244,1733893,102,7,Group elevator death
+16:01:23.4184,1734486,102,9,Group elevator death
+16:01:23.9838,1735049,102,12,Group elevator death
+16:01:24.5411,1735604,102,21,Group elevator death
+
+==== RESULTS ====
+Research Group: Haptic
+16:01:25.0941,1736157,102,20,Group elevator death
+Time to make decision (last action - decision time): 2.116547 s
+Results: did not push fat man

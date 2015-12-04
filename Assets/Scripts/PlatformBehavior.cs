@@ -59,6 +59,7 @@ public class PlatformBehavior : MonoBehaviour {
         if (Dead) {
             return;
         }
+		
 
         if (!movingAnimation) {
             // Pre-experiment, moving smoothly via y-position
@@ -77,7 +78,7 @@ public class PlatformBehavior : MonoBehaviour {
             }
         } else {
             // During experiment, moving via animation
-			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), true);
+			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), Activated);
             if (Activated) {
     			transform.position += speed * Vector3.down * Time.deltaTime;
     			if (transform.position.y <= deadY) {

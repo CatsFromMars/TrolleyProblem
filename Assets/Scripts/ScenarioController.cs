@@ -182,11 +182,11 @@ public class ScenarioController : MonoBehaviour {
 					animationTrigger.SetActive(true);
 					yield return StartCoroutine(PlaySoundAndWait(10, RSSource, 6f)); // RS-06
 
+					groupPlatform.Activated = true;
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = true;
 						controller.buttonState = ButtonState.LeftPressed;
 						buttonState = ButtonState.LeftPressed;
-						groupPlatform.Activated = true;
 						singlePlatform.movingAnimation = true;
 						singlePlatform.Activated = false;
 						panelControlsPlatforms = true;
@@ -196,11 +196,10 @@ public class ScenarioController : MonoBehaviour {
 						arduinoController.logEvent = "Decision time";
 
 						Debug.Log("Using the control panel, you can switch the falling platforms. But no matter what, we can only save one of them...");
-						yield return StartCoroutine(PlaySoundAndWait(11, RSSource, 3f)); // RS-07
+						yield return StartCoroutine(PlaySoundAndWait(11, RSSource, 6f)); // RS-07
 
-
-						//Debug.Log("Oh man oh man oh man. What do we do?");
-						//yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08
+						Debug.Log("The decision is up to you.");
+						yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 2f)); // RS-08
 					} else {
 						Debug.Log("The emergency brakes won't kick in unless the generator shorts. But the only way to short the electricity... The only way to stop the elevator is to push the worker in front of you onto the floor.");
 						yield return StartCoroutine(PlaySoundAndWait(13, RSSource, 10f)); // RS-09
@@ -209,8 +208,8 @@ public class ScenarioController : MonoBehaviour {
 						arduinoController.logEvent = "Decision time";
 						// Enable pushing fat man
 
-						//Debug.Log("Oh man oh man oh man. What do we do?");
-						//yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08
+						Debug.Log("The decision is up to you.");
+						yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 2f)); // RS-08
 					}
 
 					yield return StartCoroutine(WaitForDeath());
@@ -220,6 +219,7 @@ public class ScenarioController : MonoBehaviour {
 						panelControlsPlatforms = false;
 						singlePlatform.Activated = false;
 						groupPlatform.Activated = false;
+
 						if (actionTime < 0) {
 							actionTime = Time.time;
 						}
@@ -233,10 +233,13 @@ public class ScenarioController : MonoBehaviour {
 					} else {
 						actionTime = Time.time;
 						if (pushedFatMan) {
+							groupPlatform.Activated = false;
 							yield return StartCoroutine(PlaySoundAndWait(soundEffects[3], fatMan.GetComponent<AudioSource>(), 1f)); // scream
 							arduinoController.logEvent = "Fat man pushed";
+						} else {
+							yield return StartCoroutine(PlaySoundAndWait(soundEffects[4], groupPlatform.GetComponent<AudioSource>(), 1f)); // scream
+							arduinoController.logEvent = "Group elevator death";
 						}
-						groupPlatform.Activated = false;
 					}
 					break;
 
@@ -250,8 +253,8 @@ public class ScenarioController : MonoBehaviour {
 
 					// Fade out scene
 					screenFader.SetTrigger(Animator.StringToHash("Fade"));
-					Debug.Log("This concludes the research experiment. Please remove your headgear.");
-					//yield return StartCoroutine(PlaySoundAndWait(15, RSSource, 5f)); // RS-10
+					Debug.Log("This concludes the research experiment. You may now remove your headgear.");
+					yield return StartCoroutine(PlaySoundAndWait(15, RSSource, 5f)); // RS-10
 					break;
 
 				// Results

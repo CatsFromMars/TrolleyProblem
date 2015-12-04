@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.IO;
 
 public class ScenarioController : MonoBehaviour {
 	public PlatformBehavior singlePlatform;
@@ -20,7 +21,9 @@ public class ScenarioController : MonoBehaviour {
 	public GameObject animationTrigger;
 	public bool pushedFatMan = false; // did player push fat man???
 	public Animator screenFader;
+	public Arduino arduinoController;
 
+	private int subjectId;
 	private int state = 0;
 	private bool scenarioStarted = false;
 	private bool panelControlsPlatforms = false;
@@ -29,6 +32,7 @@ public class ScenarioController : MonoBehaviour {
 	private float decisionTime; // time decision is introduced
 	private float actionTime; // time when player has acted
 
+	private StreamWriter writer;
 
 	void Start() {
 		// TODO: fade in
@@ -65,6 +69,9 @@ public class ScenarioController : MonoBehaviour {
 			switch (state++) {
 				// Intro phase
 				case 0:
+					subjectId = arduinoController.InitializeArduino();
+					yield return new WaitForSeconds(1f);
+
 					Debug.Log("Hello, and welcome to the facility. Today, you will be assisting a few construction workers as they revamp the lab.");
 					yield return StartCoroutine(PlaySoundAndWait(0, RSSource, 7f)); // RS-01
 
@@ -86,6 +93,10 @@ public class ScenarioController : MonoBehaviour {
 				case 1:
 					controller.Activated = false;
 					panelControlsPlatforms = false;
+					if (Config.Group == RGroup.LeverControl) {
+						singlePlatform.speed *= 1.8f;
+						groupPlatform.speed *= 1.8f;
+					}
 					yield return new WaitForSeconds(1f);
 					controller.buttonState = ButtonState.NotPressed;
 					Debug.Log("Good work. Now that the platforms are in the correct place--");
@@ -141,7 +152,7 @@ public class ScenarioController : MonoBehaviour {
 
 					Debug.Log("All power restored. Rebooting generator...");
 					yield return StartCoroutine(PlaySoundAndWait(7, AISource, 5f)); // AI-03
-					yield return StartCoroutine(PlaySoundAndWait(soundEffects[2], AISource, 5f)); // generator-charging
+					yield return StartCoroutine(PlaySoundAndWait(soundEffects[2], AISource, 4.5f)); // generator-charging
 					break;
 
 				// Electricity! zap
@@ -168,15 +179,21 @@ public class ScenarioController : MonoBehaviour {
 					if (Config.Group == RGroup.LeverControl) {
 						controller.Activated = true;
 						controller.buttonState = ButtonState.LeftPressed;
+						buttonState = ButtonState.LeftPressed;
 						groupPlatform.Activated = true;
 						singlePlatform.movingAnimation = true;
+						singlePlatform.Activated = false;
 						panelControlsPlatforms = true;
+						decisionTime = Time.time;
+						actionTime = -1f;
+						timesFlipped = 0;
 
 						Debug.Log("Using the control panel, you can switch the falling platforms. But no matter what, we can only save one of them...");
-						yield return StartCoroutine(PlaySoundAndWait(11, RSSource, 5f)); // RS-07
-						decisionTime = Time.time;
-						Debug.Log("Oh man oh man oh man. What do we do?");
-						yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08
+						yield return StartCoroutine(PlaySoundAndWait(11, RSSource, 3f)); // RS-07
+
+
+						//Debug.Log("Oh man oh man oh man. What do we do?");
+						//yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08
 					} else {
 						Debug.Log("The emergency brakes won't kick in unless the generator shorts. But the only way to short the electricity... The only way to stop the elevator is to push the worker in front of you onto the floor.");
 						yield return StartCoroutine(PlaySoundAndWait(13, RSSource, 10f)); // RS-09
@@ -184,8 +201,8 @@ public class ScenarioController : MonoBehaviour {
 						decisionTime = Time.time;
 						// Enable pushing fat man
 
-						Debug.Log("Oh man oh man oh man. What do we do?");
-						yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08
+						//Debug.Log("Oh man oh man oh man. What do we do?");
+						//yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 3f)); // RS-08
 					}
 
 					yield return StartCoroutine(WaitForDeath());
@@ -195,9 +212,17 @@ public class ScenarioController : MonoBehaviour {
 						panelControlsPlatforms = false;
 						singlePlatform.Activated = false;
 						groupPlatform.Activated = false;
-					} else {
-						if (pushedFatMan) {
+						if (actionTime < 0) {
 							actionTime = Time.time;
+						}
+						if (singlePlatform.Dead) {
+							yield return StartCoroutine(PlaySoundAndWait(soundEffects[3], singlePlatform.GetComponent<AudioSource>(), 1f)); // scream
+						} else {
+							yield return StartCoroutine(PlaySoundAndWait(soundEffects[4], groupPlatform.GetComponent<AudioSource>(), 1f)); // scream
+						}
+					} else {
+						actionTime = Time.time;
+						if (pushedFatMan) {
 							yield return StartCoroutine(PlaySoundAndWait(soundEffects[3], fatMan.GetComponent<AudioSource>(), 1f)); // scream
 						}
 						groupPlatform.Activated = false;
@@ -210,6 +235,8 @@ public class ScenarioController : MonoBehaviour {
 					yield return StartCoroutine(PlaySoundAndWait(14, AISource, 5f)); // AI-06
 					electricity.SetActive(false);
 
+					yield return new WaitForSeconds(2f);
+
 					// Fade out scene
 					screenFader.SetTrigger(Animator.StringToHash("Fade"));
 					Debug.Log("This concludes the research experiment. Please remove your headgear.");
@@ -218,26 +245,34 @@ public class ScenarioController : MonoBehaviour {
 
 				// Results
 				default:
-					// TODO: save these to a file somewhere?
+					string filename = arduinoController.logDirectory + "/results" + subjectId.ToString("D2") + ".txt";
+					writer = new StreamWriter(filename);
+					writer.WriteLine("==== RESULTS ====");
 					Debug.Log("==== RESULTS ====");
+					writer.WriteLine("Research Group: " + Config.Group.ToString());
 					Debug.Log("Research Group: " + Config.Group.ToString());
-					Debug.Log("Time to make decision: " + (actionTime - decisionTime).ToString() + " ms");
+					writer.WriteLine("Time to make decision: " + (actionTime - decisionTime).ToString() + " s");
+					Debug.Log("Time to make decision: " + (actionTime - decisionTime).ToString() + " s");
 
 					if (Config.Group == RGroup.LeverControl) {
 						if (controller.buttonState == ButtonState.RightPressed) {
+							writer.WriteLine("Results: killed single person, with " + timesFlipped.ToString() + " flips");
 							Debug.Log("Results: killed single person, with " + timesFlipped.ToString() + " flips");
 						} else {
+							writer.WriteLine("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
 							Debug.Log("Results: killed 5 people, with " + timesFlipped.ToString() + " flips");
 						}
 					} else {
 						if (pushedFatMan) {
+							writer.WriteLine("Results: pushed fat man");
 							Debug.Log("Results: pushed fat man");
 						} else {
+							writer.WriteLine("Results: did not push fat man");
 							Debug.Log("Results: did not push fat man");
 						}
 					}
-
-					Debug.Log("gg");
+					writer.Close();
+					Debug.Log("Scenario complete, data saved to " + filename);
 					break;
 			}
 		}

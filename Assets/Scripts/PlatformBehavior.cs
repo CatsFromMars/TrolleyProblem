@@ -15,7 +15,6 @@ public class PlatformBehavior : MonoBehaviour {
         }
         set {
             isActivated = value;
-            AudioSource source = GetComponent<AudioSource>();
             if (isActivated) {
                 source.PlayOneShot(elevatorStart);
                 source.Play();
@@ -37,9 +36,7 @@ public class PlatformBehavior : MonoBehaviour {
         set {
             isDead = value;
             if (isDead) {
-                // play dying sound effect
-                AudioSource source = GetComponent<AudioSource>();
-                source.PlayOneShot(scream);
+                //source.PlayOneShot(scream);
                 // TODO: play dying animation on all characters
             }
         }
@@ -49,8 +46,13 @@ public class PlatformBehavior : MonoBehaviour {
     public bool reachedStopZone = false;
     public bool movingAnimation = false; // whether to descend with animation
 
+    private AudioSource source;
     private bool isActivated;
     private bool isDead;
+
+    void Start() {
+        source = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update() {
@@ -69,7 +71,6 @@ public class PlatformBehavior : MonoBehaviour {
                     reachedStopZone = true;
 
                     // play stop sound effect
-                    AudioSource source = GetComponent<AudioSource>();
                     source.PlayOneShot(elevatorStop);
                     source.Pause();
                 }
@@ -78,8 +79,10 @@ public class PlatformBehavior : MonoBehaviour {
             // During experiment, moving via animation
 			elevatorAnimator.SetBool(Animator.StringToHash("Shaking"), true);
             if (Activated) {
-    			transform.position += speed / 4f * Vector3.down * Time.deltaTime;
-    			if (transform.position.y <= deadY) isDead = true;
+    			transform.position += speed * Vector3.down * Time.deltaTime;
+    			if (transform.position.y <= deadY) {
+                    Dead = true;
+                }
             }
         }
     }

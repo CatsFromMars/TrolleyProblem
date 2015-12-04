@@ -16,8 +16,8 @@ EventManager myEventManager;
 #include <SD.h>
 #include <SPI.h>
 #define W5200_CS  10
-#define SDCARD_CS 4
-File log_file;
+//#define SDCARD_CS 4
+//File log_file;
 
 // Seeed RGB LCD Display
 #include <Wire.h>
@@ -42,7 +42,7 @@ const int GSR = A2;
 int electrodermal_reading;
 
 // Logging constants
-unsigned char file_counter = 0;
+//unsigned char file_counter = 0;
 
 void setup() {
 
@@ -62,14 +62,14 @@ void setup() {
 
 
   // set up the pushbutton interrupt
-  Serial.println(F("Setting up pushbutton"));
+  //Serial.println(F("Setting up pushbutton"));
   myEventManager.addListener( BUTTON_PRESS_DETECTED, myListener ); // set up interrupt-safe event listener
   int button_pin = 3;
   pinMode(button_pin, INPUT);
   attachInterrupt(digitalPinToInterrupt(button_pin), buttonPressDetected, RISING); //set interrupt 1,digital port 3
 
   // set up SD card
-  Serial.print(F("Initializing SD card..."));
+  /*Serial.print(F("Initializing SD card..."));
   pinMode(W5200_CS, OUTPUT); // CS is pin 4, SS must be left as output
   digitalWrite(W5200_CS, HIGH); // disconnect w5200
   pinMode(SDCARD_CS, OUTPUT);
@@ -78,6 +78,7 @@ void setup() {
     return;
   }
   Serial.println(F("SD Card Initialized."));
+  */
   startNewLog();
 
   // set up the Heart Rate monitor
@@ -125,10 +126,10 @@ void myListener( int eventCode, int eventParam ) {
 
 
     //Serial.print("Writing to heart.txt...");
-    log_file.println((String)current_time + ",beat," + (String)heart_rate + "," + (String)electrodermal_reading);
+    //log_file.println((String)current_time + ",beat," + (String)heart_rate + "," + (String)electrodermal_reading);
 
     // Send data to serial too
-    Serial.println((String)current_time + ",beat," + (String)heart_rate + "," + (String)electrodermal_reading);
+    Serial.println((String)current_time + "," + (String)heart_rate + "," + (String)electrodermal_reading);
 
     //Serial.println(current_time + ", beat" + heart_rate);
 
@@ -142,7 +143,7 @@ void myListener( int eventCode, int eventParam ) {
 }
 
 void startNewLog() {
-  if (log_file) {
+  /*if (log_file) {
     // Close log file
     log_file.close();
   }
@@ -168,7 +169,10 @@ void startNewLog() {
   } else {
     Serial.println(F("Could not start new log. :-("));
     return;
-  }
+  }*/
+
+  //Serial.println("Starting log...");
+  //Serial.println("Time,IsBeat?,BPM,EDR");
 }
 
 
@@ -218,7 +222,7 @@ void heartRateBeatDetected() {
   {
     data_effect = 0; //sign bit
     counter = 0;
-    Serial.println(F("Heart rate measure error,test will restart!"));
+    Serial.println(F("Heart rate measure error: test will restart!"));
     initializeHeartRateArray();
   }
   if (counter == 20 && data_effect)

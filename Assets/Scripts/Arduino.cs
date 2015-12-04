@@ -13,17 +13,23 @@ public class Arduino : MonoBehaviour {
 	void Start() {
 		// connect to port for Arduino
 		port = new SerialPort("COM3", 9600);
-		port.ReadTimeout = 500;
+		port.ReadTimeout = 10;
+		port.Parity = Parity.None;
+        port.DataBits = 8;
+        port.StopBits = StopBits.One;
+        port.RtsEnable = true;
+        port.Handshake = Handshake.None;
 
 		try {
-			port.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
+			//port.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);
 			port.Open();
 			Debug.Log("connected successfully to Arduino");
 
 			// set up writer log
 			writing = true;
 			writer = new StreamWriter("Log/test.txt");
-			writer.WriteLine("Heart Rate Log - " + DateTime.Now.ToString());
+			writer.WriteLine("Heart Rate Log - " + DateTime.Now.ToString("HH:mm:ss.ffff"));
+			writer.WriteLine("Current time,time (ms),BPM,EDR");
 		} catch (Exception e) {
 			Debug.Log(e.ToString());
 			Debug.Log("could not connect to Arduino port. aborting");
@@ -32,18 +38,25 @@ public class Arduino : MonoBehaviour {
 		}
 	}
 
-	private void DataReceivedHandler(object sender, SerialDataReceivedEventArgs e) {
-		if (!writing) {
+	void Update() {
+		if (!(writing && port.IsOpen)) {
 			return;
 		}
-        SerialPort sp = (SerialPort)sender;
-        string indata = sp.ReadExisting();
-        writer.Write(indata);
+
+        try {
+	        string indata = port.ReadLine();
+	        writer.Write(DateTime.Now.ToString("HH:mm:ss.ffff") + ",");
+    	    writer.WriteLine(indata);
+    	} catch (TimeoutException e) {
+		}
     }
 
 	public void Finish() {
 		if (writer != null) {
 			writer.Close();
+		}
+		if (port.IsOpen) {
+			port.Close();
 		}
 	}
 

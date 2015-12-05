@@ -1,0 +1,20 @@
+Log: Subject 14
+Current Time,Time (ms),Heart Rate (BPM),EDR,Event
+13:18:09.0286,5181707,80,228,Experiment started
+13:18:20.8697,5193547,80,529,Button pressed: left
+13:18:48.8313,5221499,80,528,Button pressed: right
+13:18:50.6005,5223268,80,529,Lights out
+13:18:52.0671,5224737,80,528,Lights out
+13:19:05.0182,5237684,80,529,Lights out
+13:19:55.0519,5287705,80,253,Electricity activated
+13:20:06.6432,5299291,80,224,Decision time
+13:20:16.9320,5309577,80,186,Decision time
+13:20:17.5783,5310224,80,187,Decision time
+13:20:17.9923,5310638,80,186,Decision time
+13:20:24.8689,5317514,80,179,Decision time
+13:20:28.3136,5320958,80,183,Decision time
+
+==== RESULTS ====
+Research Group: NonHaptic
+Time to make decision (last action - decision time): 35.02188 s
+Results: did not push fat man

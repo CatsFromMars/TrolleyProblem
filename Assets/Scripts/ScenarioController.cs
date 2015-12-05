@@ -179,7 +179,6 @@ public class ScenarioController : MonoBehaviour {
 				// Introduce the decision
 				case 5:
 					Debug.Log("Oh man! The elevator is going to fall! We don't have much time before it hits the floor and electrocutes everyone on it!");
-					animationTrigger.SetActive(true);
 					yield return StartCoroutine(PlaySoundAndWait(10, RSSource, 6f)); // RS-06
 
 					groupPlatform.Activated = true;
@@ -207,7 +206,7 @@ public class ScenarioController : MonoBehaviour {
 						decisionTime = Time.time;
 						arduinoController.logEvent = "Decision time";
 						// Enable pushing fat man
-
+						animationTrigger.SetActive(true);
 						Debug.Log("The decision is up to you.");
 						yield return StartCoroutine(PlaySoundAndWait(12, RSSource, 2f)); // RS-08
 					}

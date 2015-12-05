@@ -9,11 +9,12 @@ public class AnimationTrigger : MonoBehaviour {
         // press 3 to trigger push
         if (Config.Debug && Input.GetKeyDown(KeyCode.Alpha3)) {
             controller.pushedFatMan = true;
+			fmAnimator.SetBool(Animator.StringToHash("Push"), true);
         }
     }
 
 	void OnTriggerEnter(Collider other) {
-		if (other.tag == "Hand") {
+		if (other.tag == "Hand" && Config.Group != RGroup.Haptic) {
 			controller.pushedFatMan = true;
 			fmAnimator.SetBool(Animator.StringToHash("Push"), true);
 		}

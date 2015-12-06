@@ -1,0 +1,31 @@
+Log: Subject 47
+Current Time,Time (ms),Heart Rate (BPM),EDR,Event
+14:54:36.6394,11957422,69,529,
+14:54:42.9957,11963773,69,528,Experiment started
+14:55:05.7355,11986509,69,529,Button pressed: left
+14:55:07.1565,11987928,69,529,Button pressed: left
+14:55:09.4340,11990207,69,528,Button pressed: left
+14:55:12.7310,11993502,69,529,Button pressed: left
+14:55:14.4549,11995227,69,224,Button pressed: left
+14:55:14.7537,11995525,69,212,Button pressed: left
+14:55:15.5241,11996292,69,237,Button pressed: left
+14:55:16.0808,11996853,69,236,Button pressed: left
+14:55:19.7629,12000533,69,528,Button pressed: left
+14:55:20.3244,12001093,69,527,Button pressed: left
+14:55:22.1835,12002953,69,528,Button pressed: left
+14:55:23.4001,12004168,69,530,Button pressed: left
+14:55:47.6675,12028430,69,471,Button pressed: right
+14:57:18.0865,12118816,69,529,Decision time
+14:57:18.9140,12119647,69,530,Decision time
+14:57:19.3397,12120072,69,528,Decision time
+14:57:20.0978,12120829,69,529,Decision time
+14:57:21.4863,12122216,69,529,Decision time
+14:57:21.9901,12122722,69,529,Decision time
+14:57:39.9911,12140716,69,529,Group elevator death
+14:57:45.0778,12145800,69,238,Group elevator death
+14:57:45.7747,12146499,69,132,Group elevator death
+
+==== RESULTS ====
+Research Group: Haptic
+Time to make decision (last action - decision time): 35.02295 s
+Results: did not push fat man

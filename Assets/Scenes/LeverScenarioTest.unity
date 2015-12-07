@@ -1853,7 +1853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25886884ea817ae45a2149276c1485af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  group: 2
+  group: 0
   debug: 1
 --- !u!82 &645733115
 AudioSource:
